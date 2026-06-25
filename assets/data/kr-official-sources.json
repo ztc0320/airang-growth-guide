@@ -1,0 +1,101 @@
+{
+  "kdca_infant_nutrition": {
+    "name": "질병관리청 국가건강정보포털 - 식이영양(영유아)",
+    "country": "KR",
+    "type": [
+      "feeding",
+      "nutrition",
+      "allergy",
+      "growth"
+    ],
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5212",
+    "usage": "영아·유아 영양 필요성, 모유·조제유, 이유보충식 필요 시점, 철분·칼슘, 식품 알레르기, 성장도표 참고 안내에 사용",
+    "copyPolicy": "원문 전체 복제 금지. 앱 문구는 요약·재구성"
+  },
+  "kdca_complementary_feeding": {
+    "name": "질병관리청 국가건강정보포털 - 이유기보충식(이유식)",
+    "country": "KR",
+    "type": [
+      "feeding",
+      "weaning",
+      "cup",
+      "bottle",
+      "allergy",
+      "texture"
+    ],
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5470",
+    "usage": "이유보충식 정의, 시작 시기, 도구 사용, 컵 연습, 분유병 종료, 식품 도입, 열량, 피해야 할 음식 안내에 사용",
+    "copyPolicy": "원문 전체 복제 금지. 앱 문구는 요약·재구성"
+  },
+  "kdca_breastfeeding": {
+    "name": "질병관리청 국가건강정보포털 - 성공적인 모유 수유",
+    "country": "KR",
+    "type": [
+      "breastfeeding",
+      "feeding",
+      "allergy",
+      "growth"
+    ],
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6586",
+    "usage": "모유수유 지속, 이유보충식 병행, 새 음식 반응 관찰, 철분 보완, 주스 제한 안내에 사용",
+    "copyPolicy": "원문 전체 복제 금지. 앱 문구는 요약·재구성"
+  },
+  "kdca_sids": {
+    "name": "질병관리청 국가건강정보포털 - 영아돌연사증후군",
+    "country": "KR",
+    "type": [
+      "sleep",
+      "safety",
+      "sids"
+    ],
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5467",
+    "usage": "만 1세 이하 수면 안전, 똑바로 눕혀 재우기, 침구·쿠션·인형 주의 안내에 사용",
+    "copyPolicy": "원문 전체 복제 금지. 앱 문구는 요약·재구성"
+  },
+  "nhis_checkup_2025": {
+    "name": "국민건강보험공단·보건복지부 - 2025 영유아 건강검진 안내",
+    "country": "KR",
+    "type": [
+      "checkup",
+      "screening",
+      "education"
+    ],
+    "url": "https://www.nhis.or.kr/static/html/wbma/c/wbhaca04800_2025.pdf",
+    "usage": "영유아 건강검진 대상, 검진 차수, 월령 구간, 검진 항목, 발달선별검사지 작성 시점, 구강검진 안내에 사용",
+    "copyPolicy": "표·문구 전체 복제 금지. 앱 문구는 요약·재구성"
+  },
+  "food_safety_complementary_tips": {
+    "name": "식품안전나라 - 건강OK! 성장OK! 일석이조 이유식 꿀팁2",
+    "country": "KR",
+    "type": [
+      "feeding",
+      "food_safety",
+      "weaning_stage"
+    ],
+    "url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs039&menu_grp=MENU_NEW03&menu_no=4847&ntctxt_no=1090648",
+    "usage": "이유식 단계별 특징, 식품군 활용, 단계별 이유식 형태·횟수·양 참고에 사용",
+    "copyPolicy": "해당 페이지는 무단 복제 주의 문구가 있으므로 숫자와 핵심 구조는 참고하고 앱 문구는 요약·재구성"
+  },
+  "korea_policy_mfds_honey": {
+    "name": "대한민국 정책브리핑 - 이유식 초기에는 꿀, 콘시럽 주지 마세요",
+    "country": "KR",
+    "type": [
+      "food_warning",
+      "honey",
+      "allergy"
+    ],
+    "url": "https://www.korea.kr/news/healthView.do?newsId=148697085",
+    "usage": "생후 1년 미만 꿀·콘시럽 제한, 알레르기 가능 식품 소량 시작 안내에 사용",
+    "copyPolicy": "원문 전체 복제 금지. 앱 문구는 요약·재구성"
+  },
+  "kdca_growth_chart_note": {
+    "name": "질병관리청/대한소아청소년과학회 성장도표 안내(국가건강정보포털 내 인용)",
+    "country": "KR",
+    "type": [
+      "growth_chart"
+    ],
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6586",
+    "usage": "성장 평가는 한국 소아청소년 성장도표 또는 WHO 성장도표 참고 안내에 사용",
+    "copyPolicy": "앱은 성장판정 기능을 제공하지 않고 참고·상담 안내만 제공"
+  }
+}

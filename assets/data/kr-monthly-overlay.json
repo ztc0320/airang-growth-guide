@@ -1,0 +1,2148 @@
+{
+  "metadata": {
+    "title": "0~60개월 한국 공식자료 보강 월령 데이터",
+    "country": "KR",
+    "version": "1.0.0",
+    "reviewedAt": "2026-06-25",
+    "usage": "기존 monthly-guide.json에 병합하거나 화면에서 한국형 보강 데이터로 함께 표시",
+    "excluded": "K-DST 문항 원문 및 점수표"
+  },
+  "months": {
+    "0": {
+      "month": 0,
+      "title": "생후 0개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "milk_only_0_3",
+      "feedingStageTitle": "모유 또는 조제유 중심 시기",
+      "feedingSummary": "영아기는 주로 모유 또는 조제유로 영양을 공급받는 시기예요. 생후 6개월경부터 이유보충식이 필요해질 수 있으므로 아직은 수유 리듬과 성장 상태를 관찰해요.",
+      "feedingGuide": [
+        "모유 또는 조제유를 아이 요구와 성장 상태에 맞춰 제공합니다.",
+        "이 시기에는 보호자가 임의로 이유식을 시작하기보다 아이의 발달 상태와 의료진 상담을 기준으로 판단합니다.",
+        "수유량, 대소변, 체중 증가가 평소와 다르면 의료진과 상담합니다."
+      ],
+      "feedingCaution": [
+        "이유식을 너무 일찍 시작하지 않도록 주의합니다.",
+        "조제유는 제품 설명서의 농도와 조유 방법을 지킵니다.",
+        "아이가 잘 먹지 못하거나 처지는 증상이 있으면 진료를 권장합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 1,
+          "label": "1차",
+          "ageRangeText": "생후 14~35일",
+          "message": "1차 영유아 건강검진 시기에 해당할 수 있어요. 생후 14~35일 검진 기간을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "kdca_sids",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "1": {
+      "month": 1,
+      "title": "생후 1개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "milk_only_0_3",
+      "feedingStageTitle": "모유 또는 조제유 중심 시기",
+      "feedingSummary": "영아기는 주로 모유 또는 조제유로 영양을 공급받는 시기예요. 생후 6개월경부터 이유보충식이 필요해질 수 있으므로 아직은 수유 리듬과 성장 상태를 관찰해요.",
+      "feedingGuide": [
+        "모유 또는 조제유를 아이 요구와 성장 상태에 맞춰 제공합니다.",
+        "이 시기에는 보호자가 임의로 이유식을 시작하기보다 아이의 발달 상태와 의료진 상담을 기준으로 판단합니다.",
+        "수유량, 대소변, 체중 증가가 평소와 다르면 의료진과 상담합니다."
+      ],
+      "feedingCaution": [
+        "이유식을 너무 일찍 시작하지 않도록 주의합니다.",
+        "조제유는 제품 설명서의 농도와 조유 방법을 지킵니다.",
+        "아이가 잘 먹지 못하거나 처지는 증상이 있으면 진료를 권장합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 1,
+          "label": "1차",
+          "ageRangeText": "생후 14~35일",
+          "message": "1차 영유아 건강검진 시기에 해당할 수 있어요. 생후 14~35일 검진 기간을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "kdca_sids",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "2": {
+      "month": 2,
+      "title": "생후 2개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "milk_only_0_3",
+      "feedingStageTitle": "모유 또는 조제유 중심 시기",
+      "feedingSummary": "영아기는 주로 모유 또는 조제유로 영양을 공급받는 시기예요. 생후 6개월경부터 이유보충식이 필요해질 수 있으므로 아직은 수유 리듬과 성장 상태를 관찰해요.",
+      "feedingGuide": [
+        "모유 또는 조제유를 아이 요구와 성장 상태에 맞춰 제공합니다.",
+        "이 시기에는 보호자가 임의로 이유식을 시작하기보다 아이의 발달 상태와 의료진 상담을 기준으로 판단합니다.",
+        "수유량, 대소변, 체중 증가가 평소와 다르면 의료진과 상담합니다."
+      ],
+      "feedingCaution": [
+        "이유식을 너무 일찍 시작하지 않도록 주의합니다.",
+        "조제유는 제품 설명서의 농도와 조유 방법을 지킵니다.",
+        "아이가 잘 먹지 못하거나 처지는 증상이 있으면 진료를 권장합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "kdca_sids"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "3": {
+      "month": 3,
+      "title": "생후 3개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "milk_only_0_3",
+      "feedingStageTitle": "모유 또는 조제유 중심 시기",
+      "feedingSummary": "영아기는 주로 모유 또는 조제유로 영양을 공급받는 시기예요. 생후 6개월경부터 이유보충식이 필요해질 수 있으므로 아직은 수유 리듬과 성장 상태를 관찰해요.",
+      "feedingGuide": [
+        "모유 또는 조제유를 아이 요구와 성장 상태에 맞춰 제공합니다.",
+        "이 시기에는 보호자가 임의로 이유식을 시작하기보다 아이의 발달 상태와 의료진 상담을 기준으로 판단합니다.",
+        "수유량, 대소변, 체중 증가가 평소와 다르면 의료진과 상담합니다."
+      ],
+      "feedingCaution": [
+        "이유식을 너무 일찍 시작하지 않도록 주의합니다.",
+        "조제유는 제품 설명서의 농도와 조유 방법을 지킵니다.",
+        "아이가 잘 먹지 못하거나 처지는 증상이 있으면 진료를 권장합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "kdca_sids"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "4": {
+      "month": 4,
+      "title": "생후 4개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "start_ready_4_5",
+      "feedingStageTitle": "이유보충식 준비 또는 시작 검토 시기",
+      "feedingSummary": "분유를 먹는 아기는 4~6개월에 이유보충식을 시작할 수 있고, 모유 수유 아기는 생후 6개월 이후 시작을 기준으로 안내됩니다. 아이의 발달 준비 신호를 보고 천천히 진행해요.",
+      "feedingGuide": [
+        "처음에는 쌀미음처럼 소화가 쉽고 부드러운 형태를 고려합니다.",
+        "새 음식은 한 번에 한 가지씩 시도하고 3~7일 정도 반응을 관찰합니다.",
+        "숟가락으로 먹는 연습을 시작할 수 있습니다."
+      ],
+      "feedingCaution": [
+        "모유 수유아는 6개월 이후 시작을 기준으로 보수적으로 안내합니다.",
+        "알레르기 가족력이나 질환이 있으면 새 식품 도입 전 의료진과 상담합니다.",
+        "단맛·짠맛에 일찍 익숙해지지 않도록 주의합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 2,
+          "label": "2차",
+          "ageRangeText": "생후 4~6개월",
+          "message": "2차 영유아 건강검진 시기에 해당할 수 있어요. 생후 4~6개월 검진 기간을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_breastfeeding",
+        "kdca_complementary_feeding",
+        "kdca_sids",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "5": {
+      "month": 5,
+      "title": "생후 5개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "start_ready_4_5",
+      "feedingStageTitle": "이유보충식 준비 또는 시작 검토 시기",
+      "feedingSummary": "분유를 먹는 아기는 4~6개월에 이유보충식을 시작할 수 있고, 모유 수유 아기는 생후 6개월 이후 시작을 기준으로 안내됩니다. 아이의 발달 준비 신호를 보고 천천히 진행해요.",
+      "feedingGuide": [
+        "처음에는 쌀미음처럼 소화가 쉽고 부드러운 형태를 고려합니다.",
+        "새 음식은 한 번에 한 가지씩 시도하고 3~7일 정도 반응을 관찰합니다.",
+        "숟가락으로 먹는 연습을 시작할 수 있습니다."
+      ],
+      "feedingCaution": [
+        "모유 수유아는 6개월 이후 시작을 기준으로 보수적으로 안내합니다.",
+        "알레르기 가족력이나 질환이 있으면 새 식품 도입 전 의료진과 상담합니다.",
+        "단맛·짠맛에 일찍 익숙해지지 않도록 주의합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 2,
+          "label": "2차",
+          "ageRangeText": "생후 4~6개월",
+          "message": "2차 영유아 건강검진 시기에 해당할 수 있어요. 생후 4~6개월 검진 기간을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_breastfeeding",
+        "kdca_complementary_feeding",
+        "kdca_sids",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "6": {
+      "month": 6,
+      "title": "생후 6개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "early_middle_6_8",
+      "feedingStageTitle": "이유보충식 초기·중기",
+      "feedingSummary": "생후 6개월 이후에는 모유 또는 조제유만으로 부족해질 수 있는 열량과 영양소를 이유보충식으로 보완합니다.",
+      "feedingGuide": [
+        "부드럽고 삼키기 쉬운 질감부터 시작해 점차 다양한 식품군을 경험합니다.",
+        "철분 보완을 위해 쇠고기 등 철분이 풍부한 식품을 적절히 활용합니다.",
+        "6~9개월에는 컵 사용을 연습하기 시작할 수 있습니다.",
+        "새 식재료는 한 번에 한 가지씩 추가하고 반응을 관찰합니다."
+      ],
+      "feedingCaution": [
+        "주스나 단 음료는 가능한 권장하지 않습니다.",
+        "설탕, 단 음료, 커피, 차 등은 피하도록 안내합니다.",
+        "질식 위험이 있는 크기와 형태의 음식은 제공하지 않습니다."
+      ],
+      "recommendedFrequency": "하루 2~3회 정도를 기준으로 아이 상태에 맞춰 조절",
+      "approxComplementaryEnergyKcalPerDay": 200,
+      "koreaHealthCheckups": [
+        {
+          "round": 2,
+          "label": "2차",
+          "ageRangeText": "생후 4~6개월",
+          "message": "2차 영유아 건강검진 시기에 해당할 수 있어요. 생후 4~6개월 검진 기간을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_breastfeeding",
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "kdca_sids",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "7": {
+      "month": 7,
+      "title": "생후 7개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "early_middle_6_8",
+      "feedingStageTitle": "이유보충식 초기·중기",
+      "feedingSummary": "생후 6개월 이후에는 모유 또는 조제유만으로 부족해질 수 있는 열량과 영양소를 이유보충식으로 보완합니다.",
+      "feedingGuide": [
+        "부드럽고 삼키기 쉬운 질감부터 시작해 점차 다양한 식품군을 경험합니다.",
+        "철분 보완을 위해 쇠고기 등 철분이 풍부한 식품을 적절히 활용합니다.",
+        "6~9개월에는 컵 사용을 연습하기 시작할 수 있습니다.",
+        "새 식재료는 한 번에 한 가지씩 추가하고 반응을 관찰합니다."
+      ],
+      "feedingCaution": [
+        "주스나 단 음료는 가능한 권장하지 않습니다.",
+        "설탕, 단 음료, 커피, 차 등은 피하도록 안내합니다.",
+        "질식 위험이 있는 크기와 형태의 음식은 제공하지 않습니다."
+      ],
+      "recommendedFrequency": "하루 2~3회 정도를 기준으로 아이 상태에 맞춰 조절",
+      "approxComplementaryEnergyKcalPerDay": 200,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_breastfeeding",
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "kdca_sids"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "8": {
+      "month": 8,
+      "title": "생후 8개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "early_middle_6_8",
+      "feedingStageTitle": "이유보충식 초기·중기",
+      "feedingSummary": "생후 6개월 이후에는 모유 또는 조제유만으로 부족해질 수 있는 열량과 영양소를 이유보충식으로 보완합니다.",
+      "feedingGuide": [
+        "부드럽고 삼키기 쉬운 질감부터 시작해 점차 다양한 식품군을 경험합니다.",
+        "철분 보완을 위해 쇠고기 등 철분이 풍부한 식품을 적절히 활용합니다.",
+        "6~9개월에는 컵 사용을 연습하기 시작할 수 있습니다.",
+        "새 식재료는 한 번에 한 가지씩 추가하고 반응을 관찰합니다."
+      ],
+      "feedingCaution": [
+        "주스나 단 음료는 가능한 권장하지 않습니다.",
+        "설탕, 단 음료, 커피, 차 등은 피하도록 안내합니다.",
+        "질식 위험이 있는 크기와 형태의 음식은 제공하지 않습니다."
+      ],
+      "recommendedFrequency": "하루 2~3회 정도를 기준으로 아이 상태에 맞춰 조절",
+      "approxComplementaryEnergyKcalPerDay": 200,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_breastfeeding",
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "kdca_sids"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "9": {
+      "month": 9,
+      "title": "생후 9개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "late_9_11",
+      "feedingStageTitle": "이유보충식 후기",
+      "feedingSummary": "9개월 전후부터는 손으로 집어 먹거나 숟가락을 잡는 연습을 도와줄 수 있어요. 9~11개월은 이유보충식의 비중이 커지는 시기입니다.",
+      "feedingGuide": [
+        "무른밥이나 고형식에 가까운 질감을 천천히 경험합니다.",
+        "손으로 집어 먹는 연습과 숟가락 사용 시도를 도와줍니다.",
+        "식품군을 다양하게 구성하고, 고기 육수보다 고기 자체 섭취가 영양 공급에 더 도움이 됩니다.",
+        "10개월 이후에는 이유보충식 진행 상태에 따라 수유 필요량이 줄 수 있습니다."
+      ],
+      "feedingCaution": [
+        "통째 음식, 견과류, 딱딱한 음식 등 질식 위험을 관리합니다.",
+        "새 음식 후 알레르기 반응을 관찰합니다.",
+        "지나치게 묽은 형태만 오래 유지하지 않도록 아이 상태에 맞춰 질감을 조절합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 정도를 기준으로 아이 상태에 맞춰 조절",
+      "approxComplementaryEnergyKcalPerDay": 300,
+      "koreaHealthCheckups": [
+        {
+          "round": 3,
+          "label": "3차",
+          "ageRangeText": "생후 9~12개월",
+          "message": "3차 영유아 건강검진 시기에 해당할 수 있어요. 이 시기부터 발달평가 및 상담이 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "food_safety_complementary_tips",
+        "kdca_breastfeeding",
+        "kdca_complementary_feeding",
+        "kdca_sids",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "10": {
+      "month": 10,
+      "title": "생후 10개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "late_9_11",
+      "feedingStageTitle": "이유보충식 후기",
+      "feedingSummary": "9개월 전후부터는 손으로 집어 먹거나 숟가락을 잡는 연습을 도와줄 수 있어요. 9~11개월은 이유보충식의 비중이 커지는 시기입니다.",
+      "feedingGuide": [
+        "무른밥이나 고형식에 가까운 질감을 천천히 경험합니다.",
+        "손으로 집어 먹는 연습과 숟가락 사용 시도를 도와줍니다.",
+        "식품군을 다양하게 구성하고, 고기 육수보다 고기 자체 섭취가 영양 공급에 더 도움이 됩니다.",
+        "10개월 이후에는 이유보충식 진행 상태에 따라 수유 필요량이 줄 수 있습니다."
+      ],
+      "feedingCaution": [
+        "통째 음식, 견과류, 딱딱한 음식 등 질식 위험을 관리합니다.",
+        "새 음식 후 알레르기 반응을 관찰합니다.",
+        "지나치게 묽은 형태만 오래 유지하지 않도록 아이 상태에 맞춰 질감을 조절합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 정도를 기준으로 아이 상태에 맞춰 조절",
+      "approxComplementaryEnergyKcalPerDay": 300,
+      "koreaHealthCheckups": [
+        {
+          "round": 3,
+          "label": "3차",
+          "ageRangeText": "생후 9~12개월",
+          "message": "3차 영유아 건강검진 시기에 해당할 수 있어요. 이 시기부터 발달평가 및 상담이 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "food_safety_complementary_tips",
+        "kdca_breastfeeding",
+        "kdca_complementary_feeding",
+        "kdca_sids",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "11": {
+      "month": 11,
+      "title": "생후 11개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "late_9_11",
+      "feedingStageTitle": "이유보충식 후기",
+      "feedingSummary": "9개월 전후부터는 손으로 집어 먹거나 숟가락을 잡는 연습을 도와줄 수 있어요. 9~11개월은 이유보충식의 비중이 커지는 시기입니다.",
+      "feedingGuide": [
+        "무른밥이나 고형식에 가까운 질감을 천천히 경험합니다.",
+        "손으로 집어 먹는 연습과 숟가락 사용 시도를 도와줍니다.",
+        "식품군을 다양하게 구성하고, 고기 육수보다 고기 자체 섭취가 영양 공급에 더 도움이 됩니다.",
+        "10개월 이후에는 이유보충식 진행 상태에 따라 수유 필요량이 줄 수 있습니다."
+      ],
+      "feedingCaution": [
+        "통째 음식, 견과류, 딱딱한 음식 등 질식 위험을 관리합니다.",
+        "새 음식 후 알레르기 반응을 관찰합니다.",
+        "지나치게 묽은 형태만 오래 유지하지 않도록 아이 상태에 맞춰 질감을 조절합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 정도를 기준으로 아이 상태에 맞춰 조절",
+      "approxComplementaryEnergyKcalPerDay": 300,
+      "koreaHealthCheckups": [
+        {
+          "round": 3,
+          "label": "3차",
+          "ageRangeText": "생후 9~12개월",
+          "message": "3차 영유아 건강검진 시기에 해당할 수 있어요. 이 시기부터 발달평가 및 상담이 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": true,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "food_safety_complementary_tips",
+        "kdca_breastfeeding",
+        "kdca_complementary_feeding",
+        "kdca_sids",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "12": {
+      "month": 12,
+      "title": "생후 12개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "transition_12_15",
+      "feedingStageTitle": "이유보충식 완료기·유아식 전환 시작",
+      "feedingSummary": "12개월 이후에는 하루 3끼 식사 리듬과 컵 사용, 스스로 먹는 연습이 중요해지는 시기예요. 분유병은 가능한 12개월 직후부터 줄이고 늦어도 18개월 전에는 끊는 방향을 안내합니다.",
+      "feedingGuide": [
+        "진밥이나 가족식에 가까운 형태로 천천히 전환합니다.",
+        "숟가락, 컵, 빨대컵 등 도구 사용을 연습합니다.",
+        "단 음식보다 영양가 있는 간식을 제공합니다.",
+        "분유병 사용을 줄이고 컵 사용을 늘립니다."
+      ],
+      "feedingCaution": [
+        "돌 무렵 견과류와 갑각류 등은 아이 상태와 형태를 고려해 조심스럽게 접근합니다.",
+        "간이 강한 음식과 단 음료는 피합니다.",
+        "우유 위주의 식사로 철분 섭취가 부족해지지 않도록 주의합니다."
+      ],
+      "recommendedFrequency": "하루 3회 식사 + 필요 시 간식",
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 3,
+          "label": "3차",
+          "ageRangeText": "생후 9~12개월",
+          "message": "3차 영유아 건강검진 시기에 해당할 수 있어요. 이 시기부터 발달평가 및 상담이 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "food_safety_complementary_tips",
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "13": {
+      "month": 13,
+      "title": "생후 13개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "transition_12_15",
+      "feedingStageTitle": "이유보충식 완료기·유아식 전환 시작",
+      "feedingSummary": "12개월 이후에는 하루 3끼 식사 리듬과 컵 사용, 스스로 먹는 연습이 중요해지는 시기예요. 분유병은 가능한 12개월 직후부터 줄이고 늦어도 18개월 전에는 끊는 방향을 안내합니다.",
+      "feedingGuide": [
+        "진밥이나 가족식에 가까운 형태로 천천히 전환합니다.",
+        "숟가락, 컵, 빨대컵 등 도구 사용을 연습합니다.",
+        "단 음식보다 영양가 있는 간식을 제공합니다.",
+        "분유병 사용을 줄이고 컵 사용을 늘립니다."
+      ],
+      "feedingCaution": [
+        "돌 무렵 견과류와 갑각류 등은 아이 상태와 형태를 고려해 조심스럽게 접근합니다.",
+        "간이 강한 음식과 단 음료는 피합니다.",
+        "우유 위주의 식사로 철분 섭취가 부족해지지 않도록 주의합니다."
+      ],
+      "recommendedFrequency": "하루 3회 식사 + 필요 시 간식",
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "food_safety_complementary_tips",
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "14": {
+      "month": 14,
+      "title": "생후 14개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "transition_12_15",
+      "feedingStageTitle": "이유보충식 완료기·유아식 전환 시작",
+      "feedingSummary": "12개월 이후에는 하루 3끼 식사 리듬과 컵 사용, 스스로 먹는 연습이 중요해지는 시기예요. 분유병은 가능한 12개월 직후부터 줄이고 늦어도 18개월 전에는 끊는 방향을 안내합니다.",
+      "feedingGuide": [
+        "진밥이나 가족식에 가까운 형태로 천천히 전환합니다.",
+        "숟가락, 컵, 빨대컵 등 도구 사용을 연습합니다.",
+        "단 음식보다 영양가 있는 간식을 제공합니다.",
+        "분유병 사용을 줄이고 컵 사용을 늘립니다."
+      ],
+      "feedingCaution": [
+        "돌 무렵 견과류와 갑각류 등은 아이 상태와 형태를 고려해 조심스럽게 접근합니다.",
+        "간이 강한 음식과 단 음료는 피합니다.",
+        "우유 위주의 식사로 철분 섭취가 부족해지지 않도록 주의합니다."
+      ],
+      "recommendedFrequency": "하루 3회 식사 + 필요 시 간식",
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "food_safety_complementary_tips",
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "15": {
+      "month": 15,
+      "title": "생후 15개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "transition_12_15",
+      "feedingStageTitle": "이유보충식 완료기·유아식 전환 시작",
+      "feedingSummary": "12개월 이후에는 하루 3끼 식사 리듬과 컵 사용, 스스로 먹는 연습이 중요해지는 시기예요. 분유병은 가능한 12개월 직후부터 줄이고 늦어도 18개월 전에는 끊는 방향을 안내합니다.",
+      "feedingGuide": [
+        "진밥이나 가족식에 가까운 형태로 천천히 전환합니다.",
+        "숟가락, 컵, 빨대컵 등 도구 사용을 연습합니다.",
+        "단 음식보다 영양가 있는 간식을 제공합니다.",
+        "분유병 사용을 줄이고 컵 사용을 늘립니다."
+      ],
+      "feedingCaution": [
+        "돌 무렵 견과류와 갑각류 등은 아이 상태와 형태를 고려해 조심스럽게 접근합니다.",
+        "간이 강한 음식과 단 음료는 피합니다.",
+        "우유 위주의 식사로 철분 섭취가 부족해지지 않도록 주의합니다."
+      ],
+      "recommendedFrequency": "하루 3회 식사 + 필요 시 간식",
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "food_safety_complementary_tips",
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "16": {
+      "month": 16,
+      "title": "생후 16개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "toddler_16_23",
+      "feedingStageTitle": "유아식 적응 시기",
+      "feedingSummary": "12~23개월은 식사와 간식을 통해 성장에 필요한 에너지와 영양을 보완하고, 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "가족식과 비슷한 형태로 가되 아이가 씹고 삼킬 수 있는 크기와 질감을 맞춥니다.",
+        "스스로 먹는 경험을 늘리고 보호자는 안전한 환경을 제공합니다.",
+        "철분과 칼슘이 부족하지 않도록 식품군을 다양하게 구성합니다."
+      ],
+      "feedingCaution": [
+        "젖병을 물고 자는 습관은 치아우식 위험이 있어 피합니다.",
+        "우유를 너무 많이 마셔 식사량이 줄어들지 않게 주의합니다.",
+        "알레르기 의심 시 보호자가 임의로 여러 식품을 제한하지 말고 상담을 권장합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 식사 + 필요 시 간식 1~2회",
+      "approxComplementaryEnergyKcalPerDay": 550,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "17": {
+      "month": 17,
+      "title": "생후 17개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "toddler_16_23",
+      "feedingStageTitle": "유아식 적응 시기",
+      "feedingSummary": "12~23개월은 식사와 간식을 통해 성장에 필요한 에너지와 영양을 보완하고, 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "가족식과 비슷한 형태로 가되 아이가 씹고 삼킬 수 있는 크기와 질감을 맞춥니다.",
+        "스스로 먹는 경험을 늘리고 보호자는 안전한 환경을 제공합니다.",
+        "철분과 칼슘이 부족하지 않도록 식품군을 다양하게 구성합니다."
+      ],
+      "feedingCaution": [
+        "젖병을 물고 자는 습관은 치아우식 위험이 있어 피합니다.",
+        "우유를 너무 많이 마셔 식사량이 줄어들지 않게 주의합니다.",
+        "알레르기 의심 시 보호자가 임의로 여러 식품을 제한하지 말고 상담을 권장합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 식사 + 필요 시 간식 1~2회",
+      "approxComplementaryEnergyKcalPerDay": 550,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "18": {
+      "month": 18,
+      "title": "생후 18개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "toddler_16_23",
+      "feedingStageTitle": "유아식 적응 시기",
+      "feedingSummary": "12~23개월은 식사와 간식을 통해 성장에 필요한 에너지와 영양을 보완하고, 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "가족식과 비슷한 형태로 가되 아이가 씹고 삼킬 수 있는 크기와 질감을 맞춥니다.",
+        "스스로 먹는 경험을 늘리고 보호자는 안전한 환경을 제공합니다.",
+        "철분과 칼슘이 부족하지 않도록 식품군을 다양하게 구성합니다."
+      ],
+      "feedingCaution": [
+        "젖병을 물고 자는 습관은 치아우식 위험이 있어 피합니다.",
+        "우유를 너무 많이 마셔 식사량이 줄어들지 않게 주의합니다.",
+        "알레르기 의심 시 보호자가 임의로 여러 식품을 제한하지 말고 상담을 권장합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 식사 + 필요 시 간식 1~2회",
+      "approxComplementaryEnergyKcalPerDay": 550,
+      "koreaHealthCheckups": [
+        {
+          "round": 4,
+          "label": "4차",
+          "ageRangeText": "생후 18~24개월",
+          "message": "4차 영유아 건강검진 시기에 해당할 수 있어요. 구강검진 기간도 함께 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "19": {
+      "month": 19,
+      "title": "생후 19개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "toddler_16_23",
+      "feedingStageTitle": "유아식 적응 시기",
+      "feedingSummary": "12~23개월은 식사와 간식을 통해 성장에 필요한 에너지와 영양을 보완하고, 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "가족식과 비슷한 형태로 가되 아이가 씹고 삼킬 수 있는 크기와 질감을 맞춥니다.",
+        "스스로 먹는 경험을 늘리고 보호자는 안전한 환경을 제공합니다.",
+        "철분과 칼슘이 부족하지 않도록 식품군을 다양하게 구성합니다."
+      ],
+      "feedingCaution": [
+        "젖병을 물고 자는 습관은 치아우식 위험이 있어 피합니다.",
+        "우유를 너무 많이 마셔 식사량이 줄어들지 않게 주의합니다.",
+        "알레르기 의심 시 보호자가 임의로 여러 식품을 제한하지 말고 상담을 권장합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 식사 + 필요 시 간식 1~2회",
+      "approxComplementaryEnergyKcalPerDay": 550,
+      "koreaHealthCheckups": [
+        {
+          "round": 4,
+          "label": "4차",
+          "ageRangeText": "생후 18~24개월",
+          "message": "4차 영유아 건강검진 시기에 해당할 수 있어요. 구강검진 기간도 함께 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "20": {
+      "month": 20,
+      "title": "생후 20개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "toddler_16_23",
+      "feedingStageTitle": "유아식 적응 시기",
+      "feedingSummary": "12~23개월은 식사와 간식을 통해 성장에 필요한 에너지와 영양을 보완하고, 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "가족식과 비슷한 형태로 가되 아이가 씹고 삼킬 수 있는 크기와 질감을 맞춥니다.",
+        "스스로 먹는 경험을 늘리고 보호자는 안전한 환경을 제공합니다.",
+        "철분과 칼슘이 부족하지 않도록 식품군을 다양하게 구성합니다."
+      ],
+      "feedingCaution": [
+        "젖병을 물고 자는 습관은 치아우식 위험이 있어 피합니다.",
+        "우유를 너무 많이 마셔 식사량이 줄어들지 않게 주의합니다.",
+        "알레르기 의심 시 보호자가 임의로 여러 식품을 제한하지 말고 상담을 권장합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 식사 + 필요 시 간식 1~2회",
+      "approxComplementaryEnergyKcalPerDay": 550,
+      "koreaHealthCheckups": [
+        {
+          "round": 4,
+          "label": "4차",
+          "ageRangeText": "생후 18~24개월",
+          "message": "4차 영유아 건강검진 시기에 해당할 수 있어요. 구강검진 기간도 함께 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "21": {
+      "month": 21,
+      "title": "생후 21개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "toddler_16_23",
+      "feedingStageTitle": "유아식 적응 시기",
+      "feedingSummary": "12~23개월은 식사와 간식을 통해 성장에 필요한 에너지와 영양을 보완하고, 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "가족식과 비슷한 형태로 가되 아이가 씹고 삼킬 수 있는 크기와 질감을 맞춥니다.",
+        "스스로 먹는 경험을 늘리고 보호자는 안전한 환경을 제공합니다.",
+        "철분과 칼슘이 부족하지 않도록 식품군을 다양하게 구성합니다."
+      ],
+      "feedingCaution": [
+        "젖병을 물고 자는 습관은 치아우식 위험이 있어 피합니다.",
+        "우유를 너무 많이 마셔 식사량이 줄어들지 않게 주의합니다.",
+        "알레르기 의심 시 보호자가 임의로 여러 식품을 제한하지 말고 상담을 권장합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 식사 + 필요 시 간식 1~2회",
+      "approxComplementaryEnergyKcalPerDay": 550,
+      "koreaHealthCheckups": [
+        {
+          "round": 4,
+          "label": "4차",
+          "ageRangeText": "생후 18~24개월",
+          "message": "4차 영유아 건강검진 시기에 해당할 수 있어요. 구강검진 기간도 함께 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "22": {
+      "month": 22,
+      "title": "생후 22개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "toddler_16_23",
+      "feedingStageTitle": "유아식 적응 시기",
+      "feedingSummary": "12~23개월은 식사와 간식을 통해 성장에 필요한 에너지와 영양을 보완하고, 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "가족식과 비슷한 형태로 가되 아이가 씹고 삼킬 수 있는 크기와 질감을 맞춥니다.",
+        "스스로 먹는 경험을 늘리고 보호자는 안전한 환경을 제공합니다.",
+        "철분과 칼슘이 부족하지 않도록 식품군을 다양하게 구성합니다."
+      ],
+      "feedingCaution": [
+        "젖병을 물고 자는 습관은 치아우식 위험이 있어 피합니다.",
+        "우유를 너무 많이 마셔 식사량이 줄어들지 않게 주의합니다.",
+        "알레르기 의심 시 보호자가 임의로 여러 식품을 제한하지 말고 상담을 권장합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 식사 + 필요 시 간식 1~2회",
+      "approxComplementaryEnergyKcalPerDay": 550,
+      "koreaHealthCheckups": [
+        {
+          "round": 4,
+          "label": "4차",
+          "ageRangeText": "생후 18~24개월",
+          "message": "4차 영유아 건강검진 시기에 해당할 수 있어요. 구강검진 기간도 함께 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "23": {
+      "month": 23,
+      "title": "생후 23개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "toddler_16_23",
+      "feedingStageTitle": "유아식 적응 시기",
+      "feedingSummary": "12~23개월은 식사와 간식을 통해 성장에 필요한 에너지와 영양을 보완하고, 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "가족식과 비슷한 형태로 가되 아이가 씹고 삼킬 수 있는 크기와 질감을 맞춥니다.",
+        "스스로 먹는 경험을 늘리고 보호자는 안전한 환경을 제공합니다.",
+        "철분과 칼슘이 부족하지 않도록 식품군을 다양하게 구성합니다."
+      ],
+      "feedingCaution": [
+        "젖병을 물고 자는 습관은 치아우식 위험이 있어 피합니다.",
+        "우유를 너무 많이 마셔 식사량이 줄어들지 않게 주의합니다.",
+        "알레르기 의심 시 보호자가 임의로 여러 식품을 제한하지 말고 상담을 권장합니다."
+      ],
+      "recommendedFrequency": "하루 3~4회 식사 + 필요 시 간식 1~2회",
+      "approxComplementaryEnergyKcalPerDay": 550,
+      "koreaHealthCheckups": [
+        {
+          "round": 4,
+          "label": "4차",
+          "ageRangeText": "생후 18~24개월",
+          "message": "4차 영유아 건강검진 시기에 해당할 수 있어요. 구강검진 기간도 함께 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "24": {
+      "month": 24,
+      "title": "생후 24개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 4,
+          "label": "4차",
+          "ageRangeText": "생후 18~24개월",
+          "message": "4차 영유아 건강검진 시기에 해당할 수 있어요. 구강검진 기간도 함께 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "25": {
+      "month": 25,
+      "title": "생후 25개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "26": {
+      "month": 26,
+      "title": "생후 26개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "27": {
+      "month": 27,
+      "title": "생후 27개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "28": {
+      "month": 28,
+      "title": "생후 28개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "29": {
+      "month": 29,
+      "title": "생후 29개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "30": {
+      "month": 30,
+      "title": "생후 30개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 5,
+          "label": "5차",
+          "ageRangeText": "생후 30~36개월",
+          "message": "5차 영유아 건강검진 시기에 해당할 수 있어요. 체질량지수와 발달평가를 함께 확인합니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "31": {
+      "month": 31,
+      "title": "생후 31개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 5,
+          "label": "5차",
+          "ageRangeText": "생후 30~36개월",
+          "message": "5차 영유아 건강검진 시기에 해당할 수 있어요. 체질량지수와 발달평가를 함께 확인합니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "32": {
+      "month": 32,
+      "title": "생후 32개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 5,
+          "label": "5차",
+          "ageRangeText": "생후 30~36개월",
+          "message": "5차 영유아 건강검진 시기에 해당할 수 있어요. 체질량지수와 발달평가를 함께 확인합니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "33": {
+      "month": 33,
+      "title": "생후 33개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 5,
+          "label": "5차",
+          "ageRangeText": "생후 30~36개월",
+          "message": "5차 영유아 건강검진 시기에 해당할 수 있어요. 체질량지수와 발달평가를 함께 확인합니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "34": {
+      "month": 34,
+      "title": "생후 34개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 5,
+          "label": "5차",
+          "ageRangeText": "생후 30~36개월",
+          "message": "5차 영유아 건강검진 시기에 해당할 수 있어요. 체질량지수와 발달평가를 함께 확인합니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "35": {
+      "month": 35,
+      "title": "생후 35개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 5,
+          "label": "5차",
+          "ageRangeText": "생후 30~36개월",
+          "message": "5차 영유아 건강검진 시기에 해당할 수 있어요. 체질량지수와 발달평가를 함께 확인합니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "36": {
+      "month": 36,
+      "title": "생후 36개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 5,
+          "label": "5차",
+          "ageRangeText": "생후 30~36개월",
+          "message": "5차 영유아 건강검진 시기에 해당할 수 있어요. 체질량지수와 발달평가를 함께 확인합니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "37": {
+      "month": 37,
+      "title": "생후 37개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "38": {
+      "month": 38,
+      "title": "생후 38개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "39": {
+      "month": 39,
+      "title": "생후 39개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "40": {
+      "month": 40,
+      "title": "생후 40개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "41": {
+      "month": 41,
+      "title": "생후 41개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "42": {
+      "month": 42,
+      "title": "생후 42개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 6,
+          "label": "6차",
+          "ageRangeText": "생후 42~48개월",
+          "message": "6차 영유아 건강검진 시기에 해당할 수 있어요. 시력검사가 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "43": {
+      "month": 43,
+      "title": "생후 43개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 6,
+          "label": "6차",
+          "ageRangeText": "생후 42~48개월",
+          "message": "6차 영유아 건강검진 시기에 해당할 수 있어요. 시력검사가 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "44": {
+      "month": 44,
+      "title": "생후 44개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 6,
+          "label": "6차",
+          "ageRangeText": "생후 42~48개월",
+          "message": "6차 영유아 건강검진 시기에 해당할 수 있어요. 시력검사가 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "45": {
+      "month": 45,
+      "title": "생후 45개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 6,
+          "label": "6차",
+          "ageRangeText": "생후 42~48개월",
+          "message": "6차 영유아 건강검진 시기에 해당할 수 있어요. 시력검사가 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "46": {
+      "month": 46,
+      "title": "생후 46개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 6,
+          "label": "6차",
+          "ageRangeText": "생후 42~48개월",
+          "message": "6차 영유아 건강검진 시기에 해당할 수 있어요. 시력검사가 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "47": {
+      "month": 47,
+      "title": "생후 47개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 6,
+          "label": "6차",
+          "ageRangeText": "생후 42~48개월",
+          "message": "6차 영유아 건강검진 시기에 해당할 수 있어요. 시력검사가 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "48": {
+      "month": 48,
+      "title": "생후 48개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 6,
+          "label": "6차",
+          "ageRangeText": "생후 42~48개월",
+          "message": "6차 영유아 건강검진 시기에 해당할 수 있어요. 시력검사가 포함됩니다."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "49": {
+      "month": 49,
+      "title": "생후 49개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "50": {
+      "month": 50,
+      "title": "생후 50개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "51": {
+      "month": 51,
+      "title": "생후 51개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "52": {
+      "month": 52,
+      "title": "생후 52개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "53": {
+      "month": 53,
+      "title": "생후 53개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "54": {
+      "month": 54,
+      "title": "생후 54개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 7,
+          "label": "7차",
+          "ageRangeText": "생후 54~60개월",
+          "message": "7차 영유아 건강검진 시기에 해당할 수 있어요. 취학 전 준비와 신체활동 교육을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "55": {
+      "month": 55,
+      "title": "생후 55개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 7,
+          "label": "7차",
+          "ageRangeText": "생후 54~60개월",
+          "message": "7차 영유아 건강검진 시기에 해당할 수 있어요. 취학 전 준비와 신체활동 교육을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "56": {
+      "month": 56,
+      "title": "생후 56개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 7,
+          "label": "7차",
+          "ageRangeText": "생후 54~60개월",
+          "message": "7차 영유아 건강검진 시기에 해당할 수 있어요. 취학 전 준비와 신체활동 교육을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "57": {
+      "month": 57,
+      "title": "생후 57개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 7,
+          "label": "7차",
+          "ageRangeText": "생후 54~60개월",
+          "message": "7차 영유아 건강검진 시기에 해당할 수 있어요. 취학 전 준비와 신체활동 교육을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "58": {
+      "month": 58,
+      "title": "생후 58개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 7,
+          "label": "7차",
+          "ageRangeText": "생후 54~60개월",
+          "message": "7차 영유아 건강검진 시기에 해당할 수 있어요. 취학 전 준비와 신체활동 교육을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "59": {
+      "month": 59,
+      "title": "생후 59개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 7,
+          "label": "7차",
+          "ageRangeText": "생후 54~60개월",
+          "message": "7차 영유아 건강검진 시기에 해당할 수 있어요. 취학 전 준비와 신체활동 교육을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    },
+    "60": {
+      "month": 60,
+      "title": "생후 60개월 한국 공식자료 보강 데이터",
+      "feedingStageId": "preschool_24_60",
+      "feedingStageTitle": "유아기 식습관 형성 시기",
+      "feedingSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "feedingCaution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "recommendedFrequency": null,
+      "approxComplementaryEnergyKcalPerDay": null,
+      "koreaHealthCheckups": [
+        {
+          "round": 7,
+          "label": "7차",
+          "ageRangeText": "생후 54~60개월",
+          "message": "7차 영유아 건강검진 시기에 해당할 수 있어요. 취학 전 준비와 신체활동 교육을 확인하세요."
+        }
+      ],
+      "sidsGuideApplied": false,
+      "kdstOriginalQuestionsIncluded": false,
+      "kdstNotice": "K-DST 문항 원문은 포함하지 않고, 영유아 건강검진의 발달평가·상담 시기만 안내합니다.",
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ],
+      "disclaimer": "이 정보는 한국 공식자료를 요약·재구성한 참고용 안내입니다. 진단이나 치료 목적이 아니며, 아이 상태가 걱정되면 소아청소년과 또는 영유아 건강검진 기관에 상담하세요.",
+      "reviewedAt": "2026-06-25",
+      "version": "1.0.0"
+    }
+  }
+}

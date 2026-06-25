@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "title": "한국 공식자료 기반 월령·단계별 식사 가이드",
+    "country": "KR",
+    "version": "1.0.0",
+    "reviewedAt": "2026-06-25",
+    "sourceIds": [
+      "kdca_infant_nutrition",
+      "kdca_complementary_feeding",
+      "kdca_breastfeeding",
+      "food_safety_complementary_tips"
+    ]
+  },
+  "stages": {
+    "milk_only_0_3": {
+      "id": "milk_only_0_3",
+      "ageRangeMonths": [
+        0,
+        3
+      ],
+      "title": "모유 또는 조제유 중심 시기",
+      "sourceBasedSummary": "영아기는 주로 모유 또는 조제유로 영양을 공급받는 시기예요. 생후 6개월경부터 이유보충식이 필요해질 수 있으므로 아직은 수유 리듬과 성장 상태를 관찰해요.",
+      "feedingGuide": [
+        "모유 또는 조제유를 아이 요구와 성장 상태에 맞춰 제공합니다.",
+        "이 시기에는 보호자가 임의로 이유식을 시작하기보다 아이의 발달 상태와 의료진 상담을 기준으로 판단합니다.",
+        "수유량, 대소변, 체중 증가가 평소와 다르면 의료진과 상담합니다."
+      ],
+      "caution": [
+        "이유식을 너무 일찍 시작하지 않도록 주의합니다.",
+        "조제유는 제품 설명서의 농도와 조유 방법을 지킵니다.",
+        "아이가 잘 먹지 못하거나 처지는 증상이 있으면 진료를 권장합니다."
+      ],
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "kdca_complementary_feeding"
+      ]
+    },
+    "start_ready_4_5": {
+      "id": "start_ready_4_5",
+      "ageRangeMonths": [
+        4,
+        5
+      ],
+      "title": "이유보충식 준비 또는 시작 검토 시기",
+      "sourceBasedSummary": "분유를 먹는 아기는 4~6개월에 이유보충식을 시작할 수 있고, 모유 수유 아기는 생후 6개월 이후 시작을 기준으로 안내됩니다. 아이의 발달 준비 신호를 보고 천천히 진행해요.",
+      "feedingGuide": [
+        "처음에는 쌀미음처럼 소화가 쉽고 부드러운 형태를 고려합니다.",
+        "새 음식은 한 번에 한 가지씩 시도하고 3~7일 정도 반응을 관찰합니다.",
+        "숟가락으로 먹는 연습을 시작할 수 있습니다."
+      ],
+      "caution": [
+        "모유 수유아는 6개월 이후 시작을 기준으로 보수적으로 안내합니다.",
+        "알레르기 가족력이나 질환이 있으면 새 식품 도입 전 의료진과 상담합니다.",
+        "단맛·짠맛에 일찍 익숙해지지 않도록 주의합니다."
+      ],
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_breastfeeding"
+      ]
+    },
+    "early_middle_6_8": {
+      "id": "early_middle_6_8",
+      "ageRangeMonths": [
+        6,
+        8
+      ],
+      "title": "이유보충식 초기·중기",
+      "sourceBasedSummary": "생후 6개월 이후에는 모유 또는 조제유만으로 부족해질 수 있는 열량과 영양소를 이유보충식으로 보완합니다.",
+      "recommendedFrequency": "하루 2~3회 정도를 기준으로 아이 상태에 맞춰 조절",
+      "approxComplementaryEnergyKcalPerDay": 200,
+      "feedingGuide": [
+        "부드럽고 삼키기 쉬운 질감부터 시작해 점차 다양한 식품군을 경험합니다.",
+        "철분 보완을 위해 쇠고기 등 철분이 풍부한 식품을 적절히 활용합니다.",
+        "6~9개월에는 컵 사용을 연습하기 시작할 수 있습니다.",
+        "새 식재료는 한 번에 한 가지씩 추가하고 반응을 관찰합니다."
+      ],
+      "caution": [
+        "주스나 단 음료는 가능한 권장하지 않습니다.",
+        "설탕, 단 음료, 커피, 차 등은 피하도록 안내합니다.",
+        "질식 위험이 있는 크기와 형태의 음식은 제공하지 않습니다."
+      ],
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "kdca_complementary_feeding",
+        "kdca_breastfeeding"
+      ]
+    },
+    "late_9_11": {
+      "id": "late_9_11",
+      "ageRangeMonths": [
+        9,
+        11
+      ],
+      "title": "이유보충식 후기",
+      "sourceBasedSummary": "9개월 전후부터는 손으로 집어 먹거나 숟가락을 잡는 연습을 도와줄 수 있어요. 9~11개월은 이유보충식의 비중이 커지는 시기입니다.",
+      "recommendedFrequency": "하루 3~4회 정도를 기준으로 아이 상태에 맞춰 조절",
+      "approxComplementaryEnergyKcalPerDay": 300,
+      "feedingGuide": [
+        "무른밥이나 고형식에 가까운 질감을 천천히 경험합니다.",
+        "손으로 집어 먹는 연습과 숟가락 사용 시도를 도와줍니다.",
+        "식품군을 다양하게 구성하고, 고기 육수보다 고기 자체 섭취가 영양 공급에 더 도움이 됩니다.",
+        "10개월 이후에는 이유보충식 진행 상태에 따라 수유 필요량이 줄 수 있습니다."
+      ],
+      "caution": [
+        "통째 음식, 견과류, 딱딱한 음식 등 질식 위험을 관리합니다.",
+        "새 음식 후 알레르기 반응을 관찰합니다.",
+        "지나치게 묽은 형태만 오래 유지하지 않도록 아이 상태에 맞춰 질감을 조절합니다."
+      ],
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "kdca_breastfeeding",
+        "food_safety_complementary_tips"
+      ]
+    },
+    "transition_12_15": {
+      "id": "transition_12_15",
+      "ageRangeMonths": [
+        12,
+        15
+      ],
+      "title": "이유보충식 완료기·유아식 전환 시작",
+      "sourceBasedSummary": "12개월 이후에는 하루 3끼 식사 리듬과 컵 사용, 스스로 먹는 연습이 중요해지는 시기예요. 분유병은 가능한 12개월 직후부터 줄이고 늦어도 18개월 전에는 끊는 방향을 안내합니다.",
+      "recommendedFrequency": "하루 3회 식사 + 필요 시 간식",
+      "feedingGuide": [
+        "진밥이나 가족식에 가까운 형태로 천천히 전환합니다.",
+        "숟가락, 컵, 빨대컵 등 도구 사용을 연습합니다.",
+        "단 음식보다 영양가 있는 간식을 제공합니다.",
+        "분유병 사용을 줄이고 컵 사용을 늘립니다."
+      ],
+      "caution": [
+        "돌 무렵 견과류와 갑각류 등은 아이 상태와 형태를 고려해 조심스럽게 접근합니다.",
+        "간이 강한 음식과 단 음료는 피합니다.",
+        "우유 위주의 식사로 철분 섭취가 부족해지지 않도록 주의합니다."
+      ],
+      "sourceIds": [
+        "kdca_complementary_feeding",
+        "food_safety_complementary_tips",
+        "kdca_infant_nutrition"
+      ]
+    },
+    "toddler_16_23": {
+      "id": "toddler_16_23",
+      "ageRangeMonths": [
+        16,
+        23
+      ],
+      "title": "유아식 적응 시기",
+      "sourceBasedSummary": "12~23개월은 식사와 간식을 통해 성장에 필요한 에너지와 영양을 보완하고, 식습관이 형성되는 시기예요.",
+      "recommendedFrequency": "하루 3~4회 식사 + 필요 시 간식 1~2회",
+      "approxComplementaryEnergyKcalPerDay": 550,
+      "feedingGuide": [
+        "가족식과 비슷한 형태로 가되 아이가 씹고 삼킬 수 있는 크기와 질감을 맞춥니다.",
+        "스스로 먹는 경험을 늘리고 보호자는 안전한 환경을 제공합니다.",
+        "철분과 칼슘이 부족하지 않도록 식품군을 다양하게 구성합니다."
+      ],
+      "caution": [
+        "젖병을 물고 자는 습관은 치아우식 위험이 있어 피합니다.",
+        "우유를 너무 많이 마셔 식사량이 줄어들지 않게 주의합니다.",
+        "알레르기 의심 시 보호자가 임의로 여러 식품을 제한하지 말고 상담을 권장합니다."
+      ],
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "kdca_complementary_feeding"
+      ]
+    },
+    "preschool_24_60": {
+      "id": "preschool_24_60",
+      "ageRangeMonths": [
+        24,
+        60
+      ],
+      "title": "유아기 식습관 형성 시기",
+      "sourceBasedSummary": "유아기는 성장 속도는 완만해지지만 활동량이 많고 식습관이 형성되는 시기예요.",
+      "feedingGuide": [
+        "세 끼 식사와 적절한 간식을 규칙적으로 제공합니다.",
+        "편식, 단 음식 선호, 과도한 주스·단 음료 섭취를 줄이도록 돕습니다.",
+        "양질의 단백질, 철분, 칼슘이 부족하지 않도록 다양한 식품군을 제공합니다.",
+        "식사 전 손 씻기와 개인위생 습관을 함께 익힙니다."
+      ],
+      "caution": [
+        "과도한 전자미디어 노출과 식사 중 화면 사용은 줄이는 방향으로 안내합니다.",
+        "비만, 빈혈, 알레르기, 성장 변화가 걱정되면 의료진과 상담합니다."
+      ],
+      "sourceIds": [
+        "kdca_infant_nutrition",
+        "nhis_checkup_2025"
+      ]
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "metadata": {
+    "title": "한국 영유아 건강검진 차수 데이터",
+    "country": "KR",
+    "version": "1.0.0",
+    "reviewedAt": "2026-06-25",
+    "sourceIds": [
+      "nhis_checkup_2025"
+    ],
+    "notice": "2025 안내문 기준. 제도 변경 가능성이 있으므로 국민건강보험공단 최신 안내 확인 필요"
+  },
+  "checkups": [
+    {
+      "round": 1,
+      "label": "1차",
+      "ageRangeMonths": [
+        0,
+        1
+      ],
+      "ageRangeText": "생후 14~35일",
+      "generalExam": true,
+      "developmentScreening": false,
+      "oralCheckup": false,
+      "examItems": [
+        "문진 및 진찰",
+        "신체계측",
+        "건강교육"
+      ],
+      "examDetails": [
+        "문진표, 진찰, 시각 및 청각 문진, 외안부 사진",
+        "키, 몸무게, 머리둘레",
+        "안전사고 예방, 영양, 수면 교육"
+      ],
+      "educationTopics": [
+        "안전사고 예방",
+        "영양",
+        "수면(영아돌연사증후군 예방)"
+      ],
+      "appMessage": "1차 영유아 건강검진 시기에 해당할 수 있어요. 생후 14~35일 검진 기간을 확인하세요."
+    },
+    {
+      "round": 2,
+      "label": "2차",
+      "ageRangeMonths": [
+        4,
+        6
+      ],
+      "ageRangeText": "생후 4~6개월",
+      "generalExam": true,
+      "developmentScreening": false,
+      "oralCheckup": false,
+      "examItems": [
+        "문진 및 진찰",
+        "신체계측",
+        "건강교육"
+      ],
+      "examDetails": [
+        "문진표, 진찰, 청각 및 시각문진, 외안부 사진",
+        "키, 몸무게, 머리둘레",
+        "안전사고 예방, 영양, 수면, 전자미디어 노출"
+      ],
+      "educationTopics": [
+        "안전사고 예방",
+        "영양",
+        "수면(영아돌연사증후군 예방)",
+        "전자미디어 노출"
+      ],
+      "appMessage": "2차 영유아 건강검진 시기에 해당할 수 있어요. 생후 4~6개월 검진 기간을 확인하세요."
+    },
+    {
+      "round": 3,
+      "label": "3차",
+      "ageRangeMonths": [
+        9,
+        12
+      ],
+      "ageRangeText": "생후 9~12개월",
+      "generalExam": true,
+      "developmentScreening": true,
+      "oralCheckup": false,
+      "examItems": [
+        "문진 및 진찰",
+        "신체계측",
+        "발달평가 및 상담",
+        "건강교육"
+      ],
+      "examDetails": [
+        "문진표, 진찰, 청각 및 시각문진, 외안부 사진",
+        "키, 몸무게, 머리둘레",
+        "검사도구에 의한 평가 및 상담",
+        "안전사고 예방, 영양, 구강, 정서 및 사회성"
+      ],
+      "educationTopics": [
+        "안전사고 예방",
+        "영양",
+        "구강",
+        "정서 및 사회성"
+      ],
+      "appMessage": "3차 영유아 건강검진 시기에 해당할 수 있어요. 이 시기부터 발달평가 및 상담이 포함됩니다."
+    },
+    {
+      "round": 4,
+      "label": "4차",
+      "ageRangeMonths": [
+        18,
+        24
+      ],
+      "ageRangeText": "생후 18~24개월",
+      "generalExam": true,
+      "developmentScreening": true,
+      "oralCheckup": true,
+      "oralAgeRangeText": "생후 18~29개월",
+      "examItems": [
+        "문진 및 진찰",
+        "신체계측",
+        "발달평가 및 상담",
+        "건강교육",
+        "구강검진"
+      ],
+      "examDetails": [
+        "문진표, 진찰, 청각 및 시각문진, 외안부 사진",
+        "키, 몸무게, 머리둘레",
+        "검사도구에 의한 평가 및 상담",
+        "안전사고 예방, 영양, 대소변 가리기, 전자미디어 노출, 개인위생, 정서 및 사회성",
+        "문진, 진찰, 구강보건교육 등"
+      ],
+      "educationTopics": [
+        "안전사고 예방",
+        "영양",
+        "대소변 가리기",
+        "전자미디어 노출",
+        "개인위생",
+        "정서 및 사회성"
+      ],
+      "appMessage": "4차 영유아 건강검진 시기에 해당할 수 있어요. 구강검진 기간도 함께 확인하세요."
+    },
+    {
+      "round": 5,
+      "label": "5차",
+      "ageRangeMonths": [
+        30,
+        36
+      ],
+      "ageRangeText": "생후 30~36개월",
+      "generalExam": true,
+      "developmentScreening": true,
+      "oralCheckup": true,
+      "oralAgeRangeText": "생후 30~41개월",
+      "examItems": [
+        "문진 및 진찰",
+        "신체계측",
+        "발달평가 및 상담",
+        "건강교육",
+        "구강검진"
+      ],
+      "examDetails": [
+        "문진표, 진찰, 청각 및 시각문진, 외안부 사진",
+        "키, 몸무게, 머리둘레, 체질량지수",
+        "검사도구에 의한 평가 및 상담",
+        "영양, 정서 및 사회성, 취학 전 준비, 대소변 가리기",
+        "문진, 진찰, 구강보건교육 등"
+      ],
+      "educationTopics": [
+        "영양",
+        "정서 및 사회성",
+        "취학 전 준비",
+        "대소변 가리기"
+      ],
+      "appMessage": "5차 영유아 건강검진 시기에 해당할 수 있어요. 체질량지수와 발달평가를 함께 확인합니다."
+    },
+    {
+      "round": 6,
+      "label": "6차",
+      "ageRangeMonths": [
+        42,
+        48
+      ],
+      "ageRangeText": "생후 42~48개월",
+      "generalExam": true,
+      "developmentScreening": true,
+      "oralCheckup": true,
+      "oralAgeRangeText": "생후 42~53개월",
+      "examItems": [
+        "문진 및 진찰",
+        "신체계측",
+        "발달평가 및 상담",
+        "건강교육",
+        "구강검진"
+      ],
+      "examDetails": [
+        "문진표, 진찰, 청각 및 시각문진, 시력검사",
+        "키, 몸무게, 머리둘레, 체질량지수",
+        "검사도구에 의한 평가 및 상담",
+        "안전사고 예방, 영양, 정서 및 사회성",
+        "문진, 진찰, 구강보건교육 등"
+      ],
+      "educationTopics": [
+        "안전사고 예방",
+        "영양",
+        "정서 및 사회성"
+      ],
+      "appMessage": "6차 영유아 건강검진 시기에 해당할 수 있어요. 시력검사가 포함됩니다."
+    },
+    {
+      "round": 7,
+      "label": "7차",
+      "ageRangeMonths": [
+        54,
+        60
+      ],
+      "ageRangeText": "생후 54~60개월",
+      "generalExam": true,
+      "developmentScreening": true,
+      "oralCheckup": true,
+      "oralAgeRangeText": "생후 54~65개월",
+      "examItems": [
+        "문진 및 진찰",
+        "신체계측",
+        "발달평가 및 상담",
+        "건강교육",
+        "구강검진"
+      ],
+      "examDetails": [
+        "문진표, 진찰, 청각 및 시각문진, 시력검사",
+        "키, 몸무게, 머리둘레, 체질량지수",
+        "검사도구에 의한 평가 및 상담",
+        "안전사고 예방, 영양, 취학 전 준비, 신체활동",
+        "문진, 진찰, 구강보건교육 등"
+      ],
+      "educationTopics": [
+        "안전사고 예방",
+        "영양",
+        "취학 전 준비",
+        "신체활동"
+      ],
+      "appMessage": "7차 영유아 건강검진 시기에 해당할 수 있어요. 취학 전 준비와 신체활동 교육을 확인하세요."
+    },
+    {
+      "round": 8,
+      "label": "8차",
+      "ageRangeMonths": [
+        66,
+        71
+      ],
+      "ageRangeText": "생후 66~71개월",
+      "generalExam": true,
+      "developmentScreening": true,
+      "oralCheckup": false,
+      "examItems": [
+        "문진 및 진찰",
+        "신체계측",
+        "발달평가 및 상담",
+        "건강교육"
+      ],
+      "examDetails": [
+        "문진표, 진찰, 청각 및 시각문진, 시력검사",
+        "키, 몸무게, 머리둘레, 체질량지수",
+        "검사도구에 의한 평가 및 상담",
+        "안전사고 예방, 영양, 취학 전 준비"
+      ],
+      "educationTopics": [
+        "안전사고 예방",
+        "영양",
+        "취학 전 준비"
+      ],
+      "appMessage": "8차 영유아 건강검진 시기입니다. 현재 앱의 기본 월령 범위는 60개월까지라 별도 안내 영역에서 처리하세요."
+    }
+  ]
+}

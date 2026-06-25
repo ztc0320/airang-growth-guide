@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "title": "한국 공식자료 기반 영아 수면 안전 데이터",
+    "country": "KR",
+    "version": "1.0.0",
+    "reviewedAt": "2026-06-25",
+    "sourceIds": [
+      "kdca_sids",
+      "nhis_checkup_2025"
+    ]
+  },
+  "sidsUnder12Months": {
+    "ageRangeMonths": [
+      0,
+      11
+    ],
+    "title": "만 1세 이하 수면 안전",
+    "summary": "만 1세 이하 영아는 수면 환경을 안전하게 관리하는 것이 중요합니다.",
+    "items": [
+      "아기를 똑바로 눕혀 재우는 방향으로 안내합니다.",
+      "잠자리에 베개, 쿠션, 인형 등 푹신한 물건을 두지 않도록 안내합니다.",
+      "부모 방에서 함께 자더라도 아기 침대나 요는 따로 사용하는 방향으로 안내합니다.",
+      "너무 폭신한 침대나 요는 피하도록 안내합니다.",
+      "예방접종과 건강검진 일정을 함께 챙기도록 안내합니다."
+    ],
+    "sourceIds": [
+      "kdca_sids"
+    ]
+  },
+  "healthEducationMapping": [
+    {
+      "checkupRound": 1,
+      "topic": "수면(영아돌연사증후군 예방)"
+    },
+    {
+      "checkupRound": 2,
+      "topic": "수면(영아돌연사증후군 예방)"
+    }
+  ]
+}
