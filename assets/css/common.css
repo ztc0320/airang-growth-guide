@@ -139,4 +139,4 @@ noscript {display:block;padding:16px;background:#fff4d6;color:#3d2e12;text-align
 @media (min-width:720px) {.source-card-list {grid-template-columns:1fr 1fr;}.source-policy .text-list {grid-template-columns:1fr;}}
 #playGroups.grid .card,
 #checkGroups.grid .card {margin-bottom:0 !important;}
-#krMealArea > kr-card {grid-column: span 2;}
+#krMealArea > .kr-card {grid-column: span 2;}
