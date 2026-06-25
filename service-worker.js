@@ -1,8 +1,9 @@
-var CACHE_NAME = 'airang-growth-guide-v4-kr-official';
+var CACHE_NAME = 'airang-growth-guide-v5-sources';
 var APP_SHELL = [
   './',
   './index.html',
   './privacy.html',
+  './sources.html',
   './manifest.json',
   './assets/css/common.css',
   './assets/js/vendor/jquery-lite.js',
