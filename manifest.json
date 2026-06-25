@@ -1,0 +1,57 @@
+{
+  "id": "./",
+  "name": "아이랑 성장가이드",
+  "short_name": "아이랑",
+  "description": "아이 개월수에 맞춰 발달, 식사, 놀이, 안전 체크를 알려주는 육아 방향 가이드",
+  "lang": "ko-KR",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f1e8",
+  "theme_color": "#f7f1e8",
+  "categories": [
+    "health",
+    "lifestyle",
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "오늘 체크",
+      "short_name": "체크",
+      "url": "./index.html#check",
+      "icons": [
+        {
+          "src": "./assets/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "식사 가이드",
+      "short_name": "식사",
+      "url": "./index.html#meal",
+      "icons": [
+        {
+          "src": "./assets/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

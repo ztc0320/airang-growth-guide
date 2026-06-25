@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "영유아 음식 주의 데이터",
+    "description": "CDC Infant and Toddler Nutrition 기준을 바탕으로 앱에서 공통 사용하기 위한 음식 주의 JSON입니다.",
+    "reviewedAt": "2026-06-25",
+    "version": "1.0.0",
+    "disclaimer": "아이마다 발달 속도와 식사 적응은 다를 수 있어요. 이 정보는 진단이나 치료 목적이 아니며, 걱정되는 부분이 있으면 소아청소년과에 상담하세요.",
+    "sources": [
+      {
+        "name": "CDC Foods and Drinks for 6 to 24 Month Olds",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/index.html",
+        "type": "feeding"
+      },
+      {
+        "name": "CDC Foods and Drinks to Encourage",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-encourage.html",
+        "type": "feeding"
+      },
+      {
+        "name": "CDC Foods and Drinks to Avoid or Limit",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-avoid-or-limit.html",
+        "type": "feeding"
+      },
+      {
+        "name": "CDC Choking Hazards",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html",
+        "type": "feeding"
+      },
+      {
+        "name": "CDC How Much and How Often To Feed",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/how-much-and-how-often-to-feed.html",
+        "type": "feeding"
+      }
+    ]
+  },
+  "before12Months": [
+    {
+      "name": "꿀",
+      "reason": "12개월 전에는 영아 보툴리누스증 위험이 있어 피해야 해요.",
+      "level": "danger",
+      "minAgeMonths": 12
+    },
+    {
+      "name": "전유",
+      "reason": "12개월 전에는 아이에게 필요한 영양 구성이 맞지 않고 장 출혈 위험이 있어 피해야 해요.",
+      "level": "danger",
+      "minAgeMonths": 12
+    },
+    {
+      "name": "주스",
+      "reason": "12개월 전에는 과일·채소 주스를 제공하지 않는 것이 좋아요.",
+      "level": "caution",
+      "minAgeMonths": 12
+    },
+    {
+      "name": "첨가당이 들어간 음식·음료",
+      "reason": "영유아 식단에서는 첨가당, 저칼로리 감미료, 무칼로리 감미료를 피하는 것이 좋아요.",
+      "level": "caution",
+      "minAgeMonths": 24
+    }
+  ],
+  "chokingRisk": [
+    {
+      "name": "통포도·자르지 않은 베리·방울토마토",
+      "guide": "세로로 작게 자르거나 월령에 맞게 제공해요.",
+      "level": "danger"
+    },
+    {
+      "name": "딱딱한 생채소·생과일 조각",
+      "guide": "부드럽게 익히거나 잘게 잘라 제공해요.",
+      "level": "danger"
+    },
+    {
+      "name": "통옥수수알·통콩",
+      "guide": "통째 제공하지 않고 아이가 씹기 쉬운 형태로 조절해요.",
+      "level": "caution"
+    },
+    {
+      "name": "견과류와 씨앗류",
+      "guide": "통째로 제공하지 않아요. 땅콩버터도 덩어리째 주지 않아요.",
+      "level": "danger"
+    },
+    {
+      "name": "큰 고기 덩어리·질긴 고기",
+      "guide": "부드럽게 익혀 잘게 찢거나 작게 잘라요.",
+      "level": "danger"
+    },
+    {
+      "name": "핫도그·소시지·고기스틱",
+      "guide": "둥근 단면이 생기지 않게 길게 잘라 작게 제공하거나 피하세요.",
+      "level": "danger"
+    },
+    {
+      "name": "큰 치즈 조각·스트링 치즈 덩어리",
+      "guide": "작고 얇게 잘라 제공해요.",
+      "level": "caution"
+    },
+    {
+      "name": "생선·고기의 뼈",
+      "guide": "뼈를 완전히 제거해요.",
+      "level": "danger"
+    },
+    {
+      "name": "팝콘·칩·프레첼",
+      "guide": "영유아에게는 질식 위험이 있어 피하는 것이 좋아요.",
+      "level": "danger"
+    },
+    {
+      "name": "동그랗고 딱딱한 사탕·젤리·마시멜로",
+      "guide": "질식 위험이 높아 피하세요.",
+      "level": "danger"
+    }
+  ],
+  "allergens": [
+    {
+      "name": "우유",
+      "guide": "12개월 전에는 전유를 음료로 제공하지 않아요. 유제품 도입은 아이 상태에 맞춰 소량부터 관찰해요.",
+      "level": "caution"
+    },
+    {
+      "name": "계란",
+      "guide": "익힌 형태로 소량부터 시작하고 반응을 관찰해요.",
+      "level": "caution"
+    },
+    {
+      "name": "땅콩",
+      "guide": "통째 견과류는 질식 위험이 있어 피하고, 심한 습진이나 계란 알레르기가 있으면 도입 전 의사 상담을 권장해요.",
+      "level": "caution"
+    },
+    {
+      "name": "견과류",
+      "guide": "통째로 제공하지 않고 안전한 형태로 준비하며 반응을 관찰해요.",
+      "level": "caution"
+    },
+    {
+      "name": "생선",
+      "guide": "가시를 완전히 제거하고 소량부터 반응을 관찰해요.",
+      "level": "caution"
+    },
+    {
+      "name": "조개류",
+      "guide": "처음 제공할 때는 다른 새 식재료와 동시에 시작하지 않고 반응을 관찰해요.",
+      "level": "caution"
+    },
+    {
+      "name": "밀",
+      "guide": "소량부터 시작하고 알레르기 반응을 관찰해요.",
+      "level": "caution"
+    },
+    {
+      "name": "콩",
+      "guide": "소량부터 시작하고 알레르기 반응을 관찰해요.",
+      "level": "caution"
+    }
+  ],
+  "feedingPrinciples": [
+    "약 6개월부터 모유 또는 영아용 분유 외 음식을 시작할 수 있어요.",
+    "4개월 이전 고형식 시작은 권장하지 않아요.",
+    "6~12개월에는 모유 또는 영아용 분유가 여전히 중요한 영양원이에요.",
+    "고형식은 시간이 지나며 점점 식단에서 비중이 커져요.",
+    "12개월부터 살균된 무가당 전유를 시작할 수 있어요.",
+    "우유는 식사를 대체하는 것이 아니라 식단의 일부예요.",
+    "새 식재료는 한 가지씩 시도하고 반응을 관찰해요.",
+    "아이의 배고픔과 포만 신호를 존중해요.",
+    "규칙적인 식사와 간식 루틴을 만들되, 하루 종일 계속 먹거나 마시게 하지 않아요."
+  ]
+}
