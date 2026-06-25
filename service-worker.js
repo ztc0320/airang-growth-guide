@@ -1,4 +1,4 @@
-var CACHE_NAME = 'airang-growth-guide-v3-service-ready';
+var CACHE_NAME = 'airang-growth-guide-v4-kr-official';
 var APP_SHELL = [
   './',
   './index.html',
@@ -16,6 +16,13 @@ var APP_SHELL = [
   './assets/data/cdc-milestones-ko.json',
   './assets/data/food-warning.json',
   './assets/data/app-config.json',
+  './assets/data/kr-official-sources.json',
+  './assets/data/kr-feeding-stage-guide.json',
+  './assets/data/kr-health-checkup-guide.json',
+  './assets/data/kr-food-warning.json',
+  './assets/data/kr-sleep-safety-guide.json',
+  './assets/data/kr-monthly-overlay.json',
+  './assets/data/kr-kdst-policy.json',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png'
 ];

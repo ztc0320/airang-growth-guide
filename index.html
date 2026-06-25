@@ -95,6 +95,14 @@
             <h3>이번 달 식사 변화</h3>
             <p id="homeFeeding"></p>
           </article>
+          <article class="card kr-card" id="krHomeCard" style="display:none;">
+            <p class="eyebrow">한국 공식자료 기준</p>
+            <h3>한국형 식사·검진 안내</h3>
+            <p><strong id="krHomeStage"></strong></p>
+            <p id="krHomeSummary"></p>
+            <div id="krHomeGuideList" class="kr-home-list"></div>
+            <div id="krHomeCheckupList" class="kr-home-checkup"></div>
+          </article>
           <article class="card warning-card">
             <h3>주의</h3>
             <p id="homeDisclaimer"></p>
@@ -113,6 +121,11 @@
           <h3>상담을 고려할 상황</h3>
           <ul id="doctorCheckList" class="text-list"></ul>
         </article>
+        <article class="card kr-card">
+          <p class="eyebrow">한국 공식자료 기준</p>
+          <h3>국내 발달선별검사 안내</h3>
+          <div id="krGrowthPolicy"></div>
+        </article>
       </section>
 
       <section id="pageMeal" class="page" aria-labelledby="mealTitle">
@@ -122,9 +135,15 @@
           <p id="mealSummary" class="muted"></p>
         </div>
         <div class="grid" id="mealGroups"></div>
+        <div id="krMealArea" class="grid"></div>
         <article class="card">
           <h3>음식 주의 데이터</h3>
           <div id="foodWarningArea"></div>
+        </article>
+        <article class="card kr-card">
+          <p class="eyebrow">한국 공식자료 기준</p>
+          <h3>한국 음식 주의 데이터</h3>
+          <div id="krFoodWarningArea"></div>
         </article>
       </section>
 
@@ -144,6 +163,7 @@
           <p class="muted">체크 상태는 현재 기기에 저장됩니다.</p>
         </div>
         <div id="checkGroups" class="grid"></div>
+        <div id="krCheckupArea" class="grid"></div>
       </section>
 
       <section id="pageSetting" class="page" aria-labelledby="settingTitle">
@@ -186,6 +206,12 @@
           <h3>데이터 검증</h3>
           <p id="validationResult" class="muted">검증 전입니다.</p>
           <button type="button" class="ghost-btn" id="btnValidateData">monthly-guide.json 검증</button>
+        </article>
+        <article class="card kr-card">
+          <p class="eyebrow">한국 공식자료 기준</p>
+          <h3>출처 및 K-DST 처리 정책</h3>
+          <p id="krKdstPolicyText" class="muted"></p>
+          <ul id="krSourceList" class="text-list source-list"></ul>
         </article>
         <article class="card warning-card">
           <h3>안내</h3>

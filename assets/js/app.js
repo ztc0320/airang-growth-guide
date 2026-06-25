@@ -1,5 +1,5 @@
 var App = (function(){
-  var state = {monthlyGuide:null, foodWarning:null, config:null, baby:null, babyAge:null, guide:null, deferredInstallPrompt:null, isAnimating:false};
+  var state = {monthlyGuide:null, foodWarning:null, config:null, krOverlay:null, krFeeding:null, krCheckup:null, krFoodWarning:null, krSleepSafety:null, krKdstPolicy:null, krSources:null, baby:null, babyAge:null, guide:null, krGuide:null, deferredInstallPrompt:null, isAnimating:false};
 
   function init(){
     setDateLimits();
@@ -15,11 +15,25 @@ var App = (function(){
     return $.when(
       $.getJSON('./assets/data/monthly-guide.json'),
       $.getJSON('./assets/data/food-warning.json'),
-      $.getJSON('./assets/data/app-config.json')
-    ).done(function(monthly, food, config){
+      $.getJSON('./assets/data/app-config.json'),
+      $.getJSON('./assets/data/kr-monthly-overlay.json'),
+      $.getJSON('./assets/data/kr-feeding-stage-guide.json'),
+      $.getJSON('./assets/data/kr-health-checkup-guide.json'),
+      $.getJSON('./assets/data/kr-food-warning.json'),
+      $.getJSON('./assets/data/kr-sleep-safety-guide.json'),
+      $.getJSON('./assets/data/kr-kdst-policy.json'),
+      $.getJSON('./assets/data/kr-official-sources.json')
+    ).done(function(monthly, food, config, krOverlay, krFeeding, krCheckup, krFoodWarning, krSleepSafety, krKdstPolicy, krSources){
       state.monthlyGuide = monthly[0];
       state.foodWarning = food[0];
       state.config = config[0];
+      state.krOverlay = krOverlay[0];
+      state.krFeeding = krFeeding[0];
+      state.krCheckup = krCheckup[0];
+      state.krFoodWarning = krFoodWarning[0];
+      state.krSleepSafety = krSleepSafety[0];
+      state.krKdstPolicy = krKdstPolicy[0];
+      state.krSources = krSources[0];
     });
   }
 
@@ -40,16 +54,23 @@ var App = (function(){
     state.babyAge = BabyCalc.getBabyAge(state.baby.birthDate);
     if(!state.babyAge){ $('#onboarding').addClass('is-active'); return; }
     state.guide = state.monthlyGuide[String(state.babyAge.guideMonth)];
+    state.krGuide = getKoreaMonthGuide(state.babyAge.guideMonth);
     if(!state.guide){ showFatal('현재 월령 데이터를 찾을 수 없습니다.'); return; }
     $('#headerTitle').text((state.baby.name || '우리 아이') + ' 가이드');
-    Renderer.renderHome(state.guide, state.babyAge, state.baby);
-    Renderer.renderGrowth(state.guide);
-    Renderer.renderMeal(state.guide, state.foodWarning, state.babyAge.guideMonth);
+    Renderer.renderHome(state.guide, state.babyAge, state.baby, state.krGuide);
+    Renderer.renderGrowth(state.guide, state.krGuide, state.krKdstPolicy);
+    Renderer.renderMeal(state.guide, state.foodWarning, state.babyAge.guideMonth, state.krGuide, state.krFoodWarning);
     Renderer.renderPlay(state.guide);
-    Renderer.renderChecklist(state.guide, state.babyAge.guideMonth);
-    Renderer.renderSetting(state.baby, state.guide);
+    Renderer.renderChecklist(state.guide, state.babyAge.guideMonth, state.krGuide);
+    Renderer.renderSetting(state.baby, state.guide, null, state.krSources, state.krKdstPolicy);
     renderStaticSettingText();
     NotificationManager.checkMonthChanged(state.babyAge, state.baby.notificationEnabled);
+  }
+
+  function getKoreaMonthGuide(month){
+    if(!state.krOverlay){ return null; }
+    if(state.krOverlay.months){ return state.krOverlay.months[String(month)] || null; }
+    return state.krOverlay[String(month)] || null;
   }
 
   function bindEvents(){
@@ -85,7 +106,10 @@ var App = (function(){
         return;
       }
       var result = validateMonthlyGuide(state.monthlyGuide);
-      $('#validationResult').text(result.valid ? '통과: 0~60개월 key와 필수 필드가 확인되었습니다.' : '오류: ' + result.errors.slice(0, 5).join(' / '));
+      var krResult = validateKoreaOverlay(state.krOverlay);
+      var message = result.valid ? 'CDC 데이터 통과: 0~60개월 key와 필수 필드가 확인되었습니다.' : 'CDC 데이터 오류: ' + result.errors.slice(0, 5).join(' / ');
+      message += krResult.valid ? ' / 한국 보강 데이터 통과: 0~60개월 key 확인.' : ' / 한국 보강 데이터 오류: ' + krResult.errors.slice(0, 5).join(' / ');
+      $('#validationResult').text(message);
     });
 
     $('#btnInstallApp').on('click', function(){
@@ -97,6 +121,16 @@ var App = (function(){
         updateInstallGuide();
       });
     });
+  }
+
+  function validateKoreaOverlay(data){
+    var result = {valid:true, errors:[]};
+    var months = data && data.months ? data.months : data;
+    if(!months){ return {valid:false, errors:['kr-monthly-overlay.json을 불러오지 못했습니다.']}; }
+    for(var i = 0; i <= 60; i++){
+      if(!months[String(i)]){ result.valid = false; result.errors.push(i + '개월 한국 보강 데이터 누락'); }
+    }
+    return result;
   }
 
   function saveBabyFromForm(nameSelector, birthSelector, notificationSelector, done){
@@ -161,8 +195,6 @@ var App = (function(){
     }
   }
 
-
-
   function routeHash(){
     var hash = String(location.hash || '').replace('#','');
     var map = {home:'pageHome',growth:'pageGrowth',meal:'pageMeal',play:'pagePlay',check:'pageCheck',setting:'pageSetting'};
@@ -172,13 +204,13 @@ var App = (function(){
   function renderStaticSettingText(){
     var version = state.config && state.config.version ? state.config.version : '1.0.0';
     var reviewedAt = state.config && state.config.reviewedAt ? state.config.reviewedAt : '2026-06-25';
-    $('#appVersionText').text('앱 버전 ' + version + ' · 콘텐츠 검수 기준일 ' + reviewedAt);
+    $('#appVersionText').text('앱 버전 ' + version + ' · 콘텐츠 검수 기준일 ' + reviewedAt + ' · 한국 공식자료 보강 포함');
   }
 
   function refreshChecklistOnly(){
     if(!state.guide || !state.babyAge){ return; }
-    Renderer.renderHome(state.guide, state.babyAge, state.baby);
-    Renderer.renderChecklist(state.guide, state.babyAge.guideMonth);
+    Renderer.renderHome(state.guide, state.babyAge, state.baby, state.krGuide);
+    Renderer.renderChecklist(state.guide, state.babyAge.guideMonth, state.krGuide);
   }
 
   function showPage(pageId){
