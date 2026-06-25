@@ -65,8 +65,8 @@ var Renderer = (function(){
   }
 
   function modeBadge(guide){
-    if(guide.displayMode === 'cdc_milestone'){ return '<span class="badge cdc">CDC 공식 체크포인트</span>'; }
-    if(guide.displayMode === 'between_cdc_milestones'){ return '<span class="badge between">CDC 중간 관찰 월령</span>'; }
+    if(guide.displayMode === 'cdc_milestone'){ return '<span class="badge cdc">CDC 발달 체크포인트</span>'; }
+    if(guide.displayMode === 'between_cdc_milestones'){ return '<span class="badge between">CDC 보조 관찰 월령</span>'; }
     return '<span class="badge between">첫 CDC 체크포인트 전</span>';
   }
 
@@ -76,12 +76,13 @@ var Renderer = (function(){
     $('#homeSub').text(babyAge.isOverMax ? '60개월 이후에는 마지막 가이드를 참고해요.' : '다음 개월까지 약 ' + babyAge.daysUntilNextMonth + '일 남았어요.');
     $('#daysUntilNextText').text(babyAge.isOverMax ? '60개월+' : babyAge.daysUntilNextMonth + '일');
     $('#guideMonthText').text(babyAge.guideMonth + '개월');
-    $('#monthBadge').html('<span class="badge">가이드 기준 ' + babyAge.guideMonth + '개월</span>' + modeBadge(guide));
+    $('#monthBadge').html('<span class="badge kr">한국 공식자료 우선</span><span class="badge">가이드 기준 ' + babyAge.guideMonth + '개월</span>' + modeBadge(guide));
     renderAgeProgress(babyAge);
-    $('#homeDirection').text(text(guide.direction || guide.summary));
-    $('#homeCdcNotice').text(text(guide.cdcNotice));
-    $('#homeFeeding').text(text(guide.feeding && guide.feeding.summary));
-    $('#homeDisclaimer').text(text(guide.disclaimer));
+    var krDirection = krGuide && krGuide.feedingSummary ? krGuide.feedingSummary : '';
+    $('#homeDirection').text(text(krDirection || guide.direction || guide.summary));
+    $('#homeCdcNotice').text('발달 포인트는 CDC 공개 체크포인트를 보조 참고자료로 사용하고, 식사·검진 안내는 한국 공식자료를 우선 표시합니다.');
+    $('#homeFeeding').text(text((krGuide && krGuide.feedingStageTitle ? krGuide.feedingStageTitle + ' · ' : '') + (krGuide && krGuide.feedingSummary ? krGuide.feedingSummary : (guide.feeding && guide.feeding.summary))));
+    $('#homeDisclaimer').text(text((krGuide && krGuide.disclaimer) || guide.disclaimer));
     renderCompactChecklist($('#homeChecklist'), guide, babyAge.guideMonth);
     renderKoreaHome(krGuide);
   }
@@ -118,7 +119,7 @@ var Renderer = (function(){
 
   function renderGrowth(guide, krGuide, krKdstPolicy){
     $('#growthTitle').text(guide.title + ' 발달 포인트');
-    $('#growthNotice').text(text(guide.cdcNotice));
+    $('#growthNotice').text('한국에서는 영유아 건강검진과 발달평가 상담을 우선 확인하고, 아래 CDC 발달 포인트는 공개 참고자료로 함께 봅니다. ' + text(guide.cdcNotice));
     var $wrap = $('#growthGroups').empty();
     var dev = guide.development || {};
     $.each(['motor','language','social','cognitive'], function(_, key){ $wrap.append(makeListCard(labels[key], dev[key] || [])); });
@@ -137,7 +138,7 @@ var Renderer = (function(){
 
   function renderMeal(guide, foodWarning, month, krGuide, krFoodWarning){
     $('#mealTitle').text(guide.title + ' 식사 가이드');
-    $('#mealSummary').text((guide.feeding && guide.feeding.stage ? guide.feeding.stage + ' · ' : '') + text(guide.feeding && guide.feeding.summary));
+    $('#mealSummary').text(text((krGuide && krGuide.feedingStageTitle ? krGuide.feedingStageTitle + ' · ' : '') + (krGuide && krGuide.feedingSummary ? krGuide.feedingSummary : ((guide.feeding && guide.feeding.stage ? guide.feeding.stage + ' · ' : '') + text(guide.feeding && guide.feeding.summary)))));
     var $wrap = $('#mealGroups').empty();
     var feeding = guide.feeding || {};
     $.each(['breastMilkFormula','cowMilk','meal','cupPractice','texture','caution'], function(_, key){ $wrap.append(makeListCard(labels[key], feeding[key] || [])); });

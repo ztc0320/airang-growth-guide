@@ -1,4 +1,4 @@
-var CACHE_NAME = 'airang-growth-guide-v5-sources';
+var CACHE_NAME = 'airang-growth-guide-v6-kr-priority-fix';
 var APP_SHELL = [
   './',
   './index.html',

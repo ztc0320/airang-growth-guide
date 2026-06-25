@@ -93,10 +93,11 @@
           </article>
           <article class="card">
             <h3>이번 달 식사 변화</h3>
+            <p class="eyebrow">한국 공식자료 우선</p>
             <p id="homeFeeding"></p>
           </article>
           <article class="card kr-card" id="krHomeCard" style="display:none;">
-            <p class="eyebrow">한국 공식자료 기준</p>
+            <p class="eyebrow">한국 공식자료 우선</p>
             <h3>한국형 식사·검진 안내</h3>
             <p><strong id="krHomeStage"></strong></p>
             <p id="krHomeSummary"></p>
@@ -134,17 +135,21 @@
           <h2 id="mealTitle">식사 가이드</h2>
           <p id="mealSummary" class="muted"></p>
         </div>
-        <div class="grid" id="mealGroups"></div>
         <div id="krMealArea" class="grid"></div>
-        <article class="card">
-          <h3>음식 주의 데이터</h3>
-          <div id="foodWarningArea"></div>
-        </article>
         <article class="card kr-card">
-          <p class="eyebrow">한국 공식자료 기준</p>
+          <p class="eyebrow">한국 공식자료 우선</p>
           <h3>한국 음식 주의 데이터</h3>
           <div id="krFoodWarningArea"></div>
         </article>
+        <div class="reference-block">
+          <p class="eyebrow">보조 참고자료</p>
+          <h3>CDC 식사 참고 데이터</h3>
+          <div class="grid" id="mealGroups"></div>
+          <article class="card">
+            <h3>CDC 음식 주의 데이터</h3>
+            <div id="foodWarningArea"></div>
+          </article>
+        </div>
       </section>
 
       <section id="pagePlay" class="page" aria-labelledby="playTitle">

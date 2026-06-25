@@ -147,6 +147,45 @@
     return this.each(function(){ if(this.parentNode){ this.parentNode.removeChild(this); } });
   };
 
+
+  Wrapper.prototype.show = function(){
+    return this.each(function(){
+      this.style.display = '';
+      if(getComputedStyle(this).display === 'none'){
+        this.style.display = this.__miniOldDisplay || 'block';
+      }
+    });
+  };
+
+  Wrapper.prototype.hide = function(){
+    return this.each(function(){
+      var currentDisplay = getComputedStyle(this).display;
+      if(currentDisplay !== 'none'){
+        this.__miniOldDisplay = currentDisplay;
+      }
+      this.style.display = 'none';
+    });
+  };
+
+  Wrapper.prototype.toggle = function(force){
+    return this.each(function(){
+      var shouldShow = force;
+      if(shouldShow === undefined){ shouldShow = getComputedStyle(this).display === 'none'; }
+      if(shouldShow){
+        this.style.display = '';
+        if(getComputedStyle(this).display === 'none'){
+          this.style.display = this.__miniOldDisplay || 'block';
+        }
+      } else {
+        var currentDisplay = getComputedStyle(this).display;
+        if(currentDisplay !== 'none'){
+          this.__miniOldDisplay = currentDisplay;
+        }
+        this.style.display = 'none';
+      }
+    });
+  };
+
   MiniQuery.each = function(obj, callback){
     if(Array.isArray(obj) || (obj && typeof obj.length === 'number')){
       for(var i = 0; i < obj.length; i++){ if(callback.call(obj[i], i, obj[i]) === false){ break; } }
