@@ -202,6 +202,10 @@ var Renderer = (function(){
     if(item.recommendedQuantity){ $item.append($('<p class="weaning-prep-quantity"></p>').text('권장 수량: ' + item.recommendedQuantity)); }
     if(item.reason){ $item.append($('<p></p>').text(item.reason)); }
     if(item.caution){ $item.append($('<p class="product-caution"></p>').text(item.caution)); }
+    if(item.searchKeyword){
+      var url = 'https://search.shopping.naver.com/search/all?query=' + encodeURIComponent(item.searchKeyword);
+      $item.append($('<a class="product-search" target="_blank" rel="noopener"></a>').attr('href', url).text('쇼핑 검색어 보기'));
+    }
     return $item;
   }
 

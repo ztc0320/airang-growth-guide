@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "5~6개월 이유식 준비물 체크리스트",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "reviewedAt": "2026-06-26",
     "country": "KR",
     "showForMonths": [
@@ -12,9 +12,13 @@
     "sourceType": "user_uploaded_image",
     "sourceTitle": "이유식에 필요한 것들 (새로 구매는 선택)",
     "sourcePolicy": [
-      "수량, 구매 기준, 사용 이유는 사용자의 몫입니다. 잘 판단하시고 구매하시기 바랍니다."
+      "사용자가 업로드한 이미지에 보이는 품목명과 필수/선택 구분만 반영합니다.",
+      "이전 PDF 또는 weaning-prep-5m.json의 문구, 수량, 설명, 분류는 사용하지 않습니다.",
+      "사진에 없는 추천 수량, 구매 기준, 사용 이유, 주의사항은 임의로 추가하지 않습니다."
     ],
-    "disclaimer": "이 목록은 임의로 작성된 준비물 체크리스트입니다. 따라할 필요는 없습니다. 아이의 발달 상태와 이유식 방식에 따라 실제 필요 여부는 달라질 수 있습니다."
+    "disclaimer": "이 목록은 사용자가 업로드한 이미지 기준의 준비물 체크리스트입니다. 아이의 발달 상태와 이유식 방식에 따라 실제 필요 여부는 달라질 수 있습니다.",
+    "shoppingLinkType": "naver_shopping_search",
+    "shoppingLinkPolicy": "품목별 브랜드나 판매처를 지정하지 않고 네이버 쇼핑 검색어 링크만 제공합니다."
   },
   "months": {
     "5": {
@@ -34,91 +38,106 @@
               "id": "weaning_cube",
               "name": "이유식 큐브",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 큐브"
             },
             {
               "id": "weaning_steamer",
               "name": "이유식 찜기",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 찜기"
             },
             {
               "id": "weaning_storage_container",
               "name": "이유식 보관용기",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 보관용기"
             },
             {
               "id": "cube_storage_container",
               "name": "큐브 보관용기",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 큐브 보관용기"
             },
             {
               "id": "chopper",
               "name": "초퍼",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 초퍼"
             },
             {
               "id": "weaning_plate",
               "name": "이유식 식판",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 식판"
             },
             {
               "id": "weaning_spoon",
               "name": "이유식 스푼",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 스푼"
             },
             {
               "id": "suction_bowl",
               "name": "흡착볼",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "아기 흡착볼"
             },
             {
               "id": "bib",
               "name": "턱받이",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "아기 이유식 턱받이"
             },
             {
               "id": "pot",
               "name": "냄비",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 냄비"
             },
             {
               "id": "cutting_board",
               "name": "도마",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 도마"
             },
             {
               "id": "straw_cup",
               "name": "빨대컵",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "아기 빨대컵"
             },
             {
               "id": "spatula",
               "name": "스파출라",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 스파출라"
             },
             {
               "id": "scale",
               "name": "저울",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 저울"
             },
             {
               "id": "masher",
               "name": "매셔",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 매셔"
             }
           ]
         },
@@ -130,19 +149,36 @@
               "id": "knife",
               "name": "칼",
               "priority": "optional",
-              "sourceLabel": "선"
+              "sourceLabel": "선",
+              "searchKeyword": "이유식 칼"
             },
             {
               "id": "tongs",
               "name": "집게",
               "priority": "optional",
-              "sourceLabel": "선"
+              "sourceLabel": "선",
+              "searchKeyword": "이유식 집게"
             },
             {
               "id": "measuring_cup",
               "name": "계량컵",
               "priority": "optional",
-              "sourceLabel": "선"
+              "sourceLabel": "선",
+              "searchKeyword": "이유식 계량컵"
+            },
+            {
+              "id": "self_feeding_apron",
+              "name": "자기주도 앞치마",
+              "priority": "optional",
+              "sourceLabel": "선",
+              "searchKeyword": "아기 자기주도 앞치마"
+            },
+            {
+              "id": "strainer",
+              "name": "채망",
+              "priority": "optional",
+              "sourceLabel": "선",
+              "searchKeyword": "이유식 채망"
             }
           ]
         }
@@ -169,91 +205,106 @@
               "id": "weaning_cube",
               "name": "이유식 큐브",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 큐브"
             },
             {
               "id": "weaning_steamer",
               "name": "이유식 찜기",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 찜기"
             },
             {
               "id": "weaning_storage_container",
               "name": "이유식 보관용기",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 보관용기"
             },
             {
               "id": "cube_storage_container",
               "name": "큐브 보관용기",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 큐브 보관용기"
             },
             {
               "id": "chopper",
               "name": "초퍼",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 초퍼"
             },
             {
               "id": "weaning_plate",
               "name": "이유식 식판",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 식판"
             },
             {
               "id": "weaning_spoon",
               "name": "이유식 스푼",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 스푼"
             },
             {
               "id": "suction_bowl",
               "name": "흡착볼",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "아기 흡착볼"
             },
             {
               "id": "bib",
               "name": "턱받이",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "아기 이유식 턱받이"
             },
             {
               "id": "pot",
               "name": "냄비",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 냄비"
             },
             {
               "id": "cutting_board",
               "name": "도마",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 도마"
             },
             {
               "id": "straw_cup",
               "name": "빨대컵",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "아기 빨대컵"
             },
             {
               "id": "spatula",
               "name": "스파출라",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 스파출라"
             },
             {
               "id": "scale",
               "name": "저울",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 저울"
             },
             {
               "id": "masher",
               "name": "매셔",
               "priority": "required",
-              "sourceLabel": "필"
+              "sourceLabel": "필",
+              "searchKeyword": "이유식 매셔"
             }
           ]
         },
@@ -265,19 +316,36 @@
               "id": "knife",
               "name": "칼",
               "priority": "optional",
-              "sourceLabel": "선"
+              "sourceLabel": "선",
+              "searchKeyword": "이유식 칼"
             },
             {
               "id": "tongs",
               "name": "집게",
               "priority": "optional",
-              "sourceLabel": "선"
+              "sourceLabel": "선",
+              "searchKeyword": "이유식 집게"
             },
             {
               "id": "measuring_cup",
               "name": "계량컵",
               "priority": "optional",
-              "sourceLabel": "선"
+              "sourceLabel": "선",
+              "searchKeyword": "이유식 계량컵"
+            },
+            {
+              "id": "self_feeding_apron",
+              "name": "자기주도 앞치마",
+              "priority": "optional",
+              "sourceLabel": "선",
+              "searchKeyword": "아기 자기주도 앞치마"
+            },
+            {
+              "id": "strainer",
+              "name": "채망",
+              "priority": "optional",
+              "sourceLabel": "선",
+              "searchKeyword": "이유식 채망"
             }
           ]
         }

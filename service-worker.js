@@ -1,4 +1,4 @@
-var CACHE_NAME = 'airang-growth-guide-v9-weaning-prep';
+var CACHE_NAME = 'airang-growth-guide-v10-weaning-prep-shopping';
 var APP_SHELL = [
   './',
   './index.html',
