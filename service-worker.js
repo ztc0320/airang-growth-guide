@@ -1,4 +1,4 @@
-var CACHE_NAME = 'airang-growth-guide-v11-gtm';
+var CACHE_NAME = 'airang-growth-guide-v12-ga4-gtag';
 var APP_SHELL = [
   './',
   './index.html',
