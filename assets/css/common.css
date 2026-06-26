@@ -315,3 +315,35 @@ noscript {background:var(--airang-primary-soft);color:var(--airang-primary-dark)
 .feeding-guide-note {color:var(--airang-muted)!important;}
 .feeding-guide-warning {background:var(--airang-primary-weak);border:1px solid var(--airang-line);color:var(--airang-primary-dark)!important;}
 @media (hover:hover) {.card:hover {box-shadow:0 16px 34px rgba(0,102,210,.12);}.ghost-btn:hover {background:var(--airang-primary-weak);}}
+
+/* Airang readability tuning */
+:root {--airang-text:#111827;--airang-muted:#4B5563;--airang-light:#6B7280;--airang-bg:#F7FBFF;--airang-surface:#FFFFFF;--airang-soft:#F1F7FF;--airang-line:#CFE2F7;--airang-line-strong:#9BCBFF;--airang-shadow:0 14px 34px rgba(0,102,210,.10);--airang-shadow-soft:0 8px 22px rgba(0,102,210,.075);}
+html {font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Noto Sans KR",Roboto,sans-serif;}
+body {font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Noto Sans KR",Roboto,sans-serif;background:var(--airang-bg);color:var(--airang-text);line-height:1.62;letter-spacing:-.01em;}
+h1,h2,h3,h4,.app-header h1,.section-title h2,.card h3,.product-hero h1,.product-card h3,.feeding-guide-panel h4,.static-page h1,.static-page h2 {font-family:"Paperlogy",-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Noto Sans KR",sans-serif;font-weight:800;letter-spacing:-.025em;}
+.app {background:linear-gradient(180deg,#FFFFFF 0%,#F7FBFF 100%);}
+.app-header {background:rgba(255,255,255,.94);border-bottom:1px solid var(--airang-line);}
+.muted,.empty-text,.group-title span,.static-page p,.product-summary,.product-item p,.food-item p,.kr-checkup-item p,.source-card-list span,.source-date,.weaning-prep-summary,.feeding-guide-note {color:var(--airang-muted)!important;}
+.card {background:var(--airang-surface);border:1px solid var(--airang-line);box-shadow:var(--airang-shadow-soft);}
+.card p {color:var(--airang-text);font-weight:400;line-height:1.68;}
+.card h3 {color:var(--airang-primary-dark);}
+.card-feature,.warning-card,.kr-card,.weaning-prep-card,.feeding-guide-card {background:var(--airang-surface);}
+.text-list li {color:var(--airang-text);line-height:1.68;}
+.food-item,.product-item,.kr-info-chip,.source-card-list li {background:var(--airang-soft);border:1px solid var(--airang-line);}
+.check-item {background:#FFFFFF;border:1px solid var(--airang-line);}
+.check-item span {color:var(--airang-text);line-height:1.6;}
+.notice-banner,.feeding-guide-warning,.product-disclaimer {background:var(--airang-soft);border:1px solid var(--airang-line);color:var(--airang-primary-dark)!important;}
+.feeding-guide-card {border-color:var(--airang-line);}
+.feeding-guide-stage {background:var(--airang-primary);color:#FFFFFF;font-family:"Paperlogy",-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif;font-weight:800;}
+.feeding-guide-panel {background:#FFFFFF;border:1px solid var(--airang-line);box-shadow:0 8px 18px rgba(0,102,210,.045);}
+.feeding-guide-row {align-items:center;border-top:1px solid #E5F1FF;}
+.feeding-guide-row span {color:var(--airang-light);font-size:.86rem;font-weight:700;}
+.feeding-guide-row strong {color:var(--airang-text);font-size:.96rem;font-weight:800;line-height:1.48;}
+.feeding-guide-warning {font-weight:600;}
+.product-search,.text-link {color:var(--airang-primary);font-weight:800;}
+.primary-btn,.ghost-btn,.icon-btn,.nav-btn {font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Noto Sans KR",Roboto,sans-serif;font-weight:800;}
+.bottom-nav {background:rgba(255,255,255,.96);border-top:1px solid var(--airang-line);}
+.nav-btn {color:var(--airang-muted);}
+.nav-btn.is-active {background:var(--airang-primary);color:#FFFFFF;}
+.badge,.product-priority,.feeding-guide-stage {letter-spacing:-.01em;}
+@media (hover:hover) {.card:hover {box-shadow:0 14px 30px rgba(0,102,210,.1);}}
