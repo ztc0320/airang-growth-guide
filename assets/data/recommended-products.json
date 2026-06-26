@@ -2280,7 +2280,7 @@
           "items": [
             {
               "category": "exercise",
-              "name": "킥보드 후보",
+              "name": "킥보드",
               "reason": "균형과 이동놀이에 관심을 보일 수 있어요.",
               "priority": "low",
               "caution": "보호장비와 안전한 장소가 먼저입니다.",
@@ -2848,11 +2848,11 @@
           "items": [
             {
               "category": "exercise",
-              "name": "자전거 후보",
+              "name": "자전거",
               "reason": "균형과 페달 놀이에 관심을 보일 수 있어요.",
               "priority": "low",
               "caution": "아이 키와 안전장비를 먼저 확인하세요.",
-              "searchKeyword": "유아 자전거"
+              "searchKeyword": "유아용 자전거"
             }
           ]
         },
