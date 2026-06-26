@@ -152,6 +152,9 @@ var Renderer = (function(){
   function renderFeedingGuide(data, month){
     var $area = $('#feedingGuideArea').empty();
     if(!$area.length){ return; }
+    var targetMonth = Number(month);
+    if(targetMonth >= 12){ $area.hide(); return; }
+    $area.show();
     var item = getFeedingGuideMonthData(data, month);
     if(!item){ $area.append('<p class="empty-text">월령별 수유·이유식 기준 데이터를 불러오지 못했습니다.</p>'); return; }
     var meta = data && data.meta ? data.meta : {};
