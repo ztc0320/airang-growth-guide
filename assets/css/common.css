@@ -287,7 +287,8 @@ noscript {background:var(--airang-primary-soft);color:var(--airang-primary-dark)
 .product-hero .eyebrow {color:rgba(255,255,255,.82);}
 .product-hero h1 {color:#fff;font-weight:900;}
 .product-hero .muted {color:rgba(255,255,255,.82);}
-.product-control label {color:var(--airang-text);}
+/*.product-control label {color:var(--airang-text);}*/
+.product-control label {color:#fff;}
 .product-control select {border:1px solid var(--airang-line);background:#fff;color:var(--airang-text);}
 .product-summary {background:var(--airang-primary-weak);color:var(--airang-muted);border:1px solid var(--airang-line);}
 .product-card {border:1px solid var(--airang-line);background:#fff;box-shadow:var(--airang-shadow-soft);}
