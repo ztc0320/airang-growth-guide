@@ -9,8 +9,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f7f1e8",
-  "theme_color": "#f7f1e8",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0066D2",
   "categories": [
     "health",
     "lifestyle",
