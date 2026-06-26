@@ -1,4 +1,4 @@
-var CACHE_NAME = 'airang-growth-guide-v10-weaning-prep-shopping';
+var CACHE_NAME = 'airang-growth-guide-v11-gtm';
 var APP_SHELL = [
   './',
   './index.html',
@@ -47,6 +47,7 @@ self.addEventListener('activate', function(event){
 self.addEventListener('fetch', function(event){
   if(event.request.method !== 'GET'){ return; }
   var url = new URL(event.request.url);
+  if(url.origin !== self.location.origin){ return; }
   if(url.pathname.indexOf('/assets/data/') > -1){
     event.respondWith(networkFirst(event.request));
     return;
