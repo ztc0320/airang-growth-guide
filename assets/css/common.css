@@ -12,8 +12,8 @@ li {list-style:none;}
 .app-header {position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:12px;margin:-18px -16px 14px;padding:16px;background:rgba(247,241,232,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.55);}
 .app-header h1 {margin:2px 0 0;font-size:1.18rem;line-height:1.25;letter-spacing:-.02em;}
 .header-copy {min-width:0;}
-.app-main {position:relative;z-index:1;max-width:780px;margin:0 auto;}
-.app-main > section {padding-top:30px;}
+.app-main {position:relative;z-index:1;max-width:780px;margin:0 auto;padding-top:30px;}
+/* .app-main > section {padding-top:30px;} */
 .eyebrow {margin:0;font-size:.76rem;font-weight:800;color:#5e7f63;letter-spacing:.02em;}
 .muted {margin:8px 0 0;color:#697068;font-size:.92rem;line-height:1.58;}
 .icon-btn {min-width:52px;height:38px;padding:0 13px;border:1px solid rgba(91,124,99,.16);border-radius:999px;background:rgba(255,255,255,.7);color:#315540;font-size:.82rem;font-weight:800;box-shadow:0 8px 18px rgba(49,85,64,.08);}
@@ -148,7 +148,7 @@ noscript {display:block;padding:16px;background:#fff4d6;color:#3d2e12;text-align
 #growthCheckGroups.grid .card {margin-bottom:0 !important;}
 #growthKrCheckupArea.grid .card {margin-bottom:0 !important;}
 .products-page .app-main {padding-bottom:18px;}
-.product-hero {position:relative;overflow:hidden;padding:22px;margin-top:30px;border:1px solid rgba(255,255,255,.72);border-radius:30px;background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(255,250,239,.9));box-shadow:0 18px 42px rgba(49,85,64,.1);}
+.product-hero {position:relative;overflow:hidden;padding:22px;border:1px solid rgba(255,255,255,.72);border-radius:30px;background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(255,250,239,.9));box-shadow:0 18px 42px rgba(49,85,64,.1);}
 .product-hero h1 {margin:8px 0 0;font-size:1.74rem;line-height:1.2;letter-spacing:-.045em;}
 .product-control {display:grid;gap:10px;margin-top:16px;}
 .product-control label {font-size:.88rem;font-weight:900;color:#333b35;}
