@@ -129,6 +129,12 @@
           <h3>국내 발달선별검사 안내</h3>
           <div id="krGrowthPolicy"></div>
         </article>
+        <article class="card wide growth-check-card">
+          <h3>이번 달 체크포인트</h3>
+          <p class="muted">기존 체크 탭의 항목을 성장 탭에서 함께 확인합니다. 체크 상태는 현재 기기에 저장됩니다.</p>
+          <div id="growthCheckGroups" class="grid compact-grid"></div>
+        </article>
+        <div id="growthKrCheckupArea" class="grid"></div>
       </section>
 
       <section id="pageMeal" class="page" aria-labelledby="mealTitle">
@@ -162,17 +168,6 @@
         </div>
         <div class="grid" id="playGroups"></div>
       </section>
-
-      <section id="pageCheck" class="page" aria-labelledby="checkTitle">
-        <div class="section-title">
-          <p class="eyebrow">체크</p>
-          <h2 id="checkTitle">이번 달 체크리스트</h2>
-          <p class="muted">체크 상태는 현재 기기에 저장됩니다.</p>
-        </div>
-        <div id="checkGroups" class="grid"></div>
-        <div id="krCheckupArea" class="grid"></div>
-      </section>
-
       <section id="pageSetting" class="page" aria-labelledby="settingTitle">
         <div class="section-title">
           <p class="eyebrow">설정</p>
@@ -238,7 +233,7 @@
       <button type="button" class="nav-btn" data-page="pageGrowth"><span class="nav-ico">↗</span><span>성장</span></button>
       <button type="button" class="nav-btn" data-page="pageMeal"><span class="nav-ico">◌</span><span>식사</span></button>
       <button type="button" class="nav-btn" data-page="pagePlay"><span class="nav-ico">◇</span><span>놀이</span></button>
-      <button type="button" class="nav-btn" data-page="pageCheck"><span class="nav-ico">✓</span><span>체크</span></button>
+      <a class="nav-btn" href="./products.html"><span class="nav-ico">□</span><span>준비물</span></a>
       <button type="button" class="nav-btn" data-page="pageSetting"><span class="nav-ico">⋯</span><span>설정</span></button>
     </nav>
   </div>

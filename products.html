@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f1e8">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="아이 개월수에 맞춰 자주 확인하는 월령별 육아 준비물 안내">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="월령별 준비물 | 아이랑 성장가이드">
+  <meta property="og:description" content="아이 월령에 맞춰 수유, 이유식, 놀이, 안전, 외출 준비물을 확인하세요.">
+  <meta property="og:image" content="./assets/icons/icon-512.png">
+  <title>월령별 준비물 | 아이랑 성장가이드</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/icons/icon-512.png">
+  <link rel="apple-touch-icon" href="./assets/icons/icon-192.png">
+  <link rel="stylesheet" href="./assets/css/common.css">
+  <!-- AdSense를 준비물 페이지에만 적용하려면 승인 후 이 head 영역에 Google AdSense 스크립트를 붙여 넣으세요. -->
+</head>
+<body class="products-page">
+  <noscript>이 페이지는 JavaScript가 필요합니다. 브라우저 설정에서 JavaScript를 켜 주세요.</noscript>
+  <div class="app">
+    <div class="bg-orb bg-orb-1" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
+
+    <header class="app-header">
+      <div class="header-copy">
+        <p class="eyebrow">아이랑 성장가이드</p>
+        <h1 id="productsHeaderTitle">월령별 준비물</h1>
+      </div>
+      <a class="icon-btn" href="./index.html#setting" aria-label="설정으로 이동">설정</a>
+    </header>
+
+    <main class="app-main">
+      <section class="product-hero" aria-labelledby="productsTitle">
+        <p class="eyebrow">월령별 준비물</p>
+        <h1 id="productsTitle">이 시기 필요한 육아용품</h1>
+        <p id="productsIntro" class="muted">아이 정보를 입력하면 현재 월령에 맞는 준비물을 먼저 보여줍니다.</p>
+        <div class="product-control">
+          <label for="productMonthSelect">확인할 월령 선택</label>
+          <select id="productMonthSelect" aria-label="월령 선택"></select>
+        </div>
+        <p id="productsSummary" class="product-summary"></p>
+      </section>
+
+      <section class="ad-card" aria-label="광고 영역">
+        <p class="ad-label">광고</p>
+        <p class="muted">AdSense 승인 후 이 영역에 수동 광고 단위를 삽입하세요.</p>
+        <!-- 예: <ins class="adsbygoogle" ...></ins> -->
+      </section>
+
+      <section class="grid product-grid" id="productCategoryList" aria-label="월령별 준비물 목록"></section>
+      <section class="product-disclaimer" id="productDisclaimer"></section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="하단 메뉴">
+      <a class="nav-btn" href="./index.html#home"><span class="nav-ico">⌂</span><span>홈</span></a>
+      <a class="nav-btn" href="./index.html#growth"><span class="nav-ico">↗</span><span>성장</span></a>
+      <a class="nav-btn" href="./index.html#meal"><span class="nav-ico">◌</span><span>식사</span></a>
+      <a class="nav-btn" href="./index.html#play"><span class="nav-ico">◇</span><span>놀이</span></a>
+      <a class="nav-btn is-active" href="./products.html" aria-current="page"><span class="nav-ico">□</span><span>준비물</span></a>
+      <a class="nav-btn" href="./index.html#setting"><span class="nav-ico">⋯</span><span>설정</span></a>
+    </nav>
+  </div>
+
+  <script src="./assets/js/vendor/jquery-lite.js"></script>
+  <script src="./assets/js/storage.js"></script>
+  <script src="./assets/js/baby-calc.js"></script>
+  <script src="./assets/js/products.js"></script>
+</body>
+</html>

@@ -1,9 +1,10 @@
-var CACHE_NAME = 'airang-growth-guide-v6-kr-priority-fix';
+var CACHE_NAME = 'airang-growth-guide-v8-products-page';
 var APP_SHELL = [
   './',
   './index.html',
   './privacy.html',
   './sources.html',
+  './products.html',
   './manifest.json',
   './assets/css/common.css',
   './assets/js/vendor/jquery-lite.js',
@@ -13,6 +14,7 @@ var APP_SHELL = [
   './assets/js/storage.js',
   './assets/js/notification.js',
   './assets/js/validate-monthly-guide.js',
+  './assets/js/products.js',
   './assets/data/monthly-guide.json',
   './assets/data/cdc-milestones-ko.json',
   './assets/data/food-warning.json',
@@ -24,6 +26,7 @@ var APP_SHELL = [
   './assets/data/kr-sleep-safety-guide.json',
   './assets/data/kr-monthly-overlay.json',
   './assets/data/kr-kdst-policy.json',
+  './assets/data/recommended-products.json',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png'
 ];

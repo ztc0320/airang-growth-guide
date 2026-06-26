@@ -32,9 +32,9 @@
   ],
   "shortcuts": [
     {
-      "name": "오늘 체크",
-      "short_name": "체크",
-      "url": "./index.html#check",
+      "name": "성장 체크포인트",
+      "short_name": "성장",
+      "url": "./index.html#growth",
       "icons": [
         {
           "src": "./assets/icons/icon-192.png",
@@ -43,9 +43,9 @@
       ]
     },
     {
-      "name": "식사 가이드",
-      "short_name": "식사",
-      "url": "./index.html#meal",
+      "name": "월령별 준비물",
+      "short_name": "준비물",
+      "url": "./products.html",
       "icons": [
         {
           "src": "./assets/icons/icon-192.png",

@@ -125,6 +125,7 @@ var Renderer = (function(){
     $.each(['motor','language','social','cognitive'], function(_, key){ $wrap.append(makeListCard(labels[key], dev[key] || [])); });
     renderList($('#doctorCheckList'), guide.doctorCheck || []);
     renderKoreaGrowthPolicy(krGuide, krKdstPolicy);
+    renderGrowthChecklist(guide, guide.month, krGuide);
   }
 
   function renderKoreaGrowthPolicy(krGuide, krKdstPolicy){
@@ -221,6 +222,32 @@ var Renderer = (function(){
       $wrap.append($card);
     });
     renderKoreaChecklist(krGuide);
+  }
+
+  function renderGrowthChecklist(guide, month, krGuide){
+    var $wrap = $('#growthCheckGroups').empty();
+    if(!$wrap.length){ return; }
+    var checklist = guide.checklist || {};
+    $.each(['development','feeding','sleep','safety'], function(_, group){
+      var $card = $('<article class="card"></article>');
+      $card.append($('<h3></h3>').text(labels[group]));
+      var items = $.map(checklist[group] || [], function(item, index){ return {group:group,index:index,text:item}; });
+      renderChecklistItems($card, items, month, false);
+      $wrap.append($card);
+    });
+    renderGrowthKoreaChecklist(krGuide);
+  }
+
+  function renderGrowthKoreaChecklist(krGuide){
+    var $target = $('#growthKrCheckupArea').empty();
+    if(!$target.length || !krGuide){ return; }
+    var $card = $('<article class="card kr-card"></article>');
+    $card.append('<p class="eyebrow">한국 공식자료 기준</p>');
+    $card.append('<h3>건강검진·식사 체크</h3>');
+    if(krGuide.koreaHealthCheckups && krGuide.koreaHealthCheckups.length){ renderKoreaCheckups($card, krGuide.koreaHealthCheckups); }
+    if(krGuide.kdstNotice){ $card.append($('<p class="notice-text"></p>').text(krGuide.kdstNotice)); }
+    if(krGuide.disclaimer){ $card.append($('<p class="muted small-text"></p>').text(krGuide.disclaimer)); }
+    $target.append($card);
   }
 
   function renderKoreaChecklist(krGuide){

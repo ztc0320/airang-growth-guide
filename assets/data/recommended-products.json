@@ -1,0 +1,3421 @@
+{
+  "metadata": {
+    "title": "월령별 준비물",
+    "version": "1.0.0",
+    "reviewedAt": "2026-06-26",
+    "maxGuideMonth": 60,
+    "disclaimer": "이 목록은 월령별로 자주 사용하는 육아용품 예시입니다. 실제 필요 여부는 아이의 발달 상태, 생활환경, 보호자 판단에 따라 달라질 수 있습니다. 의약품과 치료 목적 제품은 추천상품에서 제외하고, 건강 문제가 있으면 의사 또는 약사와 상담하세요."
+  },
+  "months": {
+    "0": {
+      "month": 0,
+      "title": "생후 0개월 준비물",
+      "summary": "수유, 수면, 위생, 체온 확인 중심으로 준비해요.",
+      "categories": [
+        {
+          "id": "feeding",
+          "title": "수유",
+          "items": [
+            {
+              "category": "feeding",
+              "name": "젖병",
+              "reason": "분유 수유 또는 유축 수유 시 사용할 수 있어요.",
+              "priority": "high",
+              "caution": "젖꼭지 단계와 세척·소독 방식을 확인하세요.",
+              "searchKeyword": "신생아 젖병"
+            },
+            {
+              "category": "feeding",
+              "name": "젖병솔",
+              "reason": "젖병과 젖꼭지 세척에 필요해요.",
+              "priority": "medium",
+              "searchKeyword": "젖병솔"
+            },
+            {
+              "category": "feeding",
+              "name": "수유쿠션",
+              "reason": "수유 자세를 안정적으로 잡는 데 도움이 될 수 있어요.",
+              "priority": "medium",
+              "caution": "아기를 쿠션 위에 혼자 두지 마세요.",
+              "searchKeyword": "수유쿠션"
+            }
+          ]
+        },
+        {
+          "id": "sleep",
+          "title": "수면",
+          "items": [
+            {
+              "category": "sleep",
+              "name": "속싸개",
+              "reason": "신생아 수면 루틴을 잡는 데 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "아이가 뒤집기 시작하면 사용을 중단하세요.",
+              "searchKeyword": "신생아 속싸개"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "손수건",
+              "reason": "수유, 목욕, 침 닦기에 자주 사용해요.",
+              "priority": "high",
+              "searchKeyword": "아기 손수건"
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "건강관리",
+          "items": [
+            {
+              "category": "health",
+              "name": "전자체온계",
+              "reason": "발열 확인을 위해 상비해두기 좋아요.",
+              "priority": "high",
+              "caution": "측정 부위별 정상 범위가 다를 수 있어요.",
+              "searchKeyword": "아기 체온계"
+            }
+          ]
+        }
+      ]
+    },
+    "1": {
+      "month": 1,
+      "title": "생후 1개월 준비물",
+      "summary": "수유 리듬과 목욕·피부 위생을 안정적으로 관리해요.",
+      "categories": [
+        {
+          "id": "feeding",
+          "title": "수유",
+          "items": [
+            {
+              "category": "feeding",
+              "name": "젖병 소독용품",
+              "reason": "수유 용품 위생 관리를 돕습니다.",
+              "priority": "high",
+              "searchKeyword": "젖병 소독기"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "기저귀 정리함",
+              "reason": "기저귀와 위생용품을 한곳에 정리하기 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "기저귀 정리함"
+            },
+            {
+              "category": "hygiene",
+              "name": "아기세제",
+              "reason": "아기 옷과 손수건 세탁에 사용해요.",
+              "priority": "medium",
+              "caution": "피부 반응을 보고 제품을 선택하세요.",
+              "searchKeyword": "아기세제"
+            },
+            {
+              "category": "hygiene",
+              "name": "아기 욕조",
+              "reason": "목욕 시 아기 몸을 안정적으로 받치는 데 도움이 됩니다.",
+              "priority": "medium",
+              "caution": "목욕 중에는 절대 아이를 혼자 두지 마세요.",
+              "searchKeyword": "신생아 욕조"
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "건강관리",
+          "items": [
+            {
+              "category": "health",
+              "name": "보습제",
+              "reason": "건조한 피부 관리에 도움이 될 수 있어요.",
+              "priority": "medium",
+              "caution": "발진이나 진물이 있으면 진료를 권장합니다.",
+              "searchKeyword": "신생아 보습제"
+            }
+          ]
+        },
+        {
+          "id": "sleep",
+          "title": "수면",
+          "items": [
+            {
+              "category": "sleep",
+              "name": "수유등",
+              "reason": "밤중 수유와 기저귀 교체 시 강한 조명을 줄일 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "수유등"
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "month": 2,
+      "title": "생후 2개월 준비물",
+      "summary": "짧은 터미타임과 시각·청각 자극을 천천히 시작해요.",
+      "categories": [
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "터미타임 매트",
+              "reason": "짧은 엎드려 있기 놀이를 할 때 사용할 수 있어요.",
+              "priority": "high",
+              "caution": "깨어 있고 보호자가 지켜볼 때만 사용하세요.",
+              "searchKeyword": "터미타임 매트"
+            },
+            {
+              "category": "play",
+              "name": "초점책",
+              "reason": "선명한 그림을 보여주며 시각 자극을 줄 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "아기 초점책"
+            },
+            {
+              "category": "play",
+              "name": "딸랑이",
+              "reason": "소리와 손 움직임에 관심을 보일 때 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "작은 부품이 없는 제품을 선택하세요.",
+              "searchKeyword": "아기 딸랑이"
+            },
+            {
+              "category": "play",
+              "name": "모빌",
+              "reason": "누워 있는 시간에 시각 자극을 줄 수 있어요.",
+              "priority": "medium",
+              "caution": "아이가 잡아당기지 못하는 위치에 고정하세요.",
+              "searchKeyword": "아기 모빌"
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "건강관리",
+          "items": [
+            {
+              "category": "health",
+              "name": "보습제",
+              "reason": "피부 건조 관리를 위해 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "아기 보습제"
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "month": 3,
+      "title": "생후 3개월 준비물",
+      "summary": "손 보기, 잡기, 침 증가에 맞춰 감각놀이와 턱받이를 준비해요.",
+      "categories": [
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "치발기",
+              "reason": "입으로 탐색하는 시기에 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "세척이 쉽고 월령에 맞는 제품을 선택하세요.",
+              "searchKeyword": "아기 치발기"
+            },
+            {
+              "category": "play",
+              "name": "아기체육관",
+              "reason": "손발 움직임과 시각 자극을 함께 줄 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "아기 체육관"
+            },
+            {
+              "category": "play",
+              "name": "터미타임 쿠션",
+              "reason": "엎드리기 시간을 보조할 수 있어요.",
+              "priority": "low",
+              "caution": "보호자 관찰하에 짧게 사용하세요.",
+              "searchKeyword": "터미타임 쿠션"
+            },
+            {
+              "category": "play",
+              "name": "부드러운 촉감책",
+              "reason": "만지고 보는 감각놀이에 활용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "아기 촉감책"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "침받이",
+              "reason": "침이 늘어나는 시기에 옷 젖음을 줄여줘요.",
+              "priority": "high",
+              "searchKeyword": "아기 침받이"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "month": 4,
+      "title": "생후 4개월 준비물",
+      "summary": "뒤집기 준비와 손 빨기가 늘 수 있어 넓은 놀이 공간을 점검해요.",
+      "categories": [
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "넓은 놀이매트",
+              "reason": "뒤집기와 바닥 놀이를 할 공간을 마련해요.",
+              "priority": "high",
+              "caution": "두께와 미끄럼 여부를 확인하세요.",
+              "searchKeyword": "아기 놀이매트"
+            },
+            {
+              "category": "play",
+              "name": "치발기",
+              "reason": "손과 입으로 탐색하는 데 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "아기 치발기"
+            },
+            {
+              "category": "play",
+              "name": "아기 거울",
+              "reason": "얼굴과 표정을 보는 놀이에 활용할 수 있어요.",
+              "priority": "low",
+              "caution": "깨지지 않는 안전 거울을 선택하세요.",
+              "searchKeyword": "아기 안전거울"
+            },
+            {
+              "category": "play",
+              "name": "촉감책",
+              "reason": "다양한 촉감을 경험하게 할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "아기 촉감책"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "방수 침받이",
+              "reason": "침이 많을 때 옷 젖음을 줄이는 데 도움이 됩니다.",
+              "priority": "medium",
+              "searchKeyword": "방수 침받이"
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "month": 5,
+      "title": "생후 5개월 준비물",
+      "summary": "이유식 시작을 앞두고 도구와 보관용품을 미리 점검해요.",
+      "categories": [
+        {
+          "id": "weaning",
+          "title": "이유식",
+          "items": [
+            {
+              "category": "weaning",
+              "name": "이유식 냄비",
+              "reason": "소량 이유식을 조리할 때 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "이유식 냄비"
+            },
+            {
+              "category": "weaning",
+              "name": "이유식 스푼",
+              "reason": "첫 이유식 연습에 사용해요.",
+              "priority": "high",
+              "caution": "부드러운 소재와 작은 크기를 확인하세요.",
+              "searchKeyword": "이유식 스푼"
+            },
+            {
+              "category": "weaning",
+              "name": "이유식 보관용기",
+              "reason": "소량씩 나누어 보관하기 좋아요.",
+              "priority": "high",
+              "caution": "냉동·전자레인지 사용 가능 여부를 확인하세요.",
+              "searchKeyword": "이유식 보관용기"
+            }
+          ]
+        },
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "턱받이",
+              "reason": "이유식 시작 후 옷 오염을 줄여요.",
+              "priority": "high",
+              "searchKeyword": "이유식 턱받이"
+            },
+            {
+              "category": "meal",
+              "name": "아기 식탁의자",
+              "reason": "앉아서 먹는 환경을 준비할 수 있어요.",
+              "priority": "medium",
+              "caution": "안전벨트와 흔들림 여부를 확인하세요.",
+              "searchKeyword": "아기 식탁의자"
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "month": 6,
+      "title": "생후 6개월 준비물",
+      "summary": "이유식 시작과 앉기 연습에 맞춰 식사 도구를 준비해요.",
+      "categories": [
+        {
+          "id": "weaning",
+          "title": "이유식",
+          "items": [
+            {
+              "category": "weaning",
+              "name": "이유식 스푼",
+              "reason": "부드러운 이유식을 먹이는 데 사용해요.",
+              "priority": "high",
+              "searchKeyword": "이유식 스푼"
+            },
+            {
+              "category": "weaning",
+              "name": "이유식 큐브틀",
+              "reason": "이유식을 소분 냉동할 때 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "이유식 큐브틀"
+            }
+          ]
+        },
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "흡착볼",
+              "reason": "그릇이 쉽게 밀리는 것을 줄일 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "흡착볼"
+            },
+            {
+              "category": "meal",
+              "name": "실리콘 턱받이",
+              "reason": "이유식 오염을 줄이고 세척이 쉬워요.",
+              "priority": "high",
+              "searchKeyword": "실리콘 턱받이"
+            },
+            {
+              "category": "meal",
+              "name": "빨대컵 연습컵",
+              "reason": "컵 사용 연습을 천천히 시작할 수 있어요.",
+              "priority": "medium",
+              "caution": "아이가 준비된 상태인지 보고 진행하세요.",
+              "searchKeyword": "아기 빨대컵"
+            },
+            {
+              "category": "meal",
+              "name": "식탁의자",
+              "reason": "식사 자세를 안정적으로 잡는 데 도움이 됩니다.",
+              "priority": "high",
+              "caution": "안전벨트를 꼭 확인하세요.",
+              "searchKeyword": "아기 식탁의자"
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "month": 7,
+      "title": "생후 7개월 준비물",
+      "summary": "이유식 횟수와 손 사용이 늘어 식사 주변 정리가 중요해요.",
+      "categories": [
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "흡착식판",
+              "reason": "손으로 만지는 식사 연습에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "흡착식판"
+            },
+            {
+              "category": "meal",
+              "name": "방수매트",
+              "reason": "식사 중 바닥 오염을 줄이는 데 도움이 돼요.",
+              "priority": "medium",
+              "searchKeyword": "이유식 방수매트"
+            }
+          ]
+        },
+        {
+          "id": "weaning",
+          "title": "이유식",
+          "items": [
+            {
+              "category": "weaning",
+              "name": "이유식 큐브틀",
+              "reason": "재료를 소분해 보관하기 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "이유식 큐브틀"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "세척솔",
+              "reason": "컵과 빨대 세척에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "빨대컵 세척솔"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "촉감놀이 장난감",
+              "reason": "손으로 탐색하는 놀이에 활용할 수 있어요.",
+              "priority": "medium",
+              "caution": "작은 부품이 없는지 확인하세요.",
+              "searchKeyword": "촉감놀이 장난감"
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "month": 8,
+      "title": "생후 8개월 준비물",
+      "summary": "기어가기와 탐색이 늘어 집안 안전용품을 우선 점검해요.",
+      "categories": [
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "안전문",
+              "reason": "주방, 계단, 현관 등 위험 공간 접근을 줄입니다.",
+              "priority": "high",
+              "caution": "설치 위치와 고정력을 확인하세요.",
+              "searchKeyword": "아기 안전문"
+            },
+            {
+              "category": "safety",
+              "name": "콘센트 안전커버",
+              "reason": "콘센트 탐색으로 인한 위험을 줄여요.",
+              "priority": "high",
+              "searchKeyword": "콘센트 안전커버"
+            },
+            {
+              "category": "safety",
+              "name": "모서리 보호대",
+              "reason": "가구 모서리 부딪힘을 줄이는 데 도움이 됩니다.",
+              "priority": "high",
+              "searchKeyword": "모서리 보호대"
+            },
+            {
+              "category": "safety",
+              "name": "미끄럼방지 매트",
+              "reason": "이동이 늘어나는 공간의 미끄럼을 줄입니다.",
+              "priority": "medium",
+              "searchKeyword": "아기 미끄럼방지 매트"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "큰 블록",
+              "reason": "잡고 놓는 소근육 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "삼킬 수 없는 큰 크기를 선택하세요.",
+              "searchKeyword": "아기 큰 블록"
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "month": 9,
+      "title": "생후 9개월 준비물",
+      "summary": "잡고 서기와 자기주도 식사 관심에 맞춰 안전과 식사도구를 점검해요.",
+      "categories": [
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "자기주도 이유식 식기",
+              "reason": "손으로 먹는 연습에 활용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "자기주도 이유식 식기"
+            },
+            {
+              "category": "meal",
+              "name": "방수 턱받이",
+              "reason": "식사 오염을 줄여줘요.",
+              "priority": "high",
+              "searchKeyword": "방수 턱받이"
+            }
+          ]
+        },
+        {
+          "id": "oral",
+          "title": "구강관리",
+          "items": [
+            {
+              "category": "oral",
+              "name": "유아 칫솔",
+              "reason": "이가 나기 시작하면 구강 관리에 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "월령에 맞는 부드러운 칫솔을 선택하세요.",
+              "searchKeyword": "유아 칫솔"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "안전문",
+              "reason": "이동 범위가 넓어지는 시기에 유용해요.",
+              "priority": "high",
+              "searchKeyword": "아기 안전문"
+            },
+            {
+              "category": "safety",
+              "name": "가구 고정용품",
+              "reason": "잡고 서는 과정에서 가구 넘어짐을 예방하는 데 도움이 됩니다.",
+              "priority": "high",
+              "searchKeyword": "가구 고정 장치"
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "month": 10,
+      "title": "생후 10개월 준비물",
+      "summary": "이동 반경이 넓어져 서랍, 문, 바닥 안전을 점검해요.",
+      "categories": [
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "서랍 잠금장치",
+              "reason": "서랍을 열고 닫는 과정의 사고를 줄여요.",
+              "priority": "high",
+              "searchKeyword": "서랍 잠금장치"
+            },
+            {
+              "category": "safety",
+              "name": "문 끼임 방지",
+              "reason": "문틈 손 끼임을 예방하는 데 도움이 됩니다.",
+              "priority": "high",
+              "searchKeyword": "문 끼임 방지"
+            },
+            {
+              "category": "safety",
+              "name": "미끄럼방지 양말",
+              "reason": "잡고 서거나 걸음 전 움직임에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "아기 미끄럼방지 양말"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "걸음마 전 놀이감",
+              "reason": "잡고 서기와 균형 놀이에 활용할 수 있어요.",
+              "priority": "low",
+              "caution": "강제로 걷기 연습을 시키지 마세요.",
+              "searchKeyword": "걸음마 장난감"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "외출용 간식통",
+              "reason": "외출 시 간식을 위생적으로 담는 데 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "아기 간식통"
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "month": 11,
+      "title": "생후 11개월 준비물",
+      "summary": "서기, 걷기 준비, 외출 증가에 맞춰 식사와 안전용품을 함께 확인해요.",
+      "categories": [
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "미끄럼방지 매트",
+              "reason": "서고 이동하는 공간의 미끄럼을 줄여요.",
+              "priority": "high",
+              "searchKeyword": "아기 미끄럼방지 매트"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "휴대용 식탁의자",
+              "reason": "외출 식사 때 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "고정 방식과 안전벨트를 확인하세요.",
+              "searchKeyword": "휴대용 아기 식탁의자"
+            },
+            {
+              "category": "outdoor",
+              "name": "외출용 이유식 용기",
+              "reason": "외출 식사를 담아가기에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "외출 이유식 용기"
+            }
+          ]
+        },
+        {
+          "id": "oral",
+          "title": "구강관리",
+          "items": [
+            {
+              "category": "oral",
+              "name": "유아 칫솔",
+              "reason": "구강 관리 습관을 시작하는 데 도움이 됩니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 칫솔"
+            }
+          ]
+        },
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "빨대컵",
+              "reason": "컵 사용 연습과 외출 수분 섭취에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "아기 빨대컵"
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "month": 12,
+      "title": "생후 12개월 준비물",
+      "summary": "첫돌 전후 유아식 전환과 걷기 준비를 함께 점검해요.",
+      "categories": [
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "유아 식판",
+              "reason": "유아식 전환 시 다양한 음식을 나누어 담기 좋아요.",
+              "priority": "high",
+              "searchKeyword": "유아 식판"
+            },
+            {
+              "category": "meal",
+              "name": "포크·스푼",
+              "reason": "스스로 먹는 연습에 사용할 수 있어요.",
+              "priority": "high",
+              "caution": "끝이 날카롭지 않은 제품을 선택하세요.",
+              "searchKeyword": "유아 포크 스푼"
+            },
+            {
+              "category": "meal",
+              "name": "빨대컵",
+              "reason": "물 마시기 연습에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 빨대컵"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "유아 신발",
+              "reason": "외부 보행이 시작될 때 필요할 수 있어요.",
+              "priority": "medium",
+              "caution": "발 크기와 미끄럼방지 밑창을 확인하세요.",
+              "searchKeyword": "아기 첫 신발"
+            }
+          ]
+        },
+        {
+          "id": "oral",
+          "title": "구강관리",
+          "items": [
+            {
+              "category": "oral",
+              "name": "유아 칫솔·치약",
+              "reason": "구강 관리 루틴을 만드는 데 사용해요.",
+              "priority": "medium",
+              "caution": "치약 사용량은 연령에 맞게 조절하세요.",
+              "searchKeyword": "유아 칫솔 치약"
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "month": 13,
+      "title": "생후 13개월 준비물",
+      "summary": "걷기 연습과 손으로 먹기 습관이 늘 수 있어요.",
+      "categories": [
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "미끄럼방지 양말",
+              "reason": "실내 보행 중 미끄러짐을 줄여요.",
+              "priority": "medium",
+              "searchKeyword": "유아 미끄럼방지 양말"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "유아 신발",
+              "reason": "실외 보행 시 발을 보호합니다.",
+              "priority": "medium",
+              "searchKeyword": "아기 첫 신발"
+            }
+          ]
+        },
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "흡착 식판",
+              "reason": "식판을 밀거나 떨어뜨리는 일을 줄일 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "흡착 식판"
+            },
+            {
+              "category": "meal",
+              "name": "방수 턱받이",
+              "reason": "스스로 먹는 과정의 오염을 줄여요.",
+              "priority": "high",
+              "searchKeyword": "방수 턱받이"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "걸음마 장난감",
+              "reason": "균형 놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "caution": "강제로 밀거나 걷게 하지 마세요.",
+              "searchKeyword": "걸음마 장난감"
+            }
+          ]
+        }
+      ]
+    },
+    "14": {
+      "month": 14,
+      "title": "생후 14개월 준비물",
+      "summary": "활동량이 늘면서 낙상과 부딪힘 예방이 중요해요.",
+      "categories": [
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "모서리 보호대",
+              "reason": "가구 모서리 부딪힘을 줄여요.",
+              "priority": "high",
+              "searchKeyword": "모서리 보호대"
+            },
+            {
+              "category": "safety",
+              "name": "안전문",
+              "reason": "위험 공간 접근을 줄입니다.",
+              "priority": "high",
+              "searchKeyword": "유아 안전문"
+            },
+            {
+              "category": "safety",
+              "name": "미끄럼방지 매트",
+              "reason": "욕실과 거실 미끄럼을 줄일 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "미끄럼방지 매트"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "부드러운 공",
+              "reason": "던지고 굴리는 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "아기 공"
+            }
+          ]
+        },
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "손잡이 컵",
+              "reason": "컵을 잡고 마시는 연습에 도움이 됩니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 손잡이 컵"
+            }
+          ]
+        }
+      ]
+    },
+    "15": {
+      "month": 15,
+      "title": "생후 15개월 준비물",
+      "summary": "숟가락 사용과 손 조작 놀이가 늘어나는 시기예요.",
+      "categories": [
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "유아 스푼·포크",
+              "reason": "스스로 먹는 연습을 돕습니다.",
+              "priority": "high",
+              "searchKeyword": "유아 스푼 포크"
+            },
+            {
+              "category": "meal",
+              "name": "깊이 있는 식기",
+              "reason": "국물이나 부드러운 음식을 담기 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "유아 식기"
+            },
+            {
+              "category": "meal",
+              "name": "방수 앞치마",
+              "reason": "식사와 놀이 오염을 줄여요.",
+              "priority": "medium",
+              "searchKeyword": "유아 방수 앞치마"
+            }
+          ]
+        },
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "그림책",
+              "reason": "말과 사물 이름을 연결하는 데 도움이 됩니다.",
+              "priority": "high",
+              "searchKeyword": "유아 그림책"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "블록",
+              "reason": "쌓기와 무너뜨리기 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 블록"
+            }
+          ]
+        }
+      ]
+    },
+    "16": {
+      "month": 16,
+      "title": "생후 16개월 준비물",
+      "summary": "모방놀이와 언어 반응이 늘어 놀이 소품이 도움이 될 수 있어요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "사운드북",
+              "reason": "소리와 단어를 연결하는 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "소리 크기를 확인하세요.",
+              "searchKeyword": "유아 사운드북"
+            },
+            {
+              "category": "learning",
+              "name": "낱말 그림책",
+              "reason": "사물 이름을 익히는 데 도움이 됩니다.",
+              "priority": "high",
+              "searchKeyword": "유아 낱말 그림책"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "역할놀이 소품",
+              "reason": "생활 모방놀이에 활용할 수 있어요.",
+              "priority": "medium",
+              "caution": "작은 부품을 확인하세요.",
+              "searchKeyword": "유아 역할놀이"
+            },
+            {
+              "category": "play",
+              "name": "큰 블록",
+              "reason": "소근육과 상상놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "큰 블록"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "외출용 물병",
+              "reason": "외출 중 물 마시기에 사용합니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 물병"
+            }
+          ]
+        }
+      ]
+    },
+    "17": {
+      "month": 17,
+      "title": "생후 17개월 준비물",
+      "summary": "뛰려는 움직임과 공놀이 관심이 늘 수 있어요.",
+      "categories": [
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "무릎보호대",
+              "reason": "넘어짐이 잦은 시기에 사용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "유아 무릎보호대"
+            },
+            {
+              "category": "safety",
+              "name": "미끄럼방지 실내화",
+              "reason": "실내 활동 중 미끄럼을 줄입니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 실내화"
+            },
+            {
+              "category": "safety",
+              "name": "안전잠금장치",
+              "reason": "서랍과 문 열림 사고를 줄여요.",
+              "priority": "high",
+              "searchKeyword": "유아 안전잠금장치"
+            }
+          ]
+        },
+        {
+          "id": "exercise",
+          "title": "운동놀이",
+          "items": [
+            {
+              "category": "exercise",
+              "name": "공놀이 장난감",
+              "reason": "굴리기, 차기, 던지기 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "유아 공놀이"
+            }
+          ]
+        }
+      ]
+    },
+    "18": {
+      "month": 18,
+      "title": "생후 18개월 준비물",
+      "summary": "자율성이 늘고 배변에 관심을 보일 수 있어요.",
+      "categories": [
+        {
+          "id": "toilet",
+          "title": "배변훈련",
+          "items": [
+            {
+              "category": "toilet",
+              "name": "유아 변기",
+              "reason": "배변훈련을 준비할 때 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "아이가 거부하면 억지로 진행하지 마세요.",
+              "searchKeyword": "유아 변기"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "발판",
+              "reason": "손 씻기와 세면대 사용을 보조합니다.",
+              "priority": "medium",
+              "caution": "미끄럼방지 처리가 된 제품을 선택하세요.",
+              "searchKeyword": "유아 발판"
+            }
+          ]
+        },
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "스티커북",
+              "reason": "손 조작과 집중 놀이에 활용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 스티커북"
+            },
+            {
+              "category": "learning",
+              "name": "퍼즐",
+              "reason": "맞추기와 문제해결 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "큰 조각부터 시작하세요.",
+              "searchKeyword": "유아 퍼즐"
+            }
+          ]
+        }
+      ]
+    },
+    "19": {
+      "month": 19,
+      "title": "생후 19개월 준비물",
+      "summary": "말과 표현이 늘 수 있어 언어놀이 도구가 잘 맞아요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "낱말카드",
+              "reason": "사물 이름을 익히는 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 낱말카드"
+            },
+            {
+              "category": "learning",
+              "name": "그림책",
+              "reason": "이야기 듣기와 말하기에 도움이 됩니다.",
+              "priority": "high",
+              "searchKeyword": "유아 그림책"
+            },
+            {
+              "category": "learning",
+              "name": "유아 크레용",
+              "reason": "그리기 시작 단계에 활용할 수 있어요.",
+              "priority": "medium",
+              "caution": "입에 넣지 않도록 지켜보세요.",
+              "searchKeyword": "유아 크레용"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "역할놀이 장난감",
+              "reason": "생활 속 행동을 따라 하는 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "유아 역할놀이"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "정리함",
+              "reason": "장난감 정리 습관을 시작하는 데 도움이 됩니다.",
+              "priority": "low",
+              "searchKeyword": "장난감 정리함"
+            }
+          ]
+        }
+      ]
+    },
+    "20": {
+      "month": 20,
+      "title": "생후 20개월 준비물",
+      "summary": "손 조작과 집중놀이가 확장되는 시기예요.",
+      "categories": [
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "끼우기 장난감",
+              "reason": "손가락 조작 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "끼우기 장난감"
+            }
+          ]
+        },
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "큰 퍼즐",
+              "reason": "모양 맞추기 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "유아 퍼즐"
+            },
+            {
+              "category": "learning",
+              "name": "스티커북",
+              "reason": "떼고 붙이는 놀이로 소근육을 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "스티커북"
+            },
+            {
+              "category": "learning",
+              "name": "드로잉북",
+              "reason": "긁적이기와 그리기 놀이에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "유아 드로잉북"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "미술매트",
+              "reason": "미술놀이 후 정리를 쉽게 할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "미술매트"
+            }
+          ]
+        }
+      ]
+    },
+    "21": {
+      "month": 21,
+      "title": "생후 21개월 준비물",
+      "summary": "외출 활동이 늘어 개인 외출용품을 준비하기 좋아요.",
+      "categories": [
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "유아 가방",
+              "reason": "간단한 개인 물건을 넣기 좋아요.",
+              "priority": "low",
+              "searchKeyword": "유아 가방"
+            },
+            {
+              "category": "outdoor",
+              "name": "물병",
+              "reason": "외출 중 수분 섭취에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "유아 물병"
+            },
+            {
+              "category": "outdoor",
+              "name": "간식통",
+              "reason": "간식을 위생적으로 담을 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 간식통"
+            },
+            {
+              "category": "outdoor",
+              "name": "모자",
+              "reason": "햇빛 노출을 줄이는 데 도움이 됩니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 모자"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "미아방지 이름표",
+              "reason": "외출 시 보호자 연락처 표시용으로 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "개인정보 노출 방식은 신중히 선택하세요.",
+              "searchKeyword": "미아방지 이름표"
+            }
+          ]
+        }
+      ]
+    },
+    "22": {
+      "month": 22,
+      "title": "생후 22개월 준비물",
+      "summary": "독립 식사 연습이 늘어 식사도구를 다시 점검해요.",
+      "categories": [
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "유아 식판",
+              "reason": "혼자 먹기 연습에 사용합니다.",
+              "priority": "high",
+              "searchKeyword": "유아 식판"
+            },
+            {
+              "category": "meal",
+              "name": "포크·스푼",
+              "reason": "스스로 떠먹고 찍어 먹는 연습에 좋아요.",
+              "priority": "high",
+              "searchKeyword": "유아 포크 스푼"
+            },
+            {
+              "category": "meal",
+              "name": "컵",
+              "reason": "컵으로 마시기 연습에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 컵"
+            },
+            {
+              "category": "meal",
+              "name": "식사매트",
+              "reason": "식탁 오염을 줄여줍니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 식사매트"
+            },
+            {
+              "category": "meal",
+              "name": "방수 앞치마",
+              "reason": "식사와 미술놀이에 함께 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 방수 앞치마"
+            }
+          ]
+        }
+      ]
+    },
+    "23": {
+      "month": 23,
+      "title": "생후 23개월 준비물",
+      "summary": "배변훈련 준비와 관련된 환경을 천천히 마련해요.",
+      "categories": [
+        {
+          "id": "toilet",
+          "title": "배변훈련",
+          "items": [
+            {
+              "category": "toilet",
+              "name": "유아 변기",
+              "reason": "배변에 관심을 보일 때 준비할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 변기"
+            },
+            {
+              "category": "toilet",
+              "name": "변기커버",
+              "reason": "성인 변기를 함께 사용할 때 필요할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 변기커버"
+            },
+            {
+              "category": "toilet",
+              "name": "여벌 속옷",
+              "reason": "배변훈련 중 갈아입기 위해 준비할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 팬티"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "발판",
+              "reason": "변기와 세면대 사용을 보조합니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 발판"
+            }
+          ]
+        },
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "배변 그림책",
+              "reason": "배변 과정을 자연스럽게 이해하는 데 도움이 됩니다.",
+              "priority": "low",
+              "searchKeyword": "배변훈련 그림책"
+            }
+          ]
+        }
+      ]
+    },
+    "24": {
+      "month": 24,
+      "title": "생후 24개월 준비물",
+      "summary": "두 돌 전후 역할놀이와 배변훈련 준비를 함께 살펴봐요.",
+      "categories": [
+        {
+          "id": "toilet",
+          "title": "배변훈련",
+          "items": [
+            {
+              "category": "toilet",
+              "name": "유아 변기",
+              "reason": "배변훈련을 시작하거나 이어갈 때 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "유아 변기"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "역할놀이 세트",
+              "reason": "생활 모방놀이를 확장할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 역할놀이 세트"
+            },
+            {
+              "category": "play",
+              "name": "블록",
+              "reason": "쌓기와 구성놀이에 활용합니다.",
+              "priority": "high",
+              "searchKeyword": "유아 블록"
+            }
+          ]
+        },
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "색칠북",
+              "reason": "색과 선을 탐색하는 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "유아 색칠북"
+            }
+          ]
+        },
+        {
+          "id": "oral",
+          "title": "구강관리",
+          "items": [
+            {
+              "category": "oral",
+              "name": "어린이 칫솔",
+              "reason": "양치 습관을 잡는 데 사용해요.",
+              "priority": "high",
+              "searchKeyword": "어린이 칫솔"
+            }
+          ]
+        }
+      ]
+    },
+    "25": {
+      "month": 25,
+      "title": "생후 25개월 준비물",
+      "summary": "말이 늘어나는 시기에 말놀이 자료를 준비해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "낱말카드",
+              "reason": "단어와 그림을 연결하는 놀이에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "낱말카드"
+            },
+            {
+              "category": "learning",
+              "name": "그림책",
+              "reason": "질문하고 답하는 시간을 만들기 좋아요.",
+              "priority": "high",
+              "searchKeyword": "유아 그림책"
+            },
+            {
+              "category": "learning",
+              "name": "사운드북",
+              "reason": "소리와 단어를 함께 익힐 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "사운드북"
+            },
+            {
+              "category": "learning",
+              "name": "말놀이 카드",
+              "reason": "표현을 확장하는 놀이에 활용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "말놀이 카드"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "정리 바구니",
+              "reason": "놀이 후 정리 루틴을 만들기 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "장난감 정리 바구니"
+            }
+          ]
+        }
+      ]
+    },
+    "26": {
+      "month": 26,
+      "title": "생후 26개월 준비물",
+      "summary": "대근육 활동이 늘어 안전한 신체놀이 도구를 확인해요.",
+      "categories": [
+        {
+          "id": "exercise",
+          "title": "운동놀이",
+          "items": [
+            {
+              "category": "exercise",
+              "name": "실내 공",
+              "reason": "던지고 차는 놀이에 활용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 실내 공"
+            },
+            {
+              "category": "exercise",
+              "name": "균형놀이 도구",
+              "reason": "균형 감각 놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "caution": "보호자가 곁에서 지켜보세요.",
+              "searchKeyword": "유아 균형놀이"
+            },
+            {
+              "category": "exercise",
+              "name": "낮은 미끄럼틀",
+              "reason": "실내 대근육 놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "caution": "설치 공간과 안전매트를 확인하세요.",
+              "searchKeyword": "유아 미끄럼틀"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "무릎보호대",
+              "reason": "넘어짐이 잦은 아이에게 선택적으로 사용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "유아 무릎보호대"
+            }
+          ]
+        }
+      ]
+    },
+    "27": {
+      "month": 27,
+      "title": "생후 27개월 준비물",
+      "summary": "소근육과 집중놀이를 확장해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "퍼즐",
+              "reason": "모양과 그림 맞추기 놀이에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "유아 퍼즐"
+            },
+            {
+              "category": "learning",
+              "name": "스티커북",
+              "reason": "손 조작과 집중을 돕는 놀이입니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 스티커북"
+            },
+            {
+              "category": "learning",
+              "name": "유아 크레용",
+              "reason": "그림 그리기 시작에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 크레용"
+            },
+            {
+              "category": "learning",
+              "name": "드로잉북",
+              "reason": "반복적인 그리기 놀이에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "유아 드로잉북"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "끼우기 블록",
+              "reason": "손으로 끼우고 빼는 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "끼우기 블록"
+            }
+          ]
+        }
+      ]
+    },
+    "28": {
+      "month": 28,
+      "title": "생후 28개월 준비물",
+      "summary": "식사 독립성과 외출 식사를 함께 준비해요.",
+      "categories": [
+        {
+          "id": "meal",
+          "title": "식사",
+          "items": [
+            {
+              "category": "meal",
+              "name": "유아 식기 세트",
+              "reason": "스스로 먹는 환경을 만들기 좋아요.",
+              "priority": "high",
+              "searchKeyword": "유아 식기 세트"
+            },
+            {
+              "category": "meal",
+              "name": "컵",
+              "reason": "컵 사용 연습을 이어갑니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 컵"
+            },
+            {
+              "category": "meal",
+              "name": "식사매트",
+              "reason": "식탁 주변 정리에 도움이 됩니다.",
+              "priority": "medium",
+              "searchKeyword": "식사매트"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "도시락통",
+              "reason": "외출 식사나 간식 준비에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 도시락통"
+            },
+            {
+              "category": "outdoor",
+              "name": "물병",
+              "reason": "어린이집이나 외출 시 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "유아 물병"
+            }
+          ]
+        }
+      ]
+    },
+    "29": {
+      "month": 29,
+      "title": "생후 29개월 준비물",
+      "summary": "어린이집이나 외출 루틴을 준비할 수 있어요.",
+      "categories": [
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "낮잠이불",
+              "reason": "어린이집 낮잠 준비물로 필요할 수 있어요.",
+              "priority": "medium",
+              "caution": "기관 준비물 기준을 먼저 확인하세요.",
+              "searchKeyword": "어린이집 낮잠이불"
+            },
+            {
+              "category": "outdoor",
+              "name": "여벌옷 파우치",
+              "reason": "갈아입을 옷을 정리하기 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "여벌옷 파우치"
+            },
+            {
+              "category": "outdoor",
+              "name": "작은 가방",
+              "reason": "외출이나 등원 시 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 가방"
+            },
+            {
+              "category": "outdoor",
+              "name": "물병",
+              "reason": "개인 물병 사용 습관을 만들 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 물병"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "이름스티커",
+              "reason": "개인 물품 구분에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "이름스티커"
+            }
+          ]
+        }
+      ]
+    },
+    "30": {
+      "month": 30,
+      "title": "생후 30개월 준비물",
+      "summary": "사회성 놀이와 역할놀이가 늘어날 수 있어요.",
+      "categories": [
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "역할놀이 장난감",
+              "reason": "상상놀이와 사회성 놀이에 활용해요.",
+              "priority": "medium",
+              "searchKeyword": "역할놀이 장난감"
+            },
+            {
+              "category": "play",
+              "name": "인형",
+              "reason": "돌보기 놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "유아 인형"
+            },
+            {
+              "category": "play",
+              "name": "병원놀이",
+              "reason": "진료 상황을 놀이로 경험할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "병원놀이"
+            },
+            {
+              "category": "play",
+              "name": "주방놀이",
+              "reason": "생활 모방놀이를 확장합니다.",
+              "priority": "medium",
+              "searchKeyword": "주방놀이"
+            }
+          ]
+        },
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "그림책",
+              "reason": "이야기를 듣고 말하는 시간을 만들어요.",
+              "priority": "high",
+              "searchKeyword": "유아 그림책"
+            }
+          ]
+        }
+      ]
+    },
+    "31": {
+      "month": 31,
+      "title": "생후 31개월 준비물",
+      "summary": "배변훈련 진행 상황에 맞춰 환경을 조정해요.",
+      "categories": [
+        {
+          "id": "toilet",
+          "title": "배변훈련",
+          "items": [
+            {
+              "category": "toilet",
+              "name": "변기커버",
+              "reason": "성인 변기 적응에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 변기커버"
+            },
+            {
+              "category": "toilet",
+              "name": "여벌 팬티",
+              "reason": "배변훈련 중 여러 장 필요할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 팬티"
+            },
+            {
+              "category": "toilet",
+              "name": "방수패드",
+              "reason": "실수에 대비해 침구나 매트 보호에 사용해요.",
+              "priority": "low",
+              "searchKeyword": "방수패드"
+            },
+            {
+              "category": "toilet",
+              "name": "배변 보상 스티커",
+              "reason": "긍정적 루틴을 만드는 데 사용할 수 있어요.",
+              "priority": "low",
+              "caution": "압박이나 벌 대신 칭찬 중심으로 사용하세요.",
+              "searchKeyword": "배변훈련 스티커"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "발판",
+              "reason": "변기와 손 씻기 동선을 보조합니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 발판"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "month": 32,
+      "title": "생후 32개월 준비물",
+      "summary": "미술놀이를 확장하면서 정리와 안전도 함께 챙겨요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "크레용",
+              "reason": "그리기와 색칠놀이에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "유아 크레용"
+            },
+            {
+              "category": "learning",
+              "name": "색연필",
+              "reason": "선 긋기와 색칠에 활용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "유아 색연필"
+            },
+            {
+              "category": "learning",
+              "name": "스케치북",
+              "reason": "자유롭게 그리는 공간을 제공합니다.",
+              "priority": "medium",
+              "searchKeyword": "스케치북"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "미술가운",
+              "reason": "옷 오염을 줄여요.",
+              "priority": "low",
+              "searchKeyword": "유아 미술가운"
+            },
+            {
+              "category": "hygiene",
+              "name": "방수매트",
+              "reason": "미술놀이 후 정리를 쉽게 합니다.",
+              "priority": "low",
+              "searchKeyword": "미술 방수매트"
+            }
+          ]
+        }
+      ]
+    },
+    "33": {
+      "month": 33,
+      "title": "생후 33개월 준비물",
+      "summary": "간단한 규칙과 분류 놀이를 시작하기 좋아요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "매칭 카드",
+              "reason": "같은 그림 찾기 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "매칭 카드"
+            },
+            {
+              "category": "learning",
+              "name": "그림 퍼즐",
+              "reason": "그림 완성 놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "그림 퍼즐"
+            },
+            {
+              "category": "learning",
+              "name": "숫자 블록",
+              "reason": "숫자와 쌓기 놀이를 함께 할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "숫자 블록"
+            },
+            {
+              "category": "learning",
+              "name": "색깔 카드",
+              "reason": "색 이름 익히기에 사용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "색깔 카드"
+            }
+          ]
+        }
+      ]
+    },
+    "34": {
+      "month": 34,
+      "title": "생후 34개월 준비물",
+      "summary": "균형과 신체 조절 놀이를 늘릴 수 있어요.",
+      "categories": [
+        {
+          "id": "exercise",
+          "title": "운동놀이",
+          "items": [
+            {
+              "category": "exercise",
+              "name": "밸런스보드",
+              "reason": "균형놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "caution": "보호자 관찰하에 사용하세요.",
+              "searchKeyword": "유아 밸런스보드"
+            },
+            {
+              "category": "exercise",
+              "name": "공",
+              "reason": "차기와 던지기 놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 공"
+            },
+            {
+              "category": "exercise",
+              "name": "실내 장애물 놀이",
+              "reason": "쿠션이나 낮은 도구로 이동놀이를 만들 수 있어요.",
+              "priority": "low",
+              "caution": "넘어짐 위험을 확인하세요.",
+              "searchKeyword": "유아 장애물 놀이"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "미끄럼방지 양말",
+              "reason": "실내 활동 중 미끄럼을 줄입니다.",
+              "priority": "medium",
+              "searchKeyword": "미끄럼방지 양말"
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "month": 35,
+      "title": "생후 35개월 준비물",
+      "summary": "세 돌을 앞두고 생활습관 물품을 정리해요.",
+      "categories": [
+        {
+          "id": "oral",
+          "title": "구강관리",
+          "items": [
+            {
+              "category": "oral",
+              "name": "어린이 칫솔",
+              "reason": "양치 습관을 이어갑니다.",
+              "priority": "high",
+              "searchKeyword": "어린이 칫솔"
+            },
+            {
+              "category": "oral",
+              "name": "유아 치약",
+              "reason": "연령에 맞는 양치에 사용해요.",
+              "priority": "medium",
+              "caution": "사용량과 불소 함량을 확인하세요.",
+              "searchKeyword": "유아 치약"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "개인 수건",
+              "reason": "세면 후 자기 수건 사용 습관을 만들 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 수건"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "낮은 옷걸이",
+              "reason": "옷 정리 습관을 돕습니다.",
+              "priority": "low",
+              "searchKeyword": "유아 옷걸이"
+            },
+            {
+              "category": "habit",
+              "name": "정리함",
+              "reason": "장난감과 생활용품 정리에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "유아 정리함"
+            }
+          ]
+        }
+      ]
+    },
+    "36": {
+      "month": 36,
+      "title": "생후 36개월 준비물",
+      "summary": "세 돌 전후 학습놀이와 역할놀이를 균형 있게 준비해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "한글 그림카드",
+              "reason": "글자와 그림을 연결하는 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "한글 그림카드"
+            },
+            {
+              "category": "learning",
+              "name": "숫자카드",
+              "reason": "수 세기 놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "숫자카드"
+            },
+            {
+              "category": "learning",
+              "name": "퍼즐",
+              "reason": "집중놀이와 문제해결에 도움이 됩니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 퍼즐"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "역할놀이",
+              "reason": "상상놀이를 확장할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "역할놀이"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "어린이 가방",
+              "reason": "외출이나 기관 생활에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 가방"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "month": 37,
+      "title": "생후 37개월 준비물",
+      "summary": "말하기와 이야기 놀이를 확장해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "이야기 그림책",
+              "reason": "이야기 흐름을 듣고 말하는 데 도움이 됩니다.",
+              "priority": "high",
+              "searchKeyword": "이야기 그림책"
+            },
+            {
+              "category": "learning",
+              "name": "낱말카드",
+              "reason": "어휘 확장에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "낱말카드"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "손인형",
+              "reason": "대화 놀이와 역할놀이에 활용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "손인형"
+            },
+            {
+              "category": "play",
+              "name": "역할놀이 세트",
+              "reason": "상황극 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "역할놀이 세트"
+            }
+          ]
+        }
+      ]
+    },
+    "38": {
+      "month": 38,
+      "title": "생후 38개월 준비물",
+      "summary": "소근육이 정교해져 오리기·붙이기 놀이를 시작할 수 있어요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "가위질 연습지",
+              "reason": "선 따라 자르기 놀이에 활용합니다.",
+              "priority": "low",
+              "searchKeyword": "가위질 연습지"
+            },
+            {
+              "category": "learning",
+              "name": "안전가위",
+              "reason": "오리기 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "반드시 보호자와 함께 사용하세요.",
+              "searchKeyword": "유아 안전가위"
+            },
+            {
+              "category": "learning",
+              "name": "풀",
+              "reason": "붙이기 활동에 사용합니다.",
+              "priority": "low",
+              "caution": "입에 넣지 않도록 지켜보세요.",
+              "searchKeyword": "유아 풀"
+            },
+            {
+              "category": "learning",
+              "name": "스티커북",
+              "reason": "떼고 붙이는 소근육 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "스티커북"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "블록",
+              "reason": "구성놀이와 상상놀이에 활용합니다.",
+              "priority": "high",
+              "searchKeyword": "유아 블록"
+            }
+          ]
+        }
+      ]
+    },
+    "39": {
+      "month": 39,
+      "title": "생후 39개월 준비물",
+      "summary": "야외활동이 늘어 보호장비를 함께 확인해요.",
+      "categories": [
+        {
+          "id": "exercise",
+          "title": "운동놀이",
+          "items": [
+            {
+              "category": "exercise",
+              "name": "킥보드 후보",
+              "reason": "균형과 이동놀이에 관심을 보일 수 있어요.",
+              "priority": "low",
+              "caution": "보호장비와 안전한 장소가 먼저입니다.",
+              "searchKeyword": "유아 킥보드"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "헬멧",
+              "reason": "자전거·킥보드 등 야외활동에 필요할 수 있어요.",
+              "priority": "high",
+              "searchKeyword": "유아 헬멧"
+            },
+            {
+              "category": "safety",
+              "name": "무릎보호대",
+              "reason": "넘어짐 위험이 있는 활동에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "유아 보호대"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "물병",
+              "reason": "야외활동 시 수분 섭취에 필요해요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 물병"
+            },
+            {
+              "category": "outdoor",
+              "name": "모자",
+              "reason": "햇빛 노출을 줄이는 데 도움이 됩니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 모자"
+            }
+          ]
+        }
+      ]
+    },
+    "40": {
+      "month": 40,
+      "title": "생후 40개월 준비물",
+      "summary": "자기 물건을 구분하고 관리하는 연습을 할 수 있어요.",
+      "categories": [
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "이름스티커",
+              "reason": "개인 물품 구분에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "이름스티커"
+            },
+            {
+              "category": "habit",
+              "name": "정리함",
+              "reason": "장난감과 책 정리에 사용합니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 정리함"
+            },
+            {
+              "category": "habit",
+              "name": "옷걸이",
+              "reason": "옷 정리 습관을 만들 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "어린이 옷걸이"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "어린이 가방",
+              "reason": "외출과 기관 생활에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 가방"
+            },
+            {
+              "category": "outdoor",
+              "name": "개인 물병",
+              "reason": "외출과 기관 생활에 필요할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 물병"
+            }
+          ]
+        }
+      ]
+    },
+    "41": {
+      "month": 41,
+      "title": "생후 41개월 준비물",
+      "summary": "수 개념과 분류 놀이를 확장해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "숫자 퍼즐",
+              "reason": "숫자 모양과 순서를 익히는 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "숫자 퍼즐"
+            },
+            {
+              "category": "learning",
+              "name": "색깔 분류 장난감",
+              "reason": "색과 모양 분류를 연습할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "색깔 분류 장난감"
+            },
+            {
+              "category": "learning",
+              "name": "도형 블록",
+              "reason": "모양과 공간 감각 놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "도형 블록"
+            },
+            {
+              "category": "learning",
+              "name": "보드게임 입문",
+              "reason": "차례 지키기와 간단한 규칙을 배울 수 있어요.",
+              "priority": "low",
+              "caution": "연령에 맞는 간단한 규칙부터 시작하세요.",
+              "searchKeyword": "유아 보드게임"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "month": 42,
+      "title": "생후 42개월 준비물",
+      "summary": "역할·상상놀이가 풍부해지는 시기예요.",
+      "categories": [
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "의사놀이",
+              "reason": "진료 상황을 놀이로 경험할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "의사놀이"
+            },
+            {
+              "category": "play",
+              "name": "마트놀이",
+              "reason": "사고파는 상상놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "마트놀이"
+            },
+            {
+              "category": "play",
+              "name": "주방놀이",
+              "reason": "요리와 식사 모방놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "주방놀이"
+            },
+            {
+              "category": "play",
+              "name": "인형집",
+              "reason": "가족과 생활 역할놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "인형집"
+            },
+            {
+              "category": "play",
+              "name": "공구놀이",
+              "reason": "조립과 모방놀이에 활용할 수 있어요.",
+              "priority": "low",
+              "caution": "작은 부품을 확인하세요.",
+              "searchKeyword": "공구놀이"
+            }
+          ]
+        }
+      ]
+    },
+    "43": {
+      "month": 43,
+      "title": "생후 43개월 준비물",
+      "summary": "미술과 표현활동을 다양하게 시도할 수 있어요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "물감",
+              "reason": "색 섞기와 표현놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "보호자와 함께 사용하고 주변 오염을 대비하세요.",
+              "searchKeyword": "유아 물감"
+            },
+            {
+              "category": "learning",
+              "name": "붓",
+              "reason": "물감놀이에 사용합니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 붓"
+            },
+            {
+              "category": "learning",
+              "name": "팔레트",
+              "reason": "색을 섞고 나누어 쓰기 좋아요.",
+              "priority": "low",
+              "searchKeyword": "유아 팔레트"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "미술가운",
+              "reason": "옷 오염을 줄입니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 미술가운"
+            },
+            {
+              "category": "hygiene",
+              "name": "작업매트",
+              "reason": "바닥과 책상 오염을 줄여요.",
+              "priority": "medium",
+              "searchKeyword": "미술 작업매트"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "month": 44,
+      "title": "생후 44개월 준비물",
+      "summary": "외출 독립성이 늘어 개인 외출용품을 정리해요.",
+      "categories": [
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "어린이 백팩",
+              "reason": "외출 물품을 직접 챙기는 데 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 백팩"
+            },
+            {
+              "category": "outdoor",
+              "name": "물병",
+              "reason": "외출 중 물 마시기에 필요해요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 물병"
+            },
+            {
+              "category": "outdoor",
+              "name": "간식통",
+              "reason": "간단한 간식 보관에 사용합니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 간식통"
+            },
+            {
+              "category": "outdoor",
+              "name": "모자",
+              "reason": "야외활동 시 햇빛을 줄입니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 모자"
+            },
+            {
+              "category": "outdoor",
+              "name": "여벌옷 파우치",
+              "reason": "외출 중 갈아입을 옷을 정리해요.",
+              "priority": "low",
+              "searchKeyword": "여벌옷 파우치"
+            }
+          ]
+        }
+      ]
+    },
+    "45": {
+      "month": 45,
+      "title": "생후 45개월 준비물",
+      "summary": "운동놀이를 늘리되 보호장비를 함께 챙겨요.",
+      "categories": [
+        {
+          "id": "exercise",
+          "title": "운동놀이",
+          "items": [
+            {
+              "category": "exercise",
+              "name": "공",
+              "reason": "던지기, 받기, 차기 놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 공"
+            },
+            {
+              "category": "exercise",
+              "name": "줄넘기 전 단계 로프",
+              "reason": "균형과 점프 놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "caution": "목에 감기지 않도록 주의하세요.",
+              "searchKeyword": "유아 로프 놀이"
+            },
+            {
+              "category": "exercise",
+              "name": "균형놀이 도구",
+              "reason": "대근육 놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "유아 균형놀이"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "보호장비",
+              "reason": "자전거·킥보드 등 활동 시 필요할 수 있어요.",
+              "priority": "high",
+              "searchKeyword": "어린이 보호장비"
+            }
+          ]
+        }
+      ]
+    },
+    "46": {
+      "month": 46,
+      "title": "생후 46개월 준비물",
+      "summary": "집중시간이 늘어 퍼즐과 보드게임을 시도할 수 있어요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "24~48피스 퍼즐",
+              "reason": "집중놀이와 문제해결 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "유아 퍼즐 48피스"
+            },
+            {
+              "category": "learning",
+              "name": "보드게임",
+              "reason": "차례와 규칙을 배울 수 있어요.",
+              "priority": "medium",
+              "caution": "연령에 맞는 단순한 게임을 선택하세요.",
+              "searchKeyword": "유아 보드게임"
+            },
+            {
+              "category": "learning",
+              "name": "그림책",
+              "reason": "이야기 이해와 표현을 돕습니다.",
+              "priority": "high",
+              "searchKeyword": "유아 그림책"
+            },
+            {
+              "category": "learning",
+              "name": "색칠북",
+              "reason": "정교한 색칠 활동에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "색칠북"
+            }
+          ]
+        }
+      ]
+    },
+    "47": {
+      "month": 47,
+      "title": "생후 47개월 준비물",
+      "summary": "양치, 정리, 생활습관을 눈에 보이게 도와줘요.",
+      "categories": [
+        {
+          "id": "oral",
+          "title": "구강관리",
+          "items": [
+            {
+              "category": "oral",
+              "name": "양치컵",
+              "reason": "양치 루틴에 사용합니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 양치컵"
+            },
+            {
+              "category": "oral",
+              "name": "어린이 칫솔",
+              "reason": "스스로 양치 연습에 필요해요.",
+              "priority": "high",
+              "searchKeyword": "어린이 칫솔"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "수건걸이",
+              "reason": "개인 수건 사용 습관을 돕습니다.",
+              "priority": "low",
+              "searchKeyword": "어린이 수건걸이"
+            },
+            {
+              "category": "habit",
+              "name": "정리 바구니",
+              "reason": "장난감과 책 정리에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "정리 바구니"
+            },
+            {
+              "category": "habit",
+              "name": "생활습관 차트",
+              "reason": "양치, 정리, 잠자리 루틴을 시각화할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "생활습관 차트"
+            }
+          ]
+        }
+      ]
+    },
+    "48": {
+      "month": 48,
+      "title": "생후 48개월 준비물",
+      "summary": "네 돌 전후 학습놀이와 운동놀이를 균형 있게 준비해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "한글 놀이카드",
+              "reason": "글자 관심을 놀이로 이어갈 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "한글 놀이카드"
+            },
+            {
+              "category": "learning",
+              "name": "숫자 놀이",
+              "reason": "수 세기와 비교 놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "숫자 놀이"
+            },
+            {
+              "category": "learning",
+              "name": "가위·풀",
+              "reason": "만들기 놀이에 사용할 수 있어요.",
+              "priority": "medium",
+              "caution": "보호자와 함께 사용하세요.",
+              "searchKeyword": "유아 안전가위 풀"
+            }
+          ]
+        },
+        {
+          "id": "exercise",
+          "title": "운동놀이",
+          "items": [
+            {
+              "category": "exercise",
+              "name": "킥보드",
+              "reason": "야외활동에 사용할 수 있어요.",
+              "priority": "low",
+              "caution": "헬멧과 보호대를 함께 준비하세요.",
+              "searchKeyword": "유아 킥보드"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "헬멧",
+              "reason": "바퀴 달린 놀이기구 사용 시 필요합니다.",
+              "priority": "high",
+              "searchKeyword": "유아 헬멧"
+            }
+          ]
+        }
+      ]
+    },
+    "49": {
+      "month": 49,
+      "title": "생후 49개월 준비물",
+      "summary": "친구놀이와 협동놀이가 늘어날 수 있어요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "보드게임",
+              "reason": "차례 지키기와 협동놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "유아 보드게임"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "역할놀이 소품",
+              "reason": "친구와 함께 상상놀이를 할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "역할놀이 소품"
+            },
+            {
+              "category": "play",
+              "name": "블록 세트",
+              "reason": "함께 만들고 부수는 놀이에 좋아요.",
+              "priority": "high",
+              "searchKeyword": "블록 세트"
+            }
+          ]
+        },
+        {
+          "id": "exercise",
+          "title": "운동놀이",
+          "items": [
+            {
+              "category": "exercise",
+              "name": "공놀이",
+              "reason": "여러 명이 함께 하는 신체놀이에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 공놀이"
+            }
+          ]
+        }
+      ]
+    },
+    "50": {
+      "month": 50,
+      "title": "생후 50개월 준비물",
+      "summary": "신체활동이 넓어져 야외 안전을 먼저 챙겨요.",
+      "categories": [
+        {
+          "id": "exercise",
+          "title": "운동놀이",
+          "items": [
+            {
+              "category": "exercise",
+              "name": "자전거 후보",
+              "reason": "균형과 페달 놀이에 관심을 보일 수 있어요.",
+              "priority": "low",
+              "caution": "아이 키와 안전장비를 먼저 확인하세요.",
+              "searchKeyword": "유아 자전거"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "보호헬멧",
+              "reason": "자전거·킥보드 활동에 필요합니다.",
+              "priority": "high",
+              "searchKeyword": "어린이 헬멧"
+            },
+            {
+              "category": "safety",
+              "name": "무릎보호대",
+              "reason": "넘어짐 위험이 있는 활동에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 보호대"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "야외 물병",
+              "reason": "활동 중 수분 보충에 필요해요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 물병"
+            }
+          ]
+        }
+      ]
+    },
+    "51": {
+      "month": 51,
+      "title": "생후 51개월 준비물",
+      "summary": "그림과 글자에 관심을 보일 때 놀이 자료를 준비해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "드로잉북",
+              "reason": "그림과 선 그리기 놀이에 사용해요.",
+              "priority": "medium",
+              "searchKeyword": "드로잉북"
+            },
+            {
+              "category": "learning",
+              "name": "색연필",
+              "reason": "색칠과 표현놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 색연필"
+            },
+            {
+              "category": "learning",
+              "name": "한글 자석",
+              "reason": "글자 조합 놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "caution": "작은 자석은 삼킴 위험을 확인하세요.",
+              "searchKeyword": "한글 자석"
+            },
+            {
+              "category": "learning",
+              "name": "이름 쓰기 연습지",
+              "reason": "자기 이름에 관심이 있을 때 활용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "이름 쓰기 연습지"
+            }
+          ]
+        }
+      ]
+    },
+    "52": {
+      "month": 52,
+      "title": "생후 52개월 준비물",
+      "summary": "문제해결과 구성놀이를 확장해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "퍼즐",
+              "reason": "난이도를 조금 높여 집중놀이에 활용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 퍼즐"
+            },
+            {
+              "category": "learning",
+              "name": "도형 맞추기",
+              "reason": "도형과 공간 감각 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "도형 맞추기"
+            },
+            {
+              "category": "learning",
+              "name": "간단한 보드게임",
+              "reason": "규칙 이해와 차례 지키기에 사용합니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 보드게임"
+            }
+          ]
+        },
+        {
+          "id": "play",
+          "title": "놀이발달",
+          "items": [
+            {
+              "category": "play",
+              "name": "블록 설계 놀이",
+              "reason": "구상하고 만드는 놀이에 활용해요.",
+              "priority": "medium",
+              "searchKeyword": "블록 설계 놀이"
+            }
+          ]
+        }
+      ]
+    },
+    "53": {
+      "month": 53,
+      "title": "생후 53개월 준비물",
+      "summary": "외출과 여행이 늘면 휴대용 놀이용품이 도움이 돼요.",
+      "categories": [
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "어린이 캐리어 후보",
+              "reason": "여행 시 개인 물품을 담을 수 있어요.",
+              "priority": "low",
+              "caution": "무게와 끌기 편한지 확인하세요.",
+              "searchKeyword": "어린이 캐리어"
+            },
+            {
+              "category": "outdoor",
+              "name": "목베개",
+              "reason": "장거리 이동 시 사용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "어린이 목베개"
+            },
+            {
+              "category": "outdoor",
+              "name": "물병",
+              "reason": "외출 필수품으로 챙기기 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 물병"
+            }
+          ]
+        },
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "스티커북",
+              "reason": "이동 중 조용한 놀이로 활용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "스티커북"
+            },
+            {
+              "category": "learning",
+              "name": "휴대용 색칠북",
+              "reason": "외출 중 색칠놀이에 사용합니다.",
+              "priority": "medium",
+              "searchKeyword": "휴대용 색칠북"
+            }
+          ]
+        }
+      ]
+    },
+    "54": {
+      "month": 54,
+      "title": "생후 54개월 준비물",
+      "summary": "자기관리와 생활습관을 더 독립적으로 연습해요.",
+      "categories": [
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "어린이 옷걸이",
+              "reason": "옷 정리 습관을 돕습니다.",
+              "priority": "low",
+              "searchKeyword": "어린이 옷걸이"
+            },
+            {
+              "category": "habit",
+              "name": "정리함",
+              "reason": "자기 물건을 분류해 정리할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 정리함"
+            },
+            {
+              "category": "habit",
+              "name": "생활습관 보드",
+              "reason": "해야 할 일을 시각적으로 정리할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "생활습관 보드"
+            }
+          ]
+        },
+        {
+          "id": "oral",
+          "title": "구강관리",
+          "items": [
+            {
+              "category": "oral",
+              "name": "양치 타이머",
+              "reason": "양치 시간을 눈으로 확인하는 데 도움이 됩니다.",
+              "priority": "low",
+              "searchKeyword": "양치 타이머"
+            }
+          ]
+        }
+      ]
+    },
+    "55": {
+      "month": 55,
+      "title": "생후 55개월 준비물",
+      "summary": "유치원 생활이나 단체생활 준비물을 점검해요.",
+      "categories": [
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "이름스티커",
+              "reason": "물병, 가방, 옷에 붙여 구분할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "이름스티커"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "실내화 주머니",
+              "reason": "기관 준비물로 필요할 수 있어요.",
+              "priority": "medium",
+              "caution": "기관 안내문을 먼저 확인하세요.",
+              "searchKeyword": "실내화 주머니"
+            },
+            {
+              "category": "outdoor",
+              "name": "물병",
+              "reason": "개인 물병 사용에 필요해요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 물병"
+            },
+            {
+              "category": "outdoor",
+              "name": "도시락통",
+              "reason": "간식이나 도시락을 준비할 때 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 도시락통"
+            }
+          ]
+        },
+        {
+          "id": "sleep",
+          "title": "수면",
+          "items": [
+            {
+              "category": "sleep",
+              "name": "낮잠이불",
+              "reason": "기관 생활에 따라 필요할 수 있어요.",
+              "priority": "low",
+              "caution": "기관 준비물 기준을 확인하세요.",
+              "searchKeyword": "유치원 낮잠이불"
+            }
+          ]
+        }
+      ]
+    },
+    "56": {
+      "month": 56,
+      "title": "생후 56개월 준비물",
+      "summary": "창의놀이와 만들기 활동을 확장해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "클레이",
+              "reason": "손으로 만들고 표현하는 놀이에 사용해요.",
+              "priority": "medium",
+              "caution": "입에 넣지 않도록 지켜보세요.",
+              "searchKeyword": "유아 클레이"
+            },
+            {
+              "category": "learning",
+              "name": "종이접기",
+              "reason": "손 조작과 순서 이해 놀이에 좋아요.",
+              "priority": "medium",
+              "searchKeyword": "종이접기"
+            },
+            {
+              "category": "learning",
+              "name": "만들기 키트",
+              "reason": "주제별 만들기 활동에 사용할 수 있어요.",
+              "priority": "low",
+              "caution": "작은 부품과 접착제 사용을 확인하세요.",
+              "searchKeyword": "유아 만들기 키트"
+            },
+            {
+              "category": "learning",
+              "name": "안전가위",
+              "reason": "오리기 활동에 사용합니다.",
+              "priority": "medium",
+              "caution": "보호자와 함께 사용하세요.",
+              "searchKeyword": "유아 안전가위"
+            }
+          ]
+        },
+        {
+          "id": "hygiene",
+          "title": "위생",
+          "items": [
+            {
+              "category": "hygiene",
+              "name": "미술매트",
+              "reason": "만들기 놀이 후 정리를 쉽게 합니다.",
+              "priority": "medium",
+              "searchKeyword": "미술매트"
+            }
+          ]
+        }
+      ]
+    },
+    "57": {
+      "month": 57,
+      "title": "생후 57개월 준비물",
+      "summary": "규칙 있는 놀이로 차례와 기억력을 연습할 수 있어요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "보드게임",
+              "reason": "규칙 이해와 차례 지키기에 도움이 됩니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 보드게임"
+            },
+            {
+              "category": "learning",
+              "name": "카드게임",
+              "reason": "짝 찾기와 기억 놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 카드게임"
+            },
+            {
+              "category": "learning",
+              "name": "숫자놀이",
+              "reason": "수 개념을 놀이로 익힐 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "숫자놀이"
+            },
+            {
+              "category": "learning",
+              "name": "기억력 게임",
+              "reason": "그림 기억하기 놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "기억력 게임"
+            }
+          ]
+        }
+      ]
+    },
+    "58": {
+      "month": 58,
+      "title": "생후 58개월 준비물",
+      "summary": "운동과 균형 놀이가 늘면 보호장비를 우선 챙겨요.",
+      "categories": [
+        {
+          "id": "exercise",
+          "title": "운동놀이",
+          "items": [
+            {
+              "category": "exercise",
+              "name": "자전거",
+              "reason": "아이 키와 균형 수준에 따라 선택할 수 있어요.",
+              "priority": "low",
+              "caution": "보호장비와 안전한 장소가 먼저입니다.",
+              "searchKeyword": "어린이 자전거"
+            },
+            {
+              "category": "exercise",
+              "name": "킥보드",
+              "reason": "야외 이동놀이에 사용할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "어린이 킥보드"
+            },
+            {
+              "category": "exercise",
+              "name": "야외 공",
+              "reason": "달리기와 공놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 공"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "헬멧",
+              "reason": "바퀴 달린 놀이기구 사용 시 필요합니다.",
+              "priority": "high",
+              "searchKeyword": "어린이 헬멧"
+            },
+            {
+              "category": "safety",
+              "name": "보호대",
+              "reason": "무릎과 팔꿈치 보호에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 보호대"
+            }
+          ]
+        }
+      ]
+    },
+    "59": {
+      "month": 59,
+      "title": "생후 59개월 준비물",
+      "summary": "5세 전후 생활과 학습 놀이를 정리해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "학습 놀이책",
+              "reason": "글자, 숫자, 선긋기를 놀이로 해볼 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "5세 학습 놀이책"
+            }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "title": "외출",
+          "items": [
+            {
+              "category": "outdoor",
+              "name": "가방",
+              "reason": "기관 생활과 외출에 사용할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "어린이 가방"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "정리함",
+              "reason": "책과 장난감을 분류해 정리합니다.",
+              "priority": "medium",
+              "searchKeyword": "어린이 정리함"
+            },
+            {
+              "category": "habit",
+              "name": "생활습관표",
+              "reason": "양치, 정리, 잠자리 루틴을 확인할 수 있어요.",
+              "priority": "low",
+              "searchKeyword": "생활습관표"
+            }
+          ]
+        },
+        {
+          "id": "oral",
+          "title": "구강관리",
+          "items": [
+            {
+              "category": "oral",
+              "name": "양치도구",
+              "reason": "스스로 양치 습관을 이어갑니다.",
+              "priority": "high",
+              "searchKeyword": "어린이 양치도구"
+            }
+          ]
+        }
+      ]
+    },
+    "60": {
+      "month": 60,
+      "title": "생후 60개월 준비물",
+      "summary": "5세 전후 학습, 운동, 생활습관을 균형 있게 점검해요.",
+      "categories": [
+        {
+          "id": "learning",
+          "title": "학습놀이",
+          "items": [
+            {
+              "category": "learning",
+              "name": "한글·숫자 놀이",
+              "reason": "글자와 숫자를 놀이로 접할 수 있어요.",
+              "priority": "medium",
+              "searchKeyword": "한글 숫자 놀이"
+            },
+            {
+              "category": "learning",
+              "name": "보드게임",
+              "reason": "규칙과 차례 지키기 놀이에 활용합니다.",
+              "priority": "medium",
+              "searchKeyword": "5세 보드게임"
+            }
+          ]
+        },
+        {
+          "id": "safety",
+          "title": "안전",
+          "items": [
+            {
+              "category": "safety",
+              "name": "자전거·킥보드 보호장비",
+              "reason": "야외활동 안전을 위해 필요합니다.",
+              "priority": "high",
+              "searchKeyword": "어린이 보호장비"
+            }
+          ]
+        },
+        {
+          "id": "habit",
+          "title": "생활습관",
+          "items": [
+            {
+              "category": "habit",
+              "name": "어린이 책상 후보",
+              "reason": "그림 그리기와 책 읽기 공간을 만들 수 있어요.",
+              "priority": "low",
+              "caution": "오래 앉히기보다 짧은 놀이 중심으로 사용하세요.",
+              "searchKeyword": "어린이 책상"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

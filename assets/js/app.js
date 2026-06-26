@@ -61,7 +61,6 @@ var App = (function(){
     Renderer.renderGrowth(state.guide, state.krGuide, state.krKdstPolicy);
     Renderer.renderMeal(state.guide, state.foodWarning, state.babyAge.guideMonth, state.krGuide, state.krFoodWarning);
     Renderer.renderPlay(state.guide);
-    Renderer.renderChecklist(state.guide, state.babyAge.guideMonth, state.krGuide);
     Renderer.renderSetting(state.baby, state.guide, null, state.krSources, state.krKdstPolicy);
     renderStaticSettingText();
     NotificationManager.checkMonthChanged(state.babyAge, state.baby.notificationEnabled);
@@ -197,7 +196,7 @@ var App = (function(){
 
   function routeHash(){
     var hash = String(location.hash || '').replace('#','');
-    var map = {home:'pageHome',growth:'pageGrowth',meal:'pageMeal',play:'pagePlay',check:'pageCheck',setting:'pageSetting'};
+    var map = {home:'pageHome',growth:'pageGrowth',meal:'pageMeal',play:'pagePlay',setting:'pageSetting'};
     if(map[hash]){ showPage(map[hash]); }
   }
 
@@ -210,7 +209,7 @@ var App = (function(){
   function refreshChecklistOnly(){
     if(!state.guide || !state.babyAge){ return; }
     Renderer.renderHome(state.guide, state.babyAge, state.baby, state.krGuide);
-    Renderer.renderChecklist(state.guide, state.babyAge.guideMonth, state.krGuide);
+    Renderer.renderGrowth(state.guide, state.krGuide, state.krKdstPolicy);
   }
 
   function showPage(pageId){
@@ -236,7 +235,6 @@ var App = (function(){
     if(pageId === 'pageGrowth'){ $('#headerTitle').text('성장'); }
     if(pageId === 'pageMeal'){ $('#headerTitle').text('식사'); }
     if(pageId === 'pagePlay'){ $('#headerTitle').text('놀이'); }
-    if(pageId === 'pageCheck'){ $('#headerTitle').text('체크'); }
     if(pageId === 'pageSetting'){ $('#headerTitle').text('설정'); updateInstallGuide(); }
   }
 
