@@ -137,14 +137,84 @@ var Renderer = (function(){
     if(krGuide && krGuide.koreaHealthCheckups && krGuide.koreaHealthCheckups.length){ renderKoreaCheckups($target, krGuide.koreaHealthCheckups); }
   }
 
-  function renderMeal(guide, foodWarning, month, krGuide, krFoodWarning){
+  function renderMeal(guide, foodWarning, month, krGuide, krFoodWarning, weaningPrep){
     $('#mealTitle').text(guide.title + ' 식사 가이드');
     $('#mealSummary').text(text((krGuide && krGuide.feedingStageTitle ? krGuide.feedingStageTitle + ' · ' : '') + (krGuide && krGuide.feedingSummary ? krGuide.feedingSummary : ((guide.feeding && guide.feeding.stage ? guide.feeding.stage + ' · ' : '') + text(guide.feeding && guide.feeding.summary)))));
+    renderWeaningPrep(weaningPrep, month);
     var $wrap = $('#mealGroups').empty();
     var feeding = guide.feeding || {};
     $.each(['breastMilkFormula','cowMilk','meal','cupPractice','texture','caution'], function(_, key){ $wrap.append(makeListCard(labels[key], feeding[key] || [])); });
     renderFoodWarning(foodWarning, month);
     renderKoreaMeal(krGuide, krFoodWarning, month);
+  }
+
+
+  function renderWeaningPrep(data, month){
+    var $area = $('#weaningPrepArea').empty();
+    if(!$area.length){ return; }
+    if(!isWeaningPrepTargetMonth(data, month)){ $area.hide(); return; }
+    $area.show();
+    var monthData = getWeaningPrepMonthData(data, month);
+    if(!monthData){ $area.hide(); return; }
+    var checked = Storage.getWeaningPrepVisible();
+    var $card = $('<article class="card weaning-prep-card"></article>');
+    $card.append('<p class="eyebrow">5~6개월 전용</p>');
+    $card.append($('<h3></h3>').text('이유식 체크리스트'));
+    var $label = $('<label class="check-row soft weaning-prep-toggle"></label>');
+    $label.append($('<input type="checkbox" id="weaningPrepToggle">').prop('checked', checked));
+    $label.append($('<span></span>').text('이유식 준비물 리스트 보기'));
+    $card.append($label);
+    if(checked){ renderWeaningPrepList($card, data, monthData); }
+    $area.append($card);
+  }
+
+  function isWeaningPrepTargetMonth(data, month){
+    if(!data || !data.metadata){ return false; }
+    return $.inArray(Number(month), data.metadata.showForMonths || []) > -1;
+  }
+
+  function getWeaningPrepMonthData(data, month){
+    if(!data || !data.months){ return null; }
+    return data.months[String(month)] || data.months['5'] || null;
+  }
+
+  function renderWeaningPrepList($card, data, monthData){
+    if(monthData.summary){ $card.append($('<p class="weaning-prep-summary"></p>').text(monthData.summary)); }
+    if(monthData.guide && monthData.guide.length){ $card.append(makeMiniList('준비 기준', monthData.guide)); }
+    var $list = $('<div class="product-list weaning-prep-list"></div>');
+    $.each(monthData.categories || [], function(_, category){
+      var $category = $('<div class="product-card weaning-prep-category"></div>');
+      $category.append($('<h3></h3>').text(category.title || '준비물'));
+      $.each(category.items || [], function(_, item){ $category.append(makeWeaningPrepItem(item)); });
+      $list.append($category);
+    });
+    if(!$list[0] || !$list[0].children.length){ $list.append('<p class="empty-text">표시할 이유식 준비물이 없습니다.</p>'); }
+    $card.append($list);
+    if(data.metadata && data.metadata.disclaimer){ $card.append($('<p class="muted small-text weaning-prep-disclaimer"></p>').text(data.metadata.disclaimer)); }
+  }
+
+  function makeWeaningPrepItem(item){
+    var $item = $('<div class="product-item"></div>');
+    var $head = $('<div class="product-item-head"></div>');
+    $head.append($('<strong></strong>').text(item.name || '준비물'));
+    $head.append($('<span></span>').addClass('product-priority ' + weaningPriorityClass(item.priority)).text(weaningPriorityLabel(item.priority)));
+    $item.append($head);
+    if(item.recommendedQuantity){ $item.append($('<p class="weaning-prep-quantity"></p>').text('권장 수량: ' + item.recommendedQuantity)); }
+    if(item.reason){ $item.append($('<p></p>').text(item.reason)); }
+    if(item.caution){ $item.append($('<p class="product-caution"></p>').text(item.caution)); }
+    return $item;
+  }
+
+  function weaningPriorityClass(priority){
+    if(priority === 'required'){ return 'high'; }
+    if(priority === 'limited'){ return 'low'; }
+    return 'medium';
+  }
+
+  function weaningPriorityLabel(priority){
+    if(priority === 'required'){ return '필수'; }
+    if(priority === 'limited'){ return '보류'; }
+    return '선택';
   }
 
   function renderKoreaMeal(krGuide, krFoodWarning, month){

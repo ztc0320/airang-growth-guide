@@ -1,5 +1,5 @@
 var App = (function(){
-  var state = {monthlyGuide:null, foodWarning:null, config:null, krOverlay:null, krFeeding:null, krCheckup:null, krFoodWarning:null, krSleepSafety:null, krKdstPolicy:null, krSources:null, baby:null, babyAge:null, guide:null, krGuide:null, deferredInstallPrompt:null, isAnimating:false};
+  var state = {monthlyGuide:null, foodWarning:null, config:null, krOverlay:null, krFeeding:null, krCheckup:null, krFoodWarning:null, krSleepSafety:null, krKdstPolicy:null, krSources:null, weaningPrep:null, baby:null, babyAge:null, guide:null, krGuide:null, deferredInstallPrompt:null, isAnimating:false};
 
   function init(){
     setDateLimits();
@@ -22,8 +22,9 @@ var App = (function(){
       $.getJSON('./assets/data/kr-food-warning.json'),
       $.getJSON('./assets/data/kr-sleep-safety-guide.json'),
       $.getJSON('./assets/data/kr-kdst-policy.json'),
-      $.getJSON('./assets/data/kr-official-sources.json')
-    ).done(function(monthly, food, config, krOverlay, krFeeding, krCheckup, krFoodWarning, krSleepSafety, krKdstPolicy, krSources){
+      $.getJSON('./assets/data/kr-official-sources.json'),
+      $.getJSON('./assets/data/weaning-prep-checklist.json')
+    ).done(function(monthly, food, config, krOverlay, krFeeding, krCheckup, krFoodWarning, krSleepSafety, krKdstPolicy, krSources, weaningPrep){
       state.monthlyGuide = monthly[0];
       state.foodWarning = food[0];
       state.config = config[0];
@@ -34,6 +35,7 @@ var App = (function(){
       state.krSleepSafety = krSleepSafety[0];
       state.krKdstPolicy = krKdstPolicy[0];
       state.krSources = krSources[0];
+      state.weaningPrep = weaningPrep[0];
     });
   }
 
@@ -59,7 +61,7 @@ var App = (function(){
     $('#headerTitle').text((state.baby.name || '우리 아이') + ' 가이드');
     Renderer.renderHome(state.guide, state.babyAge, state.baby, state.krGuide);
     Renderer.renderGrowth(state.guide, state.krGuide, state.krKdstPolicy);
-    Renderer.renderMeal(state.guide, state.foodWarning, state.babyAge.guideMonth, state.krGuide, state.krFoodWarning);
+    Renderer.renderMeal(state.guide, state.foodWarning, state.babyAge.guideMonth, state.krGuide, state.krFoodWarning, state.weaningPrep);
     Renderer.renderPlay(state.guide);
     Renderer.renderSetting(state.baby, state.guide, null, state.krSources, state.krKdstPolicy);
     renderStaticSettingText();
@@ -90,6 +92,11 @@ var App = (function(){
       var $input = $(this);
       Storage.setChecklist($input.data('month'), $input.data('group'), $input.data('index'), $input.is(':checked'));
       refreshChecklistOnly();
+    });
+
+    $(document).on('change', '#weaningPrepToggle', function(){
+      Storage.setWeaningPrepVisible($(this).is(':checked'));
+      refreshMealOnly();
     });
 
     $('#btnResetData').on('click', function(){
@@ -204,6 +211,11 @@ var App = (function(){
     var version = state.config && state.config.version ? state.config.version : '1.0.0';
     var reviewedAt = state.config && state.config.reviewedAt ? state.config.reviewedAt : '2026-06-25';
     $('#appVersionText').text('앱 버전 ' + version + ' · 콘텐츠 검수 기준일 ' + reviewedAt + ' · 한국 공식자료 보강 포함');
+  }
+
+  function refreshMealOnly(){
+    if(!state.guide || !state.babyAge){ return; }
+    Renderer.renderMeal(state.guide, state.foodWarning, state.babyAge.guideMonth, state.krGuide, state.krFoodWarning, state.weaningPrep);
   }
 
   function refreshChecklistOnly(){

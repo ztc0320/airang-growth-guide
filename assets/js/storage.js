@@ -3,7 +3,8 @@ var Storage = (function(){
     babyName: 'airang_baby_name',
     babyBirthDate: 'airang_baby_birth_date',
     notificationEnabled: 'airang_notification_enabled',
-    lastSeenMonth: 'airang_last_seen_month'
+    lastSeenMonth: 'airang_last_seen_month',
+    weaningPrepVisible: 'airang_weaning_prep_visible'
   };
 
   function getBaby(){
@@ -36,6 +37,14 @@ var Storage = (function(){
     localStorage.setItem(getChecklistKey(month, group, index), checked ? 'true' : 'false');
   }
 
+  function getWeaningPrepVisible(){
+    return localStorage.getItem(KEYS.weaningPrepVisible) === 'true';
+  }
+
+  function setWeaningPrepVisible(checked){
+    localStorage.setItem(KEYS.weaningPrepVisible, checked ? 'true' : 'false');
+  }
+
   function getLastSeenMonth(){
     var value = localStorage.getItem(KEYS.lastSeenMonth);
     return value === null ? null : Number(value);
@@ -60,6 +69,8 @@ var Storage = (function(){
     hasBaby: hasBaby,
     getChecklist: getChecklist,
     setChecklist: setChecklist,
+    getWeaningPrepVisible: getWeaningPrepVisible,
+    setWeaningPrepVisible: setWeaningPrepVisible,
     getLastSeenMonth: getLastSeenMonth,
     setLastSeenMonth: setLastSeenMonth,
     resetAll: resetAll

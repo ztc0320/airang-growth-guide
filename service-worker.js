@@ -1,4 +1,4 @@
-var CACHE_NAME = 'airang-growth-guide-v8-products-page';
+var CACHE_NAME = 'airang-growth-guide-v9-weaning-prep';
 var APP_SHELL = [
   './',
   './index.html',
@@ -27,6 +27,7 @@ var APP_SHELL = [
   './assets/data/kr-monthly-overlay.json',
   './assets/data/kr-kdst-policy.json',
   './assets/data/recommended-products.json',
+  './assets/data/weaning-prep-checklist.json',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png'
 ];
