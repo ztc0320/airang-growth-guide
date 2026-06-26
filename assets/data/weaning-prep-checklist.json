@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "title": "5~6개월 이유식 준비물 체크리스트",
+    "version": "2.0.0",
+    "reviewedAt": "2026-06-26",
+    "country": "KR",
+    "showForMonths": [
+      5,
+      6
+    ],
+    "displaySection": "meal",
+    "sourceType": "user_uploaded_image",
+    "sourceTitle": "이유식에 필요한 것들 (새로 구매는 선택)",
+    "sourcePolicy": [
+      "사용자가 업로드한 이미지에 보이는 품목명과 필수/선택 구분만 반영합니다.",
+      "사진에 없는 추천 수량, 구매 기준, 사용 이유, 주의사항은 임의로 추가하지 않습니다."
+    ],
+    "disclaimer": "이 목록은 사용자가 업로드한 이미지 기준의 준비물 체크리스트입니다. 아이의 발달 상태와 이유식 방식에 따라 실제 필요 여부는 달라질 수 있습니다."
+  },
+  "months": {
+    "5": {
+      "month": 5,
+      "title": "생후 5~6개월 이유식 준비물",
+      "summary": "사용자가 업로드한 이미지 기준 목록입니다. ‘필’은 필수 준비물, ‘선’은 선택 준비물로 구분했습니다.",
+      "guide": [
+        "이미지에 표시된 품목명과 필수/선택 구분만 반영했습니다.",
+        "원본 사진에 없는 수량, 설명, 구매 기준은 추가하지 않았습니다."
+      ],
+      "categories": [
+        {
+          "id": "required_items",
+          "title": "필수 준비물",
+          "items": [
+            {
+              "id": "weaning_cube",
+              "name": "이유식 큐브",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "weaning_steamer",
+              "name": "이유식 찜기",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "weaning_storage_container",
+              "name": "이유식 보관용기",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "cube_storage_container",
+              "name": "큐브 보관용기",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "chopper",
+              "name": "초퍼",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "weaning_plate",
+              "name": "이유식 식판",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "weaning_spoon",
+              "name": "이유식 스푼",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "suction_bowl",
+              "name": "흡착볼",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "bib",
+              "name": "턱받이",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "pot",
+              "name": "냄비",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "cutting_board",
+              "name": "도마",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "straw_cup",
+              "name": "빨대컵",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "spatula",
+              "name": "스파출라",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "scale",
+              "name": "저울",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "masher",
+              "name": "매셔",
+              "priority": "required",
+              "sourceLabel": "필"
+            }
+          ]
+        },
+        {
+          "id": "optional_items",
+          "title": "선택 준비물",
+          "items": [
+            {
+              "id": "knife",
+              "name": "칼",
+              "priority": "optional",
+              "sourceLabel": "선"
+            },
+            {
+              "id": "tongs",
+              "name": "집게",
+              "priority": "optional",
+              "sourceLabel": "선"
+            },
+            {
+              "id": "measuring_cup",
+              "name": "계량컵",
+              "priority": "optional",
+              "sourceLabel": "선"
+            }
+          ]
+        }
+      ],
+      "checklist": [
+        "필수 준비물 확인",
+        "선택 준비물 확인"
+      ]
+    },
+    "6": {
+      "month": 6,
+      "title": "생후 5~6개월 이유식 준비물",
+      "summary": "사용자가 업로드한 이미지 기준 목록입니다. ‘필’은 필수 준비물, ‘선’은 선택 준비물로 구분했습니다.",
+      "guide": [
+        "이미지에 표시된 품목명과 필수/선택 구분만 반영했습니다.",
+        "원본 사진에 없는 수량, 설명, 구매 기준은 추가하지 않았습니다."
+      ],
+      "categories": [
+        {
+          "id": "required_items",
+          "title": "필수 준비물",
+          "items": [
+            {
+              "id": "weaning_cube",
+              "name": "이유식 큐브",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "weaning_steamer",
+              "name": "이유식 찜기",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "weaning_storage_container",
+              "name": "이유식 보관용기",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "cube_storage_container",
+              "name": "큐브 보관용기",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "chopper",
+              "name": "초퍼",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "weaning_plate",
+              "name": "이유식 식판",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "weaning_spoon",
+              "name": "이유식 스푼",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "suction_bowl",
+              "name": "흡착볼",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "bib",
+              "name": "턱받이",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "pot",
+              "name": "냄비",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "cutting_board",
+              "name": "도마",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "straw_cup",
+              "name": "빨대컵",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "spatula",
+              "name": "스파출라",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "scale",
+              "name": "저울",
+              "priority": "required",
+              "sourceLabel": "필"
+            },
+            {
+              "id": "masher",
+              "name": "매셔",
+              "priority": "required",
+              "sourceLabel": "필"
+            }
+          ]
+        },
+        {
+          "id": "optional_items",
+          "title": "선택 준비물",
+          "items": [
+            {
+              "id": "knife",
+              "name": "칼",
+              "priority": "optional",
+              "sourceLabel": "선"
+            },
+            {
+              "id": "tongs",
+              "name": "집게",
+              "priority": "optional",
+              "sourceLabel": "선"
+            },
+            {
+              "id": "measuring_cup",
+              "name": "계량컵",
+              "priority": "optional",
+              "sourceLabel": "선"
+            }
+          ]
+        }
+      ],
+      "checklist": [
+        "필수 준비물 확인",
+        "선택 준비물 확인"
+      ]
+    }
+  }
+}
