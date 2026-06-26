@@ -1,4 +1,4 @@
-var CACHE_NAME = 'airang-growth-guide-v12-ga4-gtag';
+var CACHE_NAME = 'airang-growth-guide-v13-feeding-guide';
 var APP_SHELL = [
   './',
   './index.html',
@@ -28,6 +28,7 @@ var APP_SHELL = [
   './assets/data/kr-kdst-policy.json',
   './assets/data/recommended-products.json',
   './assets/data/weaning-prep-checklist.json',
+  './assets/data/feeding-guide.json',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png'
 ];

@@ -137,15 +137,74 @@ var Renderer = (function(){
     if(krGuide && krGuide.koreaHealthCheckups && krGuide.koreaHealthCheckups.length){ renderKoreaCheckups($target, krGuide.koreaHealthCheckups); }
   }
 
-  function renderMeal(guide, foodWarning, month, krGuide, krFoodWarning, weaningPrep){
+  function renderMeal(guide, foodWarning, month, krGuide, krFoodWarning, weaningPrep, feedingGuide){
     $('#mealTitle').text(guide.title + ' 식사 가이드');
     $('#mealSummary').text(text((krGuide && krGuide.feedingStageTitle ? krGuide.feedingStageTitle + ' · ' : '') + (krGuide && krGuide.feedingSummary ? krGuide.feedingSummary : ((guide.feeding && guide.feeding.stage ? guide.feeding.stage + ' · ' : '') + text(guide.feeding && guide.feeding.summary)))));
+    renderFeedingGuide(feedingGuide, month);
     renderWeaningPrep(weaningPrep, month);
     var $wrap = $('#mealGroups').empty();
     var feeding = guide.feeding || {};
     $.each(['breastMilkFormula','cowMilk','meal','cupPractice','texture','caution'], function(_, key){ $wrap.append(makeListCard(labels[key], feeding[key] || [])); });
     renderFoodWarning(foodWarning, month);
     renderKoreaMeal(krGuide, krFoodWarning, month);
+  }
+
+  function renderFeedingGuide(data, month){
+    var $area = $('#feedingGuideArea').empty();
+    if(!$area.length){ return; }
+    var item = getFeedingGuideMonthData(data, month);
+    if(!item){ $area.append('<p class="empty-text">월령별 수유·이유식 기준 데이터를 불러오지 못했습니다.</p>'); return; }
+    var meta = data && data.meta ? data.meta : {};
+    var formula = item.formula || {};
+    var solid = item.solidFood || {};
+    var $card = $('<article class="card feeding-guide-card"></article>');
+    var $head = $('<div class="feeding-guide-head"></div>');
+    $head.append('<p class="eyebrow">월령별 평균 참고 지표</p>');
+    $head.append($('<h3></h3>').text('현재 ' + item.label + ' 식사 기준'));
+    $head.append($('<span class="feeding-guide-stage"></span>').text(item.stage || '월령별 식사 기준'));
+    $card.append($head);
+    if(meta.description){ $card.append($('<p class="muted feeding-guide-desc"></p>').text(meta.description)); }
+    var $grid = $('<div class="feeding-guide-grid"></div>');
+    $grid.append(makeFeedingGuidePanel('분유 기준', [
+      {label:'하루 횟수', value:formula.timesPerDay},
+      {label:'수유 간격', value:formula.interval},
+      {label:'1회 수유량', value:formula.amountPerFeed},
+      {label:'하루 총량', value:formula.dailyTotal}
+    ], formula.note));
+    var solidRows = [
+      {label:'단계', value:solid.stage},
+      {label:'하루 이유식', value:solid.mealsPerDay},
+      {label:'1회 참고량', value:solid.amountPerMeal}
+    ];
+    if(solid.snackPerDay){ solidRows.push({label:'간식', value:solid.snackPerDay}); }
+    $grid.append(makeFeedingGuidePanel('이유식 기준', solidRows, solid.note));
+    $card.append($grid);
+    if(meta.warning){ $card.append($('<p class="feeding-guide-warning"></p>').text(meta.warning)); }
+    $area.append($card);
+  }
+
+  function getFeedingGuideMonthData(data, month){
+    if(!data || !data.months || !data.months.length){ return null; }
+    var targetMonth = Number(month);
+    var fallback = null;
+    $.each(data.months, function(_, item){
+      if(Number(item.month) === targetMonth){ fallback = item; return false; }
+      if(targetMonth >= 12 && Number(item.month) === 12){ fallback = item; }
+    });
+    return fallback;
+  }
+
+  function makeFeedingGuidePanel(title, rows, note){
+    var $panel = $('<div class="feeding-guide-panel"></div>');
+    $panel.append($('<h4></h4>').text(title));
+    $.each(rows || [], function(_, row){
+      var $row = $('<div class="feeding-guide-row"></div>');
+      $row.append($('<span></span>').text(row.label));
+      $row.append($('<strong></strong>').text(row.value || '-'));
+      $panel.append($row);
+    });
+    if(note){ $panel.append($('<p class="feeding-guide-note"></p>').text(note)); }
+    return $panel;
   }
 
 

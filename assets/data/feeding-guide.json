@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "title": "월령별 수유·이유식 평균 참고 지표",
+    "description": "아기마다 수유량과 이유식 진행 속도는 다를 수 있으므로 평균 참고용으로만 사용합니다.",
+    "unitNote": "분유는 mL 기준, 이유식은 g 또는 mL 수준의 참고량으로 표시합니다.",
+    "warning": "체중 증가, 소변량, 변 상태, 컨디션에 따라 차이가 있을 수 있습니다. 걱정되는 변화가 있으면 소아청소년과 상담을 권장합니다."
+  },
+  "months": [
+    {
+      "month": 0,
+      "label": "0개월",
+      "stage": "신생아",
+      "feedingType": "milk_only",
+      "formula": {
+        "timesPerDay": "8~12회",
+        "interval": "2~3시간",
+        "amountPerFeed": "30~90mL",
+        "dailyTotal": "아기 상태에 따라 차이 큼",
+        "note": "처음에는 적은 양으로 시작하고 점차 늘립니다."
+      },
+      "solidFood": {
+        "enabled": false,
+        "stage": "이유식 전",
+        "mealsPerDay": "-",
+        "amountPerMeal": "-",
+        "note": "분유 또는 모유가 주된 영양 공급원입니다."
+      }
+    },
+    {
+      "month": 1,
+      "label": "1개월",
+      "stage": "영아 초기",
+      "feedingType": "milk_only",
+      "formula": {
+        "timesPerDay": "6~8회",
+        "interval": "3~4시간",
+        "amountPerFeed": "60~120mL",
+        "dailyTotal": "약 600~800mL",
+        "note": "수유량은 체중과 성장 속도에 따라 차이가 큽니다."
+      },
+      "solidFood": {
+        "enabled": false,
+        "stage": "이유식 전",
+        "mealsPerDay": "-",
+        "amountPerMeal": "-",
+        "note": "이유식을 시작하지 않습니다."
+      }
+    },
+    {
+      "month": 2,
+      "label": "2개월",
+      "stage": "영아 초기",
+      "feedingType": "milk_only",
+      "formula": {
+        "timesPerDay": "5~7회",
+        "interval": "3~4시간",
+        "amountPerFeed": "120~150mL",
+        "dailyTotal": "약 700~900mL",
+        "note": "수유 간격이 조금씩 길어질 수 있습니다."
+      },
+      "solidFood": {
+        "enabled": false,
+        "stage": "이유식 전",
+        "mealsPerDay": "-",
+        "amountPerMeal": "-",
+        "note": "분유 또는 모유만 먹는 시기입니다."
+      }
+    },
+    {
+      "month": 3,
+      "label": "3개월",
+      "stage": "영아 초기",
+      "feedingType": "milk_only",
+      "formula": {
+        "timesPerDay": "5~6회",
+        "interval": "3~4시간",
+        "amountPerFeed": "150~180mL",
+        "dailyTotal": "약 750~900mL",
+        "note": "수유 리듬이 비교적 일정해질 수 있습니다."
+      },
+      "solidFood": {
+        "enabled": false,
+        "stage": "이유식 전",
+        "mealsPerDay": "-",
+        "amountPerMeal": "-",
+        "note": "이유식은 아직 권장하지 않습니다."
+      }
+    },
+    {
+      "month": 4,
+      "label": "4개월",
+      "stage": "이유식 준비 전 단계",
+      "feedingType": "milk_only",
+      "formula": {
+        "timesPerDay": "4~6회",
+        "interval": "4시간 전후",
+        "amountPerFeed": "160~200mL",
+        "dailyTotal": "약 800~1,000mL",
+        "note": "아직은 수유가 전부인 시기입니다."
+      },
+      "solidFood": {
+        "enabled": false,
+        "stage": "이유식 준비 전",
+        "mealsPerDay": "-",
+        "amountPerMeal": "-",
+        "note": "목 가누기, 앉기, 음식에 대한 관심 등을 관찰하는 시기입니다."
+      }
+    },
+    {
+      "month": 5,
+      "label": "5개월",
+      "stage": "초기 이유식 준비",
+      "feedingType": "milk_and_solid",
+      "formula": {
+        "timesPerDay": "4~6회",
+        "interval": "4~6시간",
+        "amountPerFeed": "160~200mL",
+        "dailyTotal": "약 800~1,000mL",
+        "note": "아직 수유가 주된 영양 공급원입니다."
+      },
+      "solidFood": {
+        "enabled": true,
+        "stage": "초기 이유식",
+        "mealsPerDay": "하루 1회",
+        "amountPerMeal": "소량부터 시작",
+        "note": "한 가지 재료부터 천천히 시작합니다."
+      }
+    },
+    {
+      "month": 6,
+      "label": "6개월",
+      "stage": "초기 이유식",
+      "feedingType": "milk_and_solid",
+      "formula": {
+        "timesPerDay": "4~6회",
+        "interval": "4~6시간",
+        "amountPerFeed": "160~200mL",
+        "dailyTotal": "약 800~1,000mL",
+        "note": "이유식을 시작해도 수유가 주된 영양 공급원입니다."
+      },
+      "solidFood": {
+        "enabled": true,
+        "stage": "초기 이유식",
+        "mealsPerDay": "하루 1회",
+        "amountPerMeal": "2~3숟가락부터 시작",
+        "note": "새 재료는 한 번에 하나씩 시도하는 방식이 안전합니다."
+      }
+    },
+    {
+      "month": 7,
+      "label": "7개월",
+      "stage": "중기 이유식",
+      "feedingType": "milk_and_solid",
+      "formula": {
+        "timesPerDay": "3~5회",
+        "interval": "5~6시간",
+        "amountPerFeed": "160~240mL",
+        "dailyTotal": "약 700~800mL",
+        "note": "이유식 비율을 점차 늘려갑니다."
+      },
+      "solidFood": {
+        "enabled": true,
+        "stage": "중기 이유식",
+        "mealsPerDay": "하루 2회",
+        "amountPerMeal": "70~100g",
+        "snackPerDay": "1회 가능",
+        "note": "수유 사이에 이유식과 간식을 배치할 수 있습니다."
+      }
+    },
+    {
+      "month": 8,
+      "label": "8개월",
+      "stage": "중기 이유식",
+      "feedingType": "milk_and_solid",
+      "formula": {
+        "timesPerDay": "3~5회",
+        "interval": "5~6시간",
+        "amountPerFeed": "160~240mL",
+        "dailyTotal": "약 700~800mL",
+        "note": "수유량보다 이유식 섭취량이 점차 중요해지는 시기입니다."
+      },
+      "solidFood": {
+        "enabled": true,
+        "stage": "중기 이유식",
+        "mealsPerDay": "하루 2회",
+        "amountPerMeal": "70~100g",
+        "snackPerDay": "1회 가능",
+        "note": "곡류, 단백질, 채소를 조합해 볼 수 있습니다."
+      }
+    },
+    {
+      "month": 9,
+      "label": "9개월",
+      "stage": "후기 이유식",
+      "feedingType": "milk_and_solid",
+      "formula": {
+        "timesPerDay": "2~3회",
+        "interval": "아침·점심·저녁 중심",
+        "amountPerFeed": "아이 상황에 따라 조절",
+        "dailyTotal": "약 600~800mL",
+        "note": "이유식 3회 구조로 넘어가는 시기입니다."
+      },
+      "solidFood": {
+        "enabled": true,
+        "stage": "후기 이유식",
+        "mealsPerDay": "하루 3회",
+        "amountPerMeal": "아기 섭취량에 따라 점차 증가",
+        "snackPerDay": "1회 가능",
+        "note": "식사 리듬을 아침, 점심, 저녁으로 맞춰갈 수 있습니다."
+      }
+    },
+    {
+      "month": 10,
+      "label": "10개월",
+      "stage": "후기 이유식",
+      "feedingType": "milk_and_solid",
+      "formula": {
+        "timesPerDay": "2~3회",
+        "interval": "아침·점심·저녁 중심",
+        "amountPerFeed": "아이 상황에 따라 조절",
+        "dailyTotal": "약 600~800mL",
+        "note": "이유식 섭취량이 늘면서 수유량은 점차 줄 수 있습니다."
+      },
+      "solidFood": {
+        "enabled": true,
+        "stage": "후기 이유식",
+        "mealsPerDay": "하루 3회",
+        "amountPerMeal": "아기 섭취량에 따라 점차 증가",
+        "snackPerDay": "1회 가능",
+        "note": "다양한 재료 조합을 시도할 수 있습니다."
+      }
+    },
+    {
+      "month": 11,
+      "label": "11개월",
+      "stage": "후기 이유식",
+      "feedingType": "milk_and_solid",
+      "formula": {
+        "timesPerDay": "2~3회",
+        "interval": "아침·점심·저녁 중심",
+        "amountPerFeed": "아이 상황에 따라 조절",
+        "dailyTotal": "약 600~800mL",
+        "note": "완료기 전환을 준비하는 시기입니다."
+      },
+      "solidFood": {
+        "enabled": true,
+        "stage": "후기 이유식",
+        "mealsPerDay": "하루 3회",
+        "amountPerMeal": "아기 섭취량에 따라 점차 증가",
+        "snackPerDay": "1회 가능",
+        "note": "가족 식사 시간과 비슷한 리듬을 만들어갈 수 있습니다."
+      }
+    },
+    {
+      "month": 12,
+      "label": "12개월 이상",
+      "stage": "완료기 / 유아식 전환",
+      "feedingType": "solid_main",
+      "formula": {
+        "timesPerDay": "2회 전후",
+        "interval": "오전·오후",
+        "amountPerFeed": "아이 상황에 따라 조절",
+        "dailyTotal": "약 400~600mL",
+        "note": "식사가 주된 영양 공급원이 되도록 전환합니다."
+      },
+      "solidFood": {
+        "enabled": true,
+        "stage": "완료기 / 유아식 전환",
+        "mealsPerDay": "하루 3회",
+        "amountPerMeal": "120~180g",
+        "snackPerDay": "2회 가능",
+        "note": "가족식으로 천천히 넘어가는 시기입니다."
+      }
+    }
+  ]
+}
