@@ -1,10 +1,5 @@
-var CACHE_NAME = 'airang-growth-guide-v17';
+var CACHE_NAME = 'airang-growth-guide-v17-adsense-cache-cleanup';
 var APP_SHELL = [
-  './',
-  './index.html',
-  './privacy.html',
-  './sources.html',
-  './products.html',
   './manifest.json',
   './assets/css/common.css',
   './assets/js/vendor/jquery-lite.js',
@@ -47,12 +42,20 @@ self.addEventListener('activate', function(event){
 
 self.addEventListener('fetch', function(event){
   if(event.request.method !== 'GET'){ return; }
+
   var url = new URL(event.request.url);
   if(url.origin !== self.location.origin){ return; }
+
+  if(event.request.mode === 'navigate' || url.pathname === '/' || url.pathname.slice(-5) === '.html'){
+    event.respondWith(networkFirst(event.request));
+    return;
+  }
+
   if(url.pathname.indexOf('/assets/data/') > -1){
     event.respondWith(networkFirst(event.request));
     return;
   }
+
   event.respondWith(cacheFirst(event.request));
 });
 
