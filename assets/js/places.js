@@ -22,6 +22,11 @@ var PlacesApp = (function($){
     bindEvents();
     loadData();
     registerServiceWorker();
+    window.addEventListener('resize', refreshMapSize);
+    window.addEventListener('orientationchange', refreshMapSize);
+    window.addEventListener('load', refreshMapSize);
+    document.addEventListener('visibilitychange', function(){ if(!document.hidden){ refreshMapSize(); } });
+    observeMapSize();
   }
 
   function initMap(){
@@ -104,7 +109,7 @@ var PlacesApp = (function($){
       if(formatHours(item)){ meta.push(escapeHtml(formatHours(item))); }
       if(formatCharge(item.childCharge)){ meta.push(escapeHtml(formatCharge(item.childCharge))); }
       if(Number.isFinite(item.distance)){ meta.push(escapeHtml(formatDistance(item.distance))); }
-      button.innerHTML = '<span class="place-type">' + escapeHtml(item.type) + '</span><h2>' + escapeHtml(item.name) + '</h2><p>' + escapeHtml(item.address || '주소 정보 없음') + '</p><div class="place-card-meta">' + meta.map(function(value){ return '<span>' + value + '</span>'; }).join('') + '</div>';
+      button.innerHTML = '<span class="place-type ' + placeTypeClass(item) + '">' + escapeHtml(item.type) + '</span><h2>' + escapeHtml(item.name) + '</h2><p>' + escapeHtml(item.address || '주소 정보 없음') + '</p><div class="place-card-meta">' + meta.map(function(value){ return '<span>' + value + '</span>'; }).join('') + '</div>';
       button.addEventListener('click', function(){ selectPlace(item.id, true); });
       li.appendChild(button);
       list.appendChild(li);
@@ -117,7 +122,7 @@ var PlacesApp = (function($){
     var bounds = [];
     state.filtered.forEach(function(item){
       if(!isCoordinate(item)){ return; }
-      var iconClass = item.isChildren ? 'children' : item.type.indexOf('미술관') > -1 ? 'art' : '';
+      var iconClass = item.isChildren ? 'children' : item.type.indexOf('미술관') > -1 ? 'art' : 'museum';
       var label = item.isChildren ? '어' : item.type.indexOf('미술관') > -1 ? '미' : '박';
       var icon = L.divIcon({
         className:'',
@@ -152,7 +157,7 @@ var PlacesApp = (function($){
     var actions = '';
     if(homepage && homepage !== reservation){ actions += '<a href="' + escapeAttribute(homepage) + '" target="_blank" rel="noopener noreferrer">공식 홈페이지</a>'; }
     if(reservation){ actions += '<a class="primary" href="' + escapeAttribute(reservation) + '" target="_blank" rel="noopener noreferrer">공식 사이트에서 예약 확인</a>'; }
-    content.innerHTML = '<span class="place-type">' + escapeHtml(item.type) + '</span>' +
+    content.innerHTML = '<span class="place-type ' + placeTypeClass(item) + '">' + escapeHtml(item.type) + '</span>' +
       '<h2>' + escapeHtml(item.name) + '</h2>' +
       '<p class="place-detail-address">' + escapeHtml(item.address || '주소 정보 없음') + '</p>' +
       '<dl class="place-detail-info">' +
@@ -220,8 +225,29 @@ var PlacesApp = (function($){
     $('#placeDataNotice').prop('hidden', false).text(message);
   }
 
+  function refreshMapSize(){
+    window.clearTimeout(refreshMapSize.timer);
+    refreshMapSize.timer = window.setTimeout(function(){
+      if(state.map){ state.map.invalidateSize(); }
+    }, 160);
+  }
+
+  function observeMapSize(){
+    if(!window.ResizeObserver){ return; }
+    var panel = document.querySelector('.places-map-panel');
+    if(!panel){ return; }
+    state.mapSizeObserver = new ResizeObserver(function(){ refreshMapSize(); });
+    state.mapSizeObserver.observe(panel);
+  }
+
   function formatHours(item){
     return item.weekdayOpen && item.weekdayClose ? item.weekdayOpen + '–' + item.weekdayClose : '';
+  }
+
+  function placeTypeClass(item){
+    if(item.isChildren){ return 'type-children'; }
+    if(item.type.indexOf('미술관') > -1){ return 'type-art'; }
+    return 'type-museum';
   }
 
   function formatCharge(value){

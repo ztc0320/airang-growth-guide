@@ -26,3 +26,20 @@ K-DST 원문 문항, 점수표, 판정 알고리즘은 포함하지 않았습니
 `places.html`은 Leaflet과 OpenStreetMap을 사용하며, 시설 정보는 공공데이터포털의 전국박물관미술관정보표준데이터와 각 시설 공식 홈페이지를 출처로 표시합니다.
 
 GitHub Pages 배포 후 자동 갱신하려면 저장소 Actions Secret에 `PUBLIC_DATA_SERVICE_KEY`를 등록합니다. 자세한 설정은 `DEPLOYMENT.md`를 확인하세요.
+
+### Tailwind CSS
+
+나들이 화면의 컬러 스타일은 Tailwind CSS v4로 빌드되어 있습니다.
+
+- 입력 파일: `assets/css/tailwind-places.input.css`
+- 배포 파일: `assets/css/tailwind-places.css`
+- 설정 및 의존성: `package.json`
+
+스타일 수정 후 다음 명령으로 다시 빌드합니다.
+
+```bash
+npm install
+npm run build:tailwind
+```
+
+GitHub Pages에는 이미 빌드된 `tailwind-places.css`가 포함되므로 배포 시 `npm install`을 실행할 필요가 없습니다.
