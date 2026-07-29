@@ -1,0 +1,27 @@
+[
+  {
+    "id": "manual-national-assembly-children",
+    "name": "국회박물관 어린이박물관",
+    "type": "어린이박물관",
+    "address": "서울특별시 영등포구 의사당대로 1",
+    "latitude": 37.53291197,
+    "longitude": 126.9164039,
+    "phone": "02-6788-2269",
+    "homepageUrl": "https://museum.assembly.go.kr/",
+    "reservationUrl": "https://memorial.assembly.go.kr/",
+    "reservationType": "사전예약 필수",
+    "weekdayOpen": "10:00",
+    "weekdayClose": "16:20",
+    "holidayOpen": "10:00",
+    "holidayClose": "11:20",
+    "closedInfo": "일요일·법정공휴일 등 휴관, 방문 전 공식 홈페이지 확인",
+    "adultCharge": "0",
+    "youthCharge": "0",
+    "childCharge": "0",
+    "description": "놀이와 체험을 통해 국회와 민주주의, 법의 의미와 역할을 배우는 어린이 체험전시 공간입니다.",
+    "referenceDate": "2026-07-29",
+    "isChildren": true,
+    "dataSourceName": "국회박물관",
+    "dataSourceUrl": "https://museum.assembly.go.kr/"
+  }
+]

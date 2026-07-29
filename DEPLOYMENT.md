@@ -31,6 +31,16 @@
 3. Branch 배포 설정
 4. HTTPS 주소 확인
 
+### 박물관 데이터 자동 갱신
+
+1. 공공데이터포털에서 `전국박물관미술관정보표준데이터` 활용신청
+2. GitHub 저장소의 `Settings > Secrets and variables > Actions` 이동
+3. `New repository secret` 선택
+4. 이름은 `PUBLIC_DATA_SERVICE_KEY`, 값은 발급받은 일반 인증키 입력
+5. `Actions > Update museum data > Run workflow`를 한 번 실행
+
+이후 매일 오전 6시 10분경(한국시간)에 `assets/data/museums.json`이 자동 갱신됩니다. Secret을 설정하지 않아도 기본 등록된 시설로 나들이 화면을 확인할 수 있습니다.
+
 ## 5. 서비스 워커 업데이트
 
 CSS/JS/JSON을 수정한 뒤 사용자의 캐시가 남아 있으면 `service-worker.js`의 `CACHE_NAME` 값을 변경합니다.

@@ -1,0 +1,14 @@
+{
+  "국립중앙박물관": {
+    "reservationUrl": "https://www.museum.go.kr/MUSEUM/contents/M0701000000.do",
+    "reservationType": "공식 사이트 확인"
+  },
+  "국립민속박물관 어린이박물관": {
+    "reservationUrl": "https://www.nfm.go.kr/kids/nfmkid/exhibition/selectReserveView.do",
+    "reservationType": "사전예약 필수"
+  },
+  "국립현대미술관 서울": {
+    "reservationUrl": "https://www.mmca.go.kr/visitingInfo/seoulInfo.do",
+    "reservationType": "관람정보 확인"
+  }
+}

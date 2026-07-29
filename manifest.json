@@ -52,6 +52,17 @@
           "sizes": "192x192"
         }
       ]
+    },
+    {
+      "name": "아이랑 나들이",
+      "short_name": "나들이",
+      "url": "./places.html",
+      "icons": [
+        {
+          "src": "./assets/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }

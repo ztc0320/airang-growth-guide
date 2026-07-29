@@ -1,7 +1,11 @@
-var CACHE_NAME = 'airang-growth-guide-v17-adsense-cache-cleanup';
+var CACHE_NAME = 'airang-growth-guide-v18-places';
 var APP_SHELL = [
+  './index.html',
+  './products.html',
+  './places.html',
   './manifest.json',
   './assets/css/common.css',
+  './assets/css/places.css',
   './assets/js/vendor/jquery-lite.js',
   './assets/js/app.js',
   './assets/js/baby-calc.js',
@@ -10,6 +14,7 @@ var APP_SHELL = [
   './assets/js/notification.js',
   './assets/js/validate-monthly-guide.js',
   './assets/js/products.js',
+  './assets/js/places.js',
   './assets/data/monthly-guide.json',
   './assets/data/cdc-milestones-ko.json',
   './assets/data/food-warning.json',

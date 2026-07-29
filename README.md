@@ -11,9 +11,18 @@
 - kr-sleep-safety-guide.json: 만 1세 이하 수면 안전·영아돌연사증후군 예방 안내
 - kr-monthly-overlay.json: 0~60개월 전체 월령에 한국형 보강 데이터 매핑
 - kr-kdst-policy.json: K-DST 문항을 복제하지 않는 데이터 처리 정책
+- places.html: 전국 어린이박물관·박물관·미술관 나들이 지도
+- assets/data/museums.json: GitHub Actions가 자동 갱신하는 지도 데이터
+- scripts/update-museums.js: 공공데이터포털 박물관 데이터 수집기
 
 ## 주의
 
 K-DST 원문 문항, 점수표, 판정 알고리즘은 포함하지 않았습니다. 영유아 건강검진 차수와 발달평가·상담 포함 여부만 안내합니다.
 
 기존 monthly-guide.json을 바로 교체하지 말고 kr-monthly-overlay.json을 병합해 한국형 보강 데이터로 사용하는 방식을 권장합니다.
+
+## 아이랑 나들이
+
+`places.html`은 Leaflet과 OpenStreetMap을 사용하며, 시설 정보는 공공데이터포털의 전국박물관미술관정보표준데이터와 각 시설 공식 홈페이지를 출처로 표시합니다.
+
+GitHub Pages 배포 후 자동 갱신하려면 저장소 Actions Secret에 `PUBLIC_DATA_SERVICE_KEY`를 등록합니다. 자세한 설정은 `DEPLOYMENT.md`를 확인하세요.
