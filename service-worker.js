@@ -1,11 +1,11 @@
-var CACHE_NAME = 'airang-growth-guide-v23-colorful-tabs';
+var CACHE_NAME = 'airang-growth-guide-v24-mobile-places';
 var APP_SHELL = [
   './index.html',
   './products.html',
   './places.html',
   './manifest.json',
   './assets/css/common.css?v=23',
-  './assets/css/places.css?v=21',
+  './assets/css/places.css?v=24',
   './assets/css/tailwind-places.css?v=22',
   './assets/vendor/leaflet/leaflet.css?v=21',
   './assets/vendor/leaflet/leaflet.js?v=21',
