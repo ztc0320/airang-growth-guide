@@ -10,7 +10,7 @@ li {list-style:none;}
 .bg-orb {position:fixed;z-index:0;border-radius:999px;filter:blur(6px);pointer-events:none;opacity:.65;}
 .bg-orb-1 {top:92px;right:-72px;width:180px;height:180px;background:#d9eadf;}
 .bg-orb-2 {bottom:92px;left:-72px;width:170px;height:170px;background:#ffe9bd;}
-.app-header {position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:12px;margin:-18px -16px 14px;padding:16px;background:rgba(247,241,232,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.55);}
+.app-header {position:sticky;top:0;z-index:1001;display:flex;align-items:center;justify-content:space-between;gap:12px;margin:-18px -16px 14px;padding:16px;background:rgba(247,241,232,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.55);}
 .app-header h1 {margin:2px 0 0;font-size:1.18rem;line-height:1.25;letter-spacing:-.02em;}
 .header-copy {min-width:0;}
 .app-main {position:relative;z-index:1;max-width:780px;margin:0 auto;padding-top:30px;}
