@@ -352,3 +352,78 @@ h1,h2,h3,h4,.app-header h1,.section-title h2,.card h3,.product-hero h1,.product-
 .nav-btn.is-active {background:var(--airang-primary);color:#FFFFFF;}
 .badge,.product-priority,.feeding-guide-stage {letter-spacing:-.01em;}
 @media (hover:hover) {.card:hover {box-shadow:0 14px 30px rgba(0,102,210,.1);}}
+
+/* Airang white and colorful UI */
+:root {--airang-primary:#7C5CFC;--airang-primary-dark:#4F3CB3;--airang-primary-soft:#F1EDFF;--airang-primary-weak:#FAF9FF;--airang-line:#E8E5F0;--airang-line-strong:#CEC5F5;--airang-text:#20202A;--airang-muted:#626271;--airang-light:#81818E;--airang-bg:#F8F8FB;--airang-surface:#FFFFFF;--airang-shadow:0 16px 38px rgba(40,36,56,.09);--airang-shadow-soft:0 8px 24px rgba(40,36,56,.07);--accent-purple:#7C5CFC;--accent-coral:#FF6B6B;--accent-yellow:#F5B83D;--accent-green:#2FAF7B;--accent-sky:#3B9DED;}
+body {background:var(--airang-bg);color:var(--airang-text);}
+.app {background:radial-gradient(circle at 8% 2%,#FFF4E8 0,transparent 26%),radial-gradient(circle at 92% 12%,#F0ECFF 0,transparent 28%),linear-gradient(180deg,#FFFFFF 0%,#F8F8FB 100%);}
+.bg-orb-1 {background:#E9DFFF;}
+.bg-orb-2 {background:#FFE4D7;}
+.app-header {background:rgba(255,255,255,.94);border-color:#ECEAF1;box-shadow:0 8px 24px rgba(40,36,56,.05);}
+.eyebrow {color:var(--accent-purple);}
+.icon-btn {border-color:#E7E2FA;color:var(--accent-purple);box-shadow:none;}
+.primary-btn {background:linear-gradient(135deg,var(--accent-purple),#9B7BFF);box-shadow:0 12px 26px rgba(124,92,252,.2);}
+.ghost-btn {border-color:#DDD8EC;color:#51456F;box-shadow:none;}
+.hero-card {border-color:#E9E3FF;background:linear-gradient(135deg,#7657EA 0%,#9B7BFF 58%,#FF8A7A 140%);box-shadow:0 18px 42px rgba(102,75,213,.2);}
+.hero-card:before {background:rgba(255,255,255,.14);}
+.badge {border-color:#EEE9FF;background:#FFFFFF;color:#6247D6;}
+.badge.cdc {background:#EAF7FF;color:#267AAE;}
+.badge.between {background:#FFF4D8;color:#8B6312;}
+.summary-chip {background:rgba(255,255,255,.94);}
+.summary-chip strong {color:#49379D;}
+.card {border-color:#ECEAF1;background:#FFFFFF;box-shadow:var(--airang-shadow-soft);}
+.card h3 {color:#302B3F;}
+.card-feature {border-top:4px solid var(--accent-purple);}
+.warning-card {border-top:4px solid var(--accent-coral);background:#FFFFFF;}
+.warning-card h3 {color:#C84B4B;}
+.outing-card {border-top:4px solid var(--accent-sky);background:#FFFFFF;}
+.outing-card .eyebrow {color:var(--accent-sky);}
+.kr-card {border-top:4px solid var(--accent-green);background:#FFFFFF;}
+.kr-card .eyebrow {color:var(--accent-green);}
+.section-title {border-color:#ECEAF1;background:#FFFFFF;box-shadow:var(--airang-shadow-soft);}
+.section-title h2 {color:#302B3F;}
+#pageGrowth .section-title {border-left:6px solid var(--accent-coral);}
+#pageGrowth .section-title .eyebrow {color:var(--accent-coral);}
+#pageMeal .section-title {border-left:6px solid var(--accent-green);}
+#pageMeal .section-title .eyebrow {color:var(--accent-green);}
+#pagePlay .section-title {border-left:6px solid var(--accent-yellow);}
+#pagePlay .section-title .eyebrow {color:#A66B00;}
+#pageSetting .section-title {border-left:6px solid var(--accent-purple);}
+#pageGrowth .card:nth-of-type(3n+1) {border-top:4px solid var(--accent-coral);}
+#pageGrowth .card:nth-of-type(3n+2) {border-top:4px solid var(--accent-sky);}
+#pageGrowth .card:nth-of-type(3n) {border-top:4px solid var(--accent-green);}
+#pageMeal .card:nth-of-type(3n+1) {border-top:4px solid var(--accent-green);}
+#pageMeal .card:nth-of-type(3n+2) {border-top:4px solid var(--accent-yellow);}
+#pageMeal .card:nth-of-type(3n) {border-top:4px solid var(--accent-coral);}
+#pagePlay .card:nth-child(4n+1) {border-top:4px solid var(--accent-yellow);}
+#pagePlay .card:nth-child(4n+2) {border-top:4px solid var(--accent-coral);}
+#pagePlay .card:nth-child(4n+3) {border-top:4px solid var(--accent-green);}
+#pagePlay .card:nth-child(4n) {border-top:4px solid var(--accent-sky);}
+.text-list li:before {background:var(--accent-purple);}
+.check-item {border-color:#E9E6EE;}
+.check-item:has(input:checked) {background:#F2EEFF;border-color:#CFC5FF;}
+.check-item input {accent-color:var(--accent-purple);}
+.food-item,.product-item,.kr-info-chip,.source-card-list li {border-color:#EBE8F0;background:#FAFAFC;}
+.notice-banner {border-color:#DCD4FF;background:#F3F0FF;color:#5642B4!important;}
+.feeding-guide-stage {background:var(--accent-green);}
+.feeding-guide-warning,.product-disclaimer {border-color:#FFE0B0;background:#FFF9EC;color:#76531A!important;}
+.bottom-nav {border-color:#ECEAF1;box-shadow:0 -10px 28px rgba(40,36,56,.08);}
+.nav-btn.is-active {background:var(--accent-purple);color:#FFFFFF;box-shadow:0 8px 18px rgba(124,92,252,.18);}
+.app:has(#pageGrowth.is-active) .nav-btn[data-page="pageGrowth"] {background:var(--accent-coral);color:#FFFFFF;}
+.app:has(#pageMeal.is-active) .nav-btn[data-page="pageMeal"] {background:var(--accent-green);color:#FFFFFF;}
+.app:has(#pagePlay.is-active) .nav-btn[data-page="pagePlay"] {background:var(--accent-yellow);color:#533900;}
+.product-hero {border-color:#FFE1D6;background:linear-gradient(135deg,#FF7A66 0%,#FF9D6C 62%,#F5C457 130%);box-shadow:0 18px 42px rgba(221,100,73,.18);}
+.product-card {border-color:#ECEAF1;box-shadow:var(--airang-shadow-soft);}
+.product-card:nth-child(4n+1) {border-top:4px solid var(--accent-coral);}
+.product-card:nth-child(4n+2) {border-top:4px solid var(--accent-yellow);}
+.product-card:nth-child(4n+3) {border-top:4px solid var(--accent-green);}
+.product-card:nth-child(4n) {border-top:4px solid var(--accent-sky);}
+.product-priority {background:var(--accent-coral);}
+.product-priority.medium {border-color:#F5D88F;background:#FFF3CD;color:#795610;}
+.product-priority.low {border-color:#DCD9E4;background:#F5F4F7;color:#666270;}
+.product-search,.text-link {color:#6247D6;}
+.source-section {border-color:#ECEAF1;box-shadow:var(--airang-shadow-soft);}
+.source-section:nth-of-type(3n+1) {border-top:4px solid var(--accent-purple);}
+.source-section:nth-of-type(3n+2) {border-top:4px solid var(--accent-green);}
+.source-section:nth-of-type(3n) {border-top:4px solid var(--accent-yellow);}
+@media (hover:hover) {.card:hover,.product-card:hover {box-shadow:0 14px 30px rgba(40,36,56,.11);}.ghost-btn:hover {background:#F7F5FC;}}
