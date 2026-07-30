@@ -75,7 +75,7 @@
   .places-layout {display:flex;height:auto;overflow:visible;flex-direction:column-reverse;border-radius:10px;}
   .places-list-panel {width:100%;min-width:0;height:auto;overflow:hidden;border-right:0;}
   .places-search {padding:16px;}
-  .places-list {height:auto;max-height:min(58dvh,620px);overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+  .places-list {height:auto;max-height:min(58dvh,620px);min-height:500px;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;}
   .place-card button {min-width:0;padding:15px 16px;}
   .place-card h2,.place-card p {overflow-wrap:anywhere;}
   .places-map-panel {height:52vh;min-height:390px;}
