@@ -53,8 +53,8 @@ var PlacesApp = (function($){
   }
 
   function loadData(){
-    $.getJSON('./assets/data/museums.json?v=27').done(function(response){
-      state.data = Array.isArray(response) ? response : [];
+    $.getJSON('./assets/data/museums.json?v=28').done(function(response){
+      state.data = Array.isArray(response) ? response.filter(function(item){ return item && typeof item === 'object' && !Array.isArray(item); }) : [];
       applyFilters(true);
       if(state.data.length <= 4){
         $('#placeDataNotice').prop('hidden', false).text('전국 시설 데이터를 일시적으로 불러오지 못해 기본 등록 시설만 표시하고 있습니다. 잠시 후 다시 확인해 주세요.');
@@ -67,8 +67,9 @@ var PlacesApp = (function($){
   function applyFilters(fitBounds){
     var keyword = $.trim($('#placeKeyword').val()).toLowerCase();
     state.filtered = state.data.filter(function(item){
-      var keywordMatch = !keyword || String(item.name + ' ' + item.address).toLowerCase().indexOf(keyword) > -1;
-      var typeMatch = state.type === 'all' || item.type === state.type || (state.type === '박물관' && item.type.indexOf('박물관') > -1 && !item.isChildren);
+      var itemType = String(item.type || '');
+      var keywordMatch = !keyword || String((item.name || '') + ' ' + (item.address || '')).toLowerCase().indexOf(keyword) > -1;
+      var typeMatch = state.type === 'all' || itemType === state.type || (state.type === '박물관' && itemType.indexOf('박물관') > -1 && !item.isChildren);
       return keywordMatch && typeMatch;
     });
 
@@ -122,8 +123,9 @@ var PlacesApp = (function($){
     var bounds = [];
     state.filtered.forEach(function(item){
       if(!isCoordinate(item)){ return; }
-      var iconClass = item.isChildren ? 'children' : item.type.indexOf('미술관') > -1 ? 'art' : 'museum';
-      var label = item.isChildren ? '어' : item.type.indexOf('미술관') > -1 ? '미' : '박';
+      var itemType = String(item.type || '');
+      var iconClass = item.isChildren ? 'children' : itemType.indexOf('미술관') > -1 ? 'art' : 'museum';
+      var label = item.isChildren ? '어' : itemType.indexOf('미술관') > -1 ? '미' : '박';
       var icon = L.divIcon({
         className:'',
         html:'<div class="place-marker ' + iconClass + '"><span>' + label + '</span></div>',
@@ -246,7 +248,7 @@ var PlacesApp = (function($){
 
   function placeTypeClass(item){
     if(item.isChildren){ return 'type-children'; }
-    if(item.type.indexOf('미술관') > -1){ return 'type-art'; }
+    if(String(item.type || '').indexOf('미술관') > -1){ return 'type-art'; }
     return 'type-museum';
   }
 
