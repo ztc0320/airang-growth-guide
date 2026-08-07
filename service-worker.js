@@ -1,4 +1,4 @@
-var CACHE_NAME = 'airang-growth-guide-v29-place-types';
+var CACHE_NAME = 'airang-growth-guide-v30-jquery-response';
 var APP_SHELL = [
   './index.html',
   './products.html',
@@ -22,7 +22,7 @@ var APP_SHELL = [
   './assets/js/notification.js',
   './assets/js/validate-monthly-guide.js',
   './assets/js/products.js',
-  './assets/js/places.js?v=29',
+  './assets/js/places.js?v=30',
   './assets/data/monthly-guide.json',
   './assets/data/cdc-milestones-ko.json',
   './assets/data/food-warning.json',

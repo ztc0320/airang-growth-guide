@@ -53,8 +53,9 @@ var PlacesApp = (function($){
   }
 
   function loadData(){
-    $.getJSON('./assets/data/museums.json?v=29').done(function(response){
-      state.data = Array.isArray(response) ? response.filter(function(item){ return item && typeof item === 'object' && !Array.isArray(item); }).map(function(item){
+    $.getJSON('./assets/data/museums.json?v=30').done(function(response){
+      var responseData = Array.isArray(response) && Array.isArray(response[0]) ? response[0] : response;
+      state.data = Array.isArray(responseData) ? responseData.filter(function(item){ return item && typeof item === 'object' && !Array.isArray(item); }).map(function(item){
         var museum = Object.assign({}, item);
         museum.type = resolvePlaceType(museum);
         return museum;
