@@ -127,11 +127,13 @@ function normalizeMuseum(item) {
   const name = clean(item.fcltyNm);
   const address = clean(item.rdnmadr || item.lnmadr);
   const isChildren = /어린이|아동|키즈/i.test(`${name} ${item.fcltyIntrcn || ''}`);
+  const type = isChildren ? '어린이박물관' : /미술관|갤러리|아트센터|아트뮤지엄/i.test(name) ? '미술관' : '박물관';
 
   return {
     id:crypto.createHash('sha1').update(`${name}|${address}`).digest('hex').slice(0, 16),
     name,
-    type:isChildren ? '어린이박물관' : clean(item.fcltyType || '박물관'),
+    type,
+    ownershipType:clean(item.fcltyType),
     address,
     latitude:Number(item.latitude),
     longitude:Number(item.longitude),

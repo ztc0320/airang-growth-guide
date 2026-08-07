@@ -53,8 +53,12 @@ var PlacesApp = (function($){
   }
 
   function loadData(){
-    $.getJSON('./assets/data/museums.json?v=28').done(function(response){
-      state.data = Array.isArray(response) ? response.filter(function(item){ return item && typeof item === 'object' && !Array.isArray(item); }) : [];
+    $.getJSON('./assets/data/museums.json?v=29').done(function(response){
+      state.data = Array.isArray(response) ? response.filter(function(item){ return item && typeof item === 'object' && !Array.isArray(item); }).map(function(item){
+        var museum = Object.assign({}, item);
+        museum.type = resolvePlaceType(museum);
+        return museum;
+      }) : [];
       applyFilters(true);
       if(state.data.length <= 4){
         $('#placeDataNotice').prop('hidden', false).text('전국 시설 데이터를 일시적으로 불러오지 못해 기본 등록 시설만 표시하고 있습니다. 잠시 후 다시 확인해 주세요.');
@@ -250,6 +254,12 @@ var PlacesApp = (function($){
     if(item.isChildren){ return 'type-children'; }
     if(String(item.type || '').indexOf('미술관') > -1){ return 'type-art'; }
     return 'type-museum';
+  }
+
+  function resolvePlaceType(item){
+    if(item.isChildren || item.type === '어린이박물관'){ return '어린이박물관'; }
+    if(/미술관|갤러리|아트센터|아트뮤지엄/i.test(String(item.name || ''))){ return '미술관'; }
+    return '박물관';
   }
 
   function formatCharge(value){
