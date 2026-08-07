@@ -7,6 +7,9 @@ const API_URL = 'https://api.data.go.kr/openapi/tn_pubr_public_museum_artgr_info
 const OUTPUT_FILE = path.join(ROOT, 'assets', 'data', 'museums.json');
 const MANUAL_FILE = path.join(ROOT, 'assets', 'data', 'manual-museums.json');
 const OVERRIDES_FILE = path.join(ROOT, 'assets', 'data', 'reservation-overrides.json');
+const MIN_API_MUSEUMS = 100;
+const MIN_RETAINED_RATIO = 0.5;
+const REQUEST_ATTEMPTS = 3;
 
 run().catch((error) => {
   console.error(error.message);
@@ -19,6 +22,7 @@ async function run() {
     throw new Error('GitHub Secret PUBLIC_DATA_SERVICE_KEY가 설정되지 않았습니다.');
   }
 
+  const currentMuseums = readJson(OUTPUT_FILE, []);
   const firstPage = await requestPage(serviceKey, 1);
   const pageSize = 1000;
   const totalCount = Number(firstPage.totalCount || firstPage.items.length);
@@ -31,11 +35,12 @@ async function run() {
   }
 
   const overrides = readJson(OVERRIDES_FILE, {});
-  const apiMuseums = rawItems
+  const apiMuseums = uniqueById(rawItems
     .map(normalizeMuseum)
     .filter(hasCoordinates)
-    .map((museum) => ({ ...museum, ...(overrides[museum.name] || {}) }));
+    .map((museum) => ({ ...museum, ...(overrides[museum.name] || {}) })));
   const manualMuseums = readJson(MANUAL_FILE, []);
+  validateMuseumCount(apiMuseums, currentMuseums);
   const museums = uniqueById(apiMuseums.concat(manualMuseums)).sort(sortMuseums);
 
   if (!museums.length) {
@@ -53,7 +58,7 @@ async function requestPage(serviceKey, pageNo) {
   url.searchParams.set('pageNo', String(pageNo));
   url.searchParams.set('numOfRows', '1000');
 
-  const response = await fetch(url, { signal:AbortSignal.timeout(30000) });
+  const response = await fetchWithRetry(url);
   if (!response.ok) {
     throw new Error(`공공데이터 API 요청 실패: HTTP ${response.status}`);
   }
@@ -67,17 +72,55 @@ async function requestPage(serviceKey, pageNo) {
     throw new Error(apiError ? `공공데이터 API 오류: ${apiError}` : '공공데이터 API가 JSON이 아닌 응답을 반환했습니다.');
   }
 
+  const serviceError = data.OpenAPI_ServiceResponse?.cmmMsgHeader || data.cmmMsgHeader;
+  if (serviceError) {
+    throw new Error(`공공데이터 API 오류: ${serviceError.returnAuthMsg || serviceError.errMsg || serviceError.returnReasonCode}`);
+  }
+
   const header = data.response?.header;
   if (header && String(header.resultCode) !== '00') {
     throw new Error(`공공데이터 API 오류: ${header.resultMsg || header.resultCode}`);
   }
 
   const body = data.response?.body || data;
-  const value = body.items?.item || body.items || [];
+  const value = Array.isArray(body) ? body : body.items?.item || body.items || [];
   return {
     items:Array.isArray(value) ? value : [value],
     totalCount:body.totalCount || 0
   };
+}
+
+async function fetchWithRetry(url) {
+  let lastError;
+  for (let attempt = 1; attempt <= REQUEST_ATTEMPTS; attempt += 1) {
+    try {
+      const response = await fetch(url, { signal:AbortSignal.timeout(30000) });
+      if (response.ok || response.status < 500) {
+        return response;
+      }
+      lastError = new Error(`HTTP ${response.status}`);
+    } catch (error) {
+      lastError = error;
+    }
+    if (attempt < REQUEST_ATTEMPTS) {
+      await wait(attempt * 1000);
+    }
+  }
+  throw new Error(`공공데이터 API 요청 실패: ${lastError?.message || '알 수 없는 오류'}`);
+}
+
+function wait(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
+
+function validateMuseumCount(apiMuseums, currentMuseums) {
+  const previousApiCount = currentMuseums.filter((museum) => museum.dataSourceName === '공공데이터포털 전국박물관미술관정보표준데이터').length;
+  const minimumCount = previousApiCount >= MIN_API_MUSEUMS
+    ? Math.max(MIN_API_MUSEUMS, Math.floor(previousApiCount * MIN_RETAINED_RATIO))
+    : MIN_API_MUSEUMS;
+  if (apiMuseums.length < minimumCount) {
+    throw new Error(`공공데이터 시설이 ${apiMuseums.length}개만 확인되어 기존 ${currentMuseums.length}개 데이터를 유지합니다.`);
+  }
 }
 
 function normalizeMuseum(item) {

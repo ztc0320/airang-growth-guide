@@ -57,7 +57,7 @@ var PlacesApp = (function($){
       state.data = Array.isArray(response[0]) ? response[0] : [];
       applyFilters(true);
       if(state.data.length <= 4){
-        $('#placeDataNotice').prop('hidden', false).text('현재는 기본 등록 시설을 표시하고 있습니다. GitHub Actions 인증키를 설정하면 전국 시설 데이터가 자동으로 갱신됩니다.');
+        $('#placeDataNotice').prop('hidden', false).text('전국 시설 데이터를 일시적으로 불러오지 못해 기본 등록 시설만 표시하고 있습니다. 잠시 후 다시 확인해 주세요.');
       }
     }).fail(function(){
       showError('박물관 데이터를 불러오지 못했습니다.');
