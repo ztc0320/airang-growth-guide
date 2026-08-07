@@ -53,8 +53,8 @@ var PlacesApp = (function($){
   }
 
   function loadData(){
-    $.getJSON('./assets/data/museums.json').done(function(response){
-      state.data = Array.isArray(response[0]) ? response[0] : [];
+    $.getJSON('./assets/data/museums.json?v=27').done(function(response){
+      state.data = Array.isArray(response) ? response : [];
       applyFilters(true);
       if(state.data.length <= 4){
         $('#placeDataNotice').prop('hidden', false).text('전국 시설 데이터를 일시적으로 불러오지 못해 기본 등록 시설만 표시하고 있습니다. 잠시 후 다시 확인해 주세요.');
